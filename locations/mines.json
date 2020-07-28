@@ -1,0 +1,265 @@
+[
+  {
+    "name": "Goron Mines",
+    "parent": "Death Mountain",
+    "access_rules": [
+      "ironboots,$eldin"
+    ],
+    "sections": [
+      {
+        "name": "(3) Entry Chests",
+        "item_count": 2,
+        "visibility_rules": [
+          "op_key"
+        ]
+      },
+      {
+        "name": "(3) Entry Chest",
+        "item_count": 1,
+        "visibility_rules": [
+          "op_key_off"
+        ]
+      },
+      {
+        "name": "(3) Entry Key",
+        "hosted_item": "minessk",
+        "visibility_rules": [
+          "op_key_off"
+        ]
+      },
+      {
+        "name": "(3) Elder1",
+        "item_count": 1,
+        "access_rules": [
+          "minessk:1"
+        ],
+        "visibility_rules": [
+          "op_dung"
+        ],
+        "chest_unopened_img": "images/mineskey1.png",
+        "chest_opened_img": "images/mineskey1_gray.png"
+      },
+      {
+        "name": "(3) Elder1",
+        "access_rules": [
+          "minessk:1"
+        ],
+        "visibility_rules": [
+          "op_dung_off"
+        ],
+        "hosted_item": "minesbk"
+      },
+      {
+        "name": "(3) Elder1 Room",
+        "access_rules": [
+          "minessk:1"
+        ],
+        "visibility_rules": [
+          "op_dung"
+        ],
+        "item_count": 2
+      },
+      {
+        "name": "(3) Elder1 Room",
+        "access_rules": [
+          "minessk:1"
+        ],
+        "item_count": 1,
+        "visibility_rules": [
+          "op_dung_off"
+        ]
+      },
+      {
+				"name": "(3) Ooccoo",
+				"item_count": 1,
+				"visibility_rules": [
+					"op_dung"
+        ],
+        "access_rules": [
+          "minessk:1"
+        ],
+				"chest_unopened_img": "images/ooccoo.png",
+        "chest_opened_img": "images/ooccoo_gray.png"
+			},
+      {
+        "name": "(3) Magnet Maze HP",
+        "access_rules": [
+          "minessk:1"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "(3) Gate Room",
+        "access_rules": [
+          "minessk:1"
+        ],
+        "visibility_rules": [
+          "op_key"
+        ],
+        "item_count": 3
+      },
+      {
+        "name": "(3) Gate Room",
+        "access_rules": [
+          "minessk:1"
+        ],
+        "visibility_rules": [
+          "op_key_off"
+        ],
+        "item_count": 2
+      },
+      {
+        "name": "(3) Gate Room Key",
+        "access_rules": [
+          "minessk:1"
+        ],
+        "visibility_rules": [
+          "op_key_off"
+        ],
+        "hosted_item": "minessk"
+      },
+      {
+        "name": "(3) Long Water Room",
+        "access_rules": [
+          "minessk:2"
+        ],
+        "visibility_rules": [
+          "op_key"
+        ],
+        "item_count": 2
+      },
+      {
+        "name": "(3) Underwater Chest",
+        "access_rules": [
+          "minessk:2"
+        ],
+        "visibility_rules": [
+          "op_key_off"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "(3) Beamos Key",
+        "access_rules": [
+          "minessk:2"
+        ],
+        "visibility_rules": [
+          "op_key_off"
+        ],
+        "hosted_item": "minessk"
+      },
+      {
+        "name": "(7) Clawshot Chest",
+        "access_rules": [
+          "minessk:2,clawshot"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "(3) Elder2",
+        "access_rules": [
+          "minessk:3"
+        ],
+        "visibility_rules": [
+          "op_dung"
+        ],
+        "chest_unopened_img": "images/mineskey2.png",
+        "chest_opened_img": "images/mineskey2_gray.png",
+        "item_count": 1
+      },
+      {
+        "name": "(3) Elder2",
+        "access_rules": [
+          "minessk:3"
+        ],
+        "visibility_rules": [
+          "op_dung_off"
+        ],
+        "hosted_item": "minesbk"
+      },
+      {
+        "name": "(3) Elder2 Room",
+        "access_rules": [
+          "minessk:3"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "(3) Chest Before Dangoro",
+        "access_rules": [
+          "minessk:3"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "(3) Dangoro",
+        "access_rules": [
+          "minessk:3"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "(4) Compass Chest",
+        "access_rules": [
+          "minessk:3,bow"
+        ],
+        "visibility_rules": [
+          "op_dung"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "(4) Elder3",
+        "access_rules": [
+          "minessk:3,bow"
+        ],
+        "visibility_rules": [
+          "op_dung"
+        ],
+        "chest_unopened_img": "images/mineskey3.png",
+        "chest_opened_img": "images/mineskey3_gray.png",
+        "item_count": 1
+      },
+      {
+        "name": "(4) Elder3",
+        "access_rules": [
+          "minessk:3,bow"
+        ],
+        "visibility_rules": [
+          "op_dung_off"
+        ],
+        "hosted_item": "minesbk"
+      },
+      {
+        "name": "(4) Elder3 Room",
+        "access_rules": [
+          "minessk:3,bow"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "(4) Last Chest",
+        "access_rules": [
+          "minessk:3,bow"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "(4) Fyrus HC",
+        "access_rules": [
+          "minessk:2,bow,mines_boss_key:3"
+        ],
+        "chest_unopened_img": "images/hc.png",
+        "chest_opened_img": "images/hc_gray.png",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "overworld",
+        "x": 1020,
+        "y": 440
+      }
+    ]
+  }
+]

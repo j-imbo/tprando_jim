@@ -1,0 +1,246 @@
+[
+  {
+    "name": "Arbiter's Grounds",
+    "parent": "Bulblin Base",
+    "access_rules": [
+      "$lanayru,$desert,clawshot,wolf,desertsk"
+    ],
+    "sections": [
+      {
+        "name": "(9) Entry",
+        "item_count": 1
+      },
+      {
+        "name": "(9) First Poe",
+        "access_rules": [
+          "groundssk:1"
+        ],
+        "hosted_item": "agp1"
+      },
+      {
+        "name": "(9) Poe Scent",
+        "access_rules": [
+          "groundssk:1"
+        ],
+        "visibility_rules": [
+          "op_scent"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "(9) Lobby",
+        "access_rules": [
+          "groundssk:1"
+        ],
+        "visibility_rules": [
+          "op_dung"
+        ],
+        "item_count": 2
+      },
+      {
+        "name": "(9) Lobby",
+        "access_rules": [
+          "groundssk:1"
+        ],
+        "visibility_rules": [
+          "op_dung_off"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "(9) West Early",
+        "access_rules": [
+          "groundssk:1"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "(9) Redead Knight 1",
+        "access_rules": [
+          "groundssk:1"
+        ],
+        "visibility_rules": [
+          "op_key"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "(9) Redead Knight 1",
+        "access_rules": [
+          "groundssk:1"
+        ],
+        "visibility_rules": [
+          "op_key_off"
+        ],
+        "hosted_item": "groundssk"
+      },
+      {
+        "name": "(9) Second Poe",
+        "access_rules": [
+          "groundssk:1"
+        ],
+        "hosted_item": "agp2"
+      },
+      {
+        "name": "(9) Compass Chest",
+        "access_rules": [
+          "groundssk:2"
+        ],
+        "visibility_rules": [
+          "op_dung"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "(9) Redead Knight 2",
+        "access_rules": [
+          "groundssk:2"
+        ],
+        "visibility_rules": [
+          "op_key"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "(9) Redead Knight 2",
+        "access_rules": [
+          "groundssk:2"
+        ],
+        "visibility_rules": [
+          "op_key_off"
+        ],
+        "hosted_item": "groundssk"
+      },
+      {
+        "name": "(9) Third Poe",
+        "access_rules": [
+          "groundssk:3"
+        ],
+        "hosted_item": "agp3"
+      },
+      {
+        "name": "(9) Ghost Rats",
+        "access_rules": [
+          "groundssk:3"
+        ],
+        "visibility_rules": [
+          "op_key"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "(9) Ghost Rats",
+        "access_rules": [
+          "groundssk:3"
+        ],
+        "visibility_rules": [
+          "op_key_off"
+        ],
+        "hosted_item": "groundssk"
+      },
+      {
+        "name": "(9) Chandelier",
+        "access_rules": [
+          "groundssk:4"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "(9) First Stalfos",
+        "access_rules": [
+          "groundssk:4"
+        ],
+        "item_count": 2
+      },
+      {
+        "name": "(9) Final Poe",
+        "access_rules": [
+          "groundssk:4,$has_explosives"
+        ],
+        "hosted_item": "agp4"
+      },
+      {
+        "name": "(9) Spinning Tower",
+        "access_rules": [
+          "$has_explosives,agp1,agp2,agp3,agp4,groundssk:4"
+        ],
+        "visibility_rules": [
+          "op_key"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "(9) Spinning Tower",
+        "access_rules": [
+          "$has_explosives,agp1,agp2,agp3,agp4,groundssk:4"
+        ],
+        "visibility_rules": [
+          "op_key_off"
+        ],
+        "hosted_item": "groundssk"
+      },
+			{
+				"name": "(9) Ooccoo",
+				"item_count": 1,
+				"visibility_rules": [
+					"op_dung"
+        ],
+        "access_rules": [
+          "$has_explosives,agp1,agp2,agp3,agp4,groundssk:5"
+        ],
+        "chest_unopened_img": "images/ooccoo.png",
+        "chest_opened_img": "images/ooccoo_gray.png"
+			},
+      {
+        "name": "(9) Death Sword",
+        "access_rules": [
+          "$has_explosives,agp1,agp2,agp3,agp4,groundssk:5"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "(10) Spinner Room Chests",
+        "access_rules": [
+          "$has_explosives,agp1,agp2,agp3,agp4,groundssk:5,spinner"
+        ],
+        "item_count": 5
+      },
+      {
+        "name": "(10) Boss Key Chest",
+        "access_rules": [
+          "$has_explosives,agp1,agp2,agp3,agp4,groundssk:5,spinner"
+        ],
+        "visibility_rules": [
+          "op_dung"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "(10) Boss Key Chest",
+        "access_rules": [
+          "$has_explosives,agp1,agp2,agp3,agp4,groundssk:5,spinner"
+        ],
+        "visibility_rules": [
+          "op_dung_off"
+        ],
+        "hosted_item": "groundsbk"
+      },
+      {
+        "name": "(10) Stallord HC",
+        "access_rules": [
+          "groundssk:4,spinner,grounds_boss_key"
+        ],
+        "chest_unopened_img": "images/hc.png",
+        "chest_opened_img": "images/hc_gray.png",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "overworld",
+        "x": 175,
+        "y": 515
+      }
+    ]
+  }
+]

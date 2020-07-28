@@ -1,0 +1,224 @@
+[
+  {
+    "name": "City in the Sky",
+    "parent": "Lake Hylia",
+    "access_rules": [
+      "$skycannon,clawshot,$lanayru"
+    ],
+    "sections": [
+      {
+        "name": "(14) Entrance Pool",
+        "access_rules": [
+          "ironboots"
+        ],
+        "item_count": 2
+      },
+      {
+        "name": "(14) Shop Red Potion",
+        "access_rules": [
+          "$bottleshop"
+        ],
+        "item_count": 1,
+        "visibility_rules": [
+          "op_shop"
+        ]
+      },
+      {
+        "name": "(14) Shop Blue Potion",
+        "access_rules": [
+          "$bottleshop"
+        ],
+        "item_count": 1,
+        "visibility_rules": [
+          "op_shop"
+        ]
+      },
+      {
+        "name": "(14) Shop Lantern Oil",
+        "access_rules": [
+          "lantern"
+        ],
+        "item_count": 1,
+        "visibility_rules": [
+          "op_shop"
+        ]
+      },
+      {
+				"name": "(14) Ooccoo",
+				"item_count": 1,
+				"visibility_rules": [
+					"op_dung"
+        ],
+				"chest_unopened_img": "images/ooccoo.png",
+        "chest_opened_img": "images/ooccoo_gray.png"
+      },
+      {
+        "name": "(15) West Wing Key",
+        "access_rules": [
+          "ironboots,spinner,[clawshot_double]"
+        ],
+        "visibility_rules": [
+          "op_key_off"
+        ],
+        "hosted_item": "skysk"
+      },
+      {
+        "name": "(14) Map Chest",
+        "access_rules": [
+          "ironboots,spinner,skysk:1"
+        ],
+        "visibility_rules": [
+          "op_dung"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "(14) East Tile",
+        "access_rules": [
+          "ironboots,spinner,skysk:1"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "(14) East Post-Dynalfos",
+        "access_rules": [
+          "ironboots,spinner,skysk:1,boomerang"
+        ],
+        "item_count": 2
+      },
+      {
+        "name": "(14) Aeralfos",
+        "access_rules": [
+          "ironboots,spinner,skysk:1,boomerang"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "(15) Compass",
+        "access_rules": [
+          "ironboots,spinner,skysk:1,boomerang,clawshot_double"
+        ],
+        "visibility_rules": [
+          "op_dung"
+        ],
+        "item_count": 1
+      },
+      
+      {
+        "name": "(15) West Wing Key Chest",
+        "access_rules": [
+          "ironboots,spinner,[clawshot_double]"
+        ],
+        "visibility_rules": [
+          "op_key"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "(15) West Maze",
+        "access_rules": [
+          "ironboots,spinner,clawshot_double"
+        ],
+        "item_count": 3
+      },
+      {
+        "name": "(15) West Tower",
+        "access_rules": [
+          "ironboots,spinner,clawshot_double,$has_explosives"
+        ],
+        "item_count": 3
+      },
+      {
+        "name": "(15) West Gardens",
+        "access_rules": [
+          "ironboots,spinner,clawshot_double,$has_explosives"
+        ],
+        "item_count": 4
+      },
+      {
+        "name": "(15) West Gardens Poe",
+        "access_rules": [
+          "ironboots,spinner,clawshot_double,$has_explosives,wolf"
+        ],
+        "chest_unopened_img": "images/poe.png",
+        "chest_opened_img": "images/poe_gray.png",
+        "item_count": 1,
+        "visibility_rules": [
+          "op_poe"
+        ]
+      },
+      {
+        "name": "(15) Central Lower Turret",
+        "access_rules": [
+          "ironboots,spinner,clawshot_double,$has_explosives"
+        ],
+        "visibility_rules": [
+          "op_dung"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "(15) Central Exterior",
+        "access_rules": [
+          "ironboots,spinner,clawshot_double,$has_explosives,wolf"
+        ],
+        "item_count": 2
+      },
+      {
+        "name": "(15) Central Poe",
+        "access_rules": [
+          "ironboots,spinner,clawshot_double,$has_explosives,wolf"
+        ],
+        "chest_unopened_img": "images/poe.png",
+        "chest_opened_img": "images/poe_gray.png",
+        "item_count": 1,
+        "visibility_rules": [
+          "op_poe"
+        ]
+      },
+      {
+        "name": "(15) BK Chest",
+        "access_rules": [
+          "ironboots,spinner,clawshot_double,$has_explosives,wolf"
+        ],
+        "visibility_rules": [
+          "op_dung"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "(15) BK Chest",
+        "access_rules": [
+          "ironboots,spinner,clawshot_double,$has_explosives,wolf"
+        ],
+        "visibility_rules": [
+          "op_dung_off"
+        ],
+        "hosted_item": "skybk"
+      },
+      {
+        "name": "(15) Rear Tower Fan",
+        "access_rules": [
+          "ironboots,spinner,clawshot_double,$has_explosives"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "(15) Argorok HC",
+        "access_rules": [
+          "ironboots,spinner,clawshot_double,$has_explosives,sky_boss_key"
+        ],
+        "chest_unopened_img": "images/hc.png",
+        "chest_opened_img": "images/hc_gray.png",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "overworld",
+        "x": 400,
+        "y": 580
+      }
+    ]
+  }
+]

@@ -1,0 +1,177 @@
+[
+  {
+    "name": "(FF) Hyrule Castle",
+    "parent": "Hyrule Castle Town",
+    "access_rules": [
+      "$barrier",
+      "palace,shadow:3"
+    ],
+    "sections": [
+      {
+        "name": "King Bulblin",
+        "chest_unopened_img": "images/smallkey.png",
+        "chest_opened_img": "images/smallkey_gray.png",
+        "item_count": 1,
+        "visibility_rules": [
+          "op_key"
+        ]
+      },
+      {
+        "name": "King Bulblin",
+        "chest_unopened_img": "images/smallkey.png",
+        "chest_opened_img": "images/smallkey_gray.png",
+        "hosted_item": "castlesk",
+        "visibility_rules": [
+          "op_key_off"
+        ]
+      },
+      {
+        "name": "Chest behind KB",
+        "item_count": 1
+      },
+      {
+        "name": "Chest on Wall near KB",
+        "item_count": 1
+      },
+      {
+        "name": "East Courtyard Gate Chest",
+        "visibility_rules": [
+          "op_dung"
+        ],
+        "access_rules": [
+          "boomerang"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "East Courtyard Wall Chest",
+        "access_rules": [
+          "boomerang"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Graveyard Lower Chests",
+        "access_rules": [
+          "boomerang,wolf,$break_boulders"
+        ],
+        "item_count": 3
+      },
+      {
+        "name": "Graveyard Upper Chest",
+        "access_rules": [
+          "boomerang,wolf,$break_boulders,lantern,dominion"
+        ],
+        "visibility_rules": [
+          "op_key"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Graveyard Upper Chest",
+        "access_rules": [
+          "wolf,$break_boulders,lantern,dominion"
+        ],
+        "visibility_rules": [
+          "op_key_off"
+        ],
+        "hosted_item": "castlesk"
+      },
+      {
+        "name": "Foyer Compass Chest",
+        "visibility_rules": [
+          "op_dung"
+        ],
+        "item_count": 1,
+        "access_rules": [
+          "clawshot,castlesk:1"
+        ]
+      },
+      {
+        "name": "Darknut Chest",
+        "access_rules": [
+          "castlesk:1,clawshot_double,boomerang"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "West Side Lobby Chests",
+        "access_rules": [
+          "castlesk:1,clawshot_double,boomerang,bow"
+        ],
+        "item_count": 2
+      },
+      {
+        "name": "Castle Wall Chests",
+        "access_rules":[
+          "castlesk:1,clawshot_double,boomerang"
+        ],
+        "visibility_rules": [
+          "op_dung, op_key"
+        ],
+        "item_count": 2
+      },
+      {
+        "name": "Castle Wall Big Chest",
+        "access_rules":[
+          "castlesk:1,clawshot_double"
+        ],
+        "visibility_rules": [
+          "op_dung_off, op_key,boomerang"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Castle Wall Big Key",
+        "access_rules":[
+          "castlesk:1,clawshot_double,boomerang"
+        ],
+        "visibility_rules": [
+          "op_dung_off, op_key"
+        ],
+        "hosted_item": "castlebk"
+      },
+      {
+        "name": "Castle Wall BK Chest",
+        "access_rules":[
+          "castlesk:1,clawshot_double,boomerang"
+        ],
+        "visibility_rules": [
+          "op_key_off, op_dung"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Castle Wall Key Chest",
+        "access_rules":[
+          "castlesk:1,clawshot_double,boomerang"
+        ],
+        "visibility_rules": [
+          "op_key_off, op_dung"
+        ],
+        "hosted_item": "castlekey"
+      },
+      {
+        "name": "Treasury",
+        "access_rules": [
+          "castlesk:3,clawshot_double,spinner,wolf"
+        ],
+        "item_count": 13
+      },
+      {
+        "name": "Throne Room",
+        "hosted_item": "triforce",
+        "access_rules": [
+          "castlesk:2,clawshot_double,spinner,wolf,castle_boss_key,boomerang"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "overworld",
+        "x": 640,
+        "y": 440
+      }
+    ]
+  }
+]

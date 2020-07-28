@@ -1,0 +1,276 @@
+[
+  {
+    "name": "Palace of Twilight",
+    "parent": "Arbiter's Grounds",
+    "access_rules": [
+      "mirror:3,grounds",
+      "$palace,grounds"
+    ],
+    "sections": [
+      {
+        "name": "(15) West Head",
+        "item_count": 1,
+        "visibility_rules": [
+          "op_key"
+        ]
+      },
+      {
+        "name": "(15) West Head",
+        "hosted_item": "palacesk",
+        "visibility_rules": [
+          "op_key_off"
+        ]
+      },
+      {
+        "name": "(FF) West HP",
+        "access_rules": [
+          "clawshot,sword_light"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "(15) West Middle",
+        "access_rules": [
+          "palacesk:1,[palacesk:6],clawshot"
+        ],
+        "visibility_rules": [
+          "op_dung,op_key"
+        ],
+        "item_count": 2
+      },
+      {
+        "name": "(15) West Middle",
+        "access_rules": [
+          "palacesk:1,[palacesk:6],clawshot"
+        ],
+        "visibility_rules": [
+          "op_dung_off,op_key"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "(15) West Middle",
+        "access_rules": [
+          "palacesk:1,[palacesk:6],clawshot"
+        ],
+        "visibility_rules": [
+          "op_dung,op_key_off"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "(15) West Middle Key",
+        "access_rules": [
+          "palacesk:1,[palacesk:6],clawshot"
+        ],
+        "visibility_rules": [
+          "op_dung,op_key_off"
+        ],
+        "hosted_item": "palacesk"
+      },
+      {
+        "name": "(15) West Baba",
+        "access_rules": [
+          "palacesk:1,[palacesk:6],clawshot_double"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "(15) West Sol",
+        "access_rules": [
+          "clawshot,palacesk:2,[palacesk:7]"
+        ],
+        "hosted_item": "westsol"
+      },
+      {
+        "name": "(15) East Entry",
+        "visibility_rules": [
+          "op_key"
+        ],
+        "item_count": 2
+      },
+      {
+        "name": "(15) East Entry",
+        "visibility_rules": [
+          "op_key_off"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "(15) East Entry Key",
+        "visibility_rules": [
+          "op_key_off"
+        ],
+        "hosted_item": "palacesk"
+      },
+      {
+        "name": "(FF) East Entry Upper",
+        "access_rules": [
+          "eastsol"
+        ],
+        "item_count": 2
+      },
+      {
+        "name": "(15) East Middle",
+        "access_rules": [
+          "clawshot_double,palacesk:1,[palacesk:6]"
+        ],
+        "visibility_rules": [
+          "op_dung,op_key"
+        ],
+        "item_count": 4
+      },
+      {
+        "name": "(15) East Middle",
+        "access_rules": [
+          "clawshot_double,palacesk:1,[palacesk:6]"
+        ],
+        "visibility_rules": [
+          "op_dung_off,op_key",
+          "op_dung,op_key_off"
+        ],
+        "item_count": 3
+      },
+      {
+        "name": "(15) East Middle",
+        "access_rules": [
+          "clawshot_double,palacesk:1,[palacesk:6]"
+        ],
+        "visibility_rules": [
+          "op_dung_off,op_key_off"
+        ],
+        "item_count": 2
+      },
+      {
+        "name": "(15) East Middle Key",
+        "access_rules": [
+          "clawshot_double,palacesk:1,[palacesk:6]"
+        ],
+        "visibility_rules": [
+          "op_key_off"
+        ],
+        "hosted_item": "palacesk"
+      },
+      {
+        "name": "(15) East Sol",
+        "access_rules": [
+          "clawshot_double,palacesk:2,[palacesk:7]"
+        ],
+        "hosted_item": "eastsol"
+      },
+      {
+        "name": "(15) Light Sword",
+        "access_rules": [
+          "westsol,eastsol"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "(FF) 5 Heads",
+        "access_rules": [
+          "sword_light"
+        ],
+        "visibility_rules": [
+          "op_key"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "(FF) 5 Heads",
+        "access_rules": [
+          "sword_light"
+        ],
+        "visibility_rules": [
+          "op_key_off"
+        ],
+        "hosted_item": "palacesk"
+      },
+      {
+        "name": "(FF) Terrace",
+        "access_rules": [
+          "sword_light,[palacesk:5],palacesk:1"
+        ],
+        "visibility_rules": [
+          "op_dung,op_key"
+        ],
+        "item_count": 2
+      },
+      {
+        "name": "(FF) 7 Heads",
+        "access_rules": [
+          "sword_light,[palacesk:5],palacesk:1"
+        ],
+        "visibility_rules": [
+          "op_dung_off,op_key"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "(FF) Boss Key Chest",
+        "access_rules": [
+          "sword_light,[palacesk:5],palacesk:1"
+        ],
+        "visibility_rules": [
+          "op_dung,op_key_off"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "(FF) Boss Key",
+        "access_rules": [
+          "sword_light,[palacesk:5],palacesk:1"
+        ],
+        "visibility_rules": [
+          "op_dung_off"
+        ],
+        "hosted_item": "palacebk"
+      },
+      {
+        "name": "(FF) 7 Heads Key",
+        "access_rules": [
+          "sword_light,[palacesk:5],palacesk:1"
+        ],
+        "visibility_rules": [
+          "op_key_off"
+        ],
+        "hosted_item": "palacesk"
+      },
+      {
+        "name": "(FF) Tower Heads",
+        "access_rules": [
+          "sword_light,[palacesk:6],palacesk:2"
+        ],
+        "visibility_rules": [
+          "op_key"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "(FF) Tower Heads Key",
+        "access_rules": [
+          "sword_light,[palacesk:6],palacesk:2"
+        ],
+        "visibility_rules": [
+          "op_key_off"
+        ],
+        "hosted_item": "palacesk"
+      },
+      {
+        "name": "(FF) Zant HC",
+        "access_rules": [
+          "sword_light,[palacesk:7],palacesk:3,palace_boss_key"
+        ],
+        "item_count": 1,
+        "chest_unopened_img": "images/hc.png",
+        "chest_opened_img": "images/hc_gray.png"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "overworld",
+        "x": 175,
+        "y": 480
+      }
+    ]
+  }
+]

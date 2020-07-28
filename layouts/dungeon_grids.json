@@ -1,0 +1,762 @@
+{
+  "dungeon_grid_tall": {
+    "type": "array",
+    "orientation": "vertical",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "5,0",
+        "content": [
+          {
+            "type": "item",
+            "item": "forest",
+            "margin": "1,2",
+            "width": 32,
+            "height": 32
+          },
+          {
+            "type": "item",
+            "item": "mines",
+            "margin": "1,2",
+            "width": 32,
+            "height": 32
+          },
+          {
+            "type": "item",
+            "item": "lakebed",
+            "margin": "1,2",
+            "width": 32,
+            "height": 32
+          },
+          {
+            "type": "item",
+            "item": "mansion",
+            "margin": "1,2",
+            "width": 32,
+            "height": 32
+          },
+          {
+            "type": "item",
+            "item": "time",
+            "margin": "1,2",
+            "width": 32,
+            "height": 32
+          },
+          {
+            "type": "item",
+            "item": "sky",
+            "margin": "1,2",
+            "width": 32,
+            "height": 32
+          }
+        ]
+      },
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "5,0",
+        "content": [
+          {
+            "type": "canvas",
+            "width": 32,
+            "height": 32,
+            "margin": "1,2",
+            "content": [
+              {
+                "type": "item",
+                "item": "forest_label",
+                "canvas_depth": 1,
+                "width": 32,
+                "height": 12
+              },
+              {
+                "type": "item",
+                "item": "forest_small_keys",
+                "canvas_depth": 1,
+                "canvas_left": 0,
+                "canvas_top": 16,
+                "width": 16,
+                "height": 16
+              },
+              {
+                "type": "item",
+                "item": "forest_boss_key",
+                "canvas_depth": 1,
+                "canvas_left": 16,
+                "canvas_top": 16,
+                "width": 16,
+                "height": 16
+              }
+            ]
+          },
+          {
+            "type": "canvas",
+            "width": 32,
+            "height": 32,
+            "margin": "1,2",
+            "content": [
+              {
+                "type": "item",
+                "item": "mines_label",
+                "canvas_depth": 1,
+                "width": 32,
+                "height": 12
+              },
+              {
+                "type": "item",
+                "item": "mines_small_keys",
+                "canvas_depth": 1,
+                "canvas_left": 0,
+                "canvas_top": 16,
+                "width": 16,
+                "height": 16
+              },
+              {
+                "type": "item",
+                "item": "mines_boss_key",
+                "canvas_depth": 1,
+                "canvas_left": 16,
+                "canvas_top": 16,
+                "width": 16,
+                "height": 16
+              }
+            ]
+          },
+          {
+            "type": "canvas",
+            "width": 32,
+            "height": 32,
+            "margin": "1,2",
+            "content": [
+              {
+                "type": "item",
+                "item": "lakebed_label",
+                "canvas_depth": 1,
+                "width": 32,
+                "height": 12
+              },
+              {
+                "type": "item",
+                "item": "lakebed_small_keys",
+                "canvas_depth": 1,
+                "canvas_left": 0,
+                "canvas_top": 16,
+                "width": 16,
+                "height": 16
+              },
+              {
+                "type": "item",
+                "item": "lakebed_boss_key",
+                "canvas_depth": 1,
+                "canvas_left": 16,
+                "canvas_top": 16,
+                "width": 16,
+                "height": 16
+              }
+            ]
+          },
+          {
+            "type": "canvas",
+            "width": 32,
+            "height": 32,
+            "margin": "1,2",
+            "content": [
+              {
+                "type": "item",
+                "item": "mansion_label",
+                "canvas_depth": 1,
+                "width": 32,
+                "height": 12
+              },
+              {
+                "type": "item",
+                "item": "mansion_small_keys",
+                "canvas_depth": 1,
+                "canvas_left": 0,
+                "canvas_top": 16,
+                "width": 16,
+                "height": 16
+              },
+              {
+                "type": "item",
+                "item": "mansion_boss_key",
+                "canvas_depth": 1,
+                "canvas_left": 16,
+                "canvas_top": 16,
+                "width": 16,
+                "height": 16
+              }
+            ]
+          },
+          {
+            "type": "canvas",
+            "width": 32,
+            "height": 32,
+            "margin": "1,2",
+            "content": [
+              {
+                "type": "item",
+                "item": "time_label",
+                "canvas_depth": 1,
+                "width": 32,
+                "height": 12
+              },
+              {
+                "type": "item",
+                "item": "time_small_keys",
+                "canvas_depth": 1,
+                "canvas_left": 0,
+                "canvas_top": 16,
+                "width": 16,
+                "height": 16
+              },
+              {
+                "type": "item",
+                "item": "time_boss_key",
+                "canvas_depth": 1,
+                "canvas_left": 16,
+                "canvas_top": 16,
+                "width": 16,
+                "height": 16
+              }
+            ]
+          },
+          {
+            "type": "canvas",
+            "width": 32,
+            "height": 32,
+            "margin": "1,2",
+            "content": [
+              {
+                "type": "item",
+                "item": "sky_label",
+                "canvas_depth": 1,
+                "width": 32,
+                "height": 12
+              },
+              {
+                "type": "item",
+                "item": "sky_small_keys",
+                "canvas_depth": 1,
+                "canvas_left": 0,
+                "canvas_top": 16,
+                "width": 16,
+                "height": 16
+              },
+              {
+                "type": "item",
+                "item": "sky_boss_key",
+                "canvas_depth": 1,
+                "canvas_left": 16,
+                "canvas_top": 16,
+                "width": 16,
+                "height": 16
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "5,0",
+        "content": [
+          {
+            "type": "canvas",
+            "width": 32,
+            "height": 32,
+            "margin": "1,2",
+            "content": [
+              {
+                "type": "item",
+                "item": "grounds_label",
+                "canvas_depth": 1,
+                "width": 32,
+                "height": 12
+              },
+              {
+                "type": "item",
+                "item": "grounds_small_keys",
+                "canvas_depth": 1,
+                "canvas_left": 0,
+                "canvas_top": 16,
+                "width": 16,
+                "height": 16
+              },
+              {
+                "type": "item",
+                "item": "grounds_boss_key",
+                "canvas_depth": 1,
+                "canvas_left": 16,
+                "canvas_top": 16,
+                "width": 16,
+                "height": 16
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "item": "grounds",
+            "margin": "1,2",
+            "width": 32,
+            "height": 32
+          },
+          {
+            "type": "item",
+            "item": "palace",
+            "margin": "1,2",
+            "width": 32,
+            "height": 32
+          },
+          {
+            "type": "canvas",
+            "width": 32,
+            "height": 32,
+            "margin": "1,2",
+            "content": [
+              {
+                "type": "item",
+                "item": "palace_label",
+                "canvas_depth": 1,
+                "width": 32,
+                "height": 12
+              },
+              {
+                "type": "item",
+                "item": "palace_small_keys",
+                "canvas_depth": 1,
+                "canvas_left": 0,
+                "canvas_top": 16,
+                "width": 16,
+                "height": 16
+              },
+              {
+                "type":"item",
+                "item":"palace_boss_key",
+                "canvas_depth":1,
+                "canvas_left":16,
+                "canvas_top":16,
+                "width":16,
+                "height":16
+              }
+            ]
+          },
+          {
+            "type": "canvas",
+            "width": 32,
+            "height": 32,
+            "margin": "1,2",
+            "content": [
+              {
+                "type": "item",
+                "item": "castle_label",
+                "canvas_depth": 1,
+                "width": 32,
+                "height": 12
+              },
+              {
+                "type": "item",
+                "item": "castle_small_keys",
+                "canvas_depth": 1,
+                "canvas_left": 0,
+                "canvas_top": 16,
+                "width": 16,
+                "height": 16
+              },
+              {
+                "type":"item",
+                "item":"castle_boss_key",
+                "canvas_depth":1,
+                "canvas_left":16,
+                "canvas_top":16,
+                "width":16,
+                "height":16
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "dungeon_grid_wide": {
+    "type": "array",
+    "orientation": "vertical",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "5,0",
+        "content": [
+          {
+            "type": "item",
+            "item": "forest",
+            "margin": "1,2",
+            "width": 32,
+            "height": 32
+          },
+          {
+            "type": "item",
+            "item": "mines",
+            "margin": "1,2",
+            "width": 32,
+            "height": 32
+          },
+          {
+            "type": "item",
+            "item": "lakebed",
+            "margin": "1,2",
+            "width": 32,
+            "height": 32
+          },
+          {
+            "type": "item",
+            "item": "mansion",
+            "margin": "1,2",
+            "width": 32,
+            "height": 32
+          },
+          {
+            "type": "item",
+            "item": "time",
+            "margin": "1,2",
+            "width": 32,
+            "height": 32
+          },
+          {
+            "type": "item",
+            "item": "sky",
+            "margin": "1,2",
+            "width": 32,
+            "height": 32
+          },
+          {
+            "type": "item",
+            "item": "grounds",
+            "margin": "1,2",
+            "width": 32,
+            "height": 32
+          },
+          {
+            "type": "item",
+            "item": "palace",
+            "margin": "1,2",
+            "width": 32,
+            "height": 32
+          },
+          {
+            "type": "item",
+            "item": "triforce",
+            "margin": "1,2",
+            "width": 32,
+            "height": 32
+          }
+        ]
+      },
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "5,0",
+        "content": [
+          {
+            "type": "canvas",
+            "width": 32,
+            "height": 32,
+            "margin": "1,2",
+            "content": [
+              {
+                "type": "item",
+                "item": "forest_label",
+                "canvas_depth": 1,
+                "width": 32,
+                "height": 12
+              },
+              {
+                "type": "item",
+                "item": "forest_small_keys",
+                "canvas_depth": 1,
+                "canvas_left": 0,
+                "canvas_top": 16,
+                "width": 16,
+                "height": 16
+              },
+              {
+                "type": "item",
+                "item": "forest_boss_key",
+                "canvas_depth": 1,
+                "canvas_left": 16,
+                "canvas_top": 16,
+                "width": 16,
+                "height": 16
+              }
+            ]
+          },
+          {
+            "type": "canvas",
+            "width": 32,
+            "height": 32,
+            "margin": "1,2",
+            "content": [
+              {
+                "type": "item",
+                "item": "mines_label",
+                "canvas_depth": 1,
+                "width": 32,
+                "height": 12
+              },
+              {
+                "type": "item",
+                "item": "mines_small_keys",
+                "canvas_depth": 1,
+                "canvas_left": 0,
+                "canvas_top": 16,
+                "width": 16,
+                "height": 16
+              },
+              {
+                "type": "item",
+                "item": "mines_boss_key",
+                "canvas_depth": 1,
+                "canvas_left": 16,
+                "canvas_top": 16,
+                "width": 16,
+                "height": 16
+              }
+            ]
+          },
+          {
+            "type": "canvas",
+            "width": 32,
+            "height": 32,
+            "margin": "1,2",
+            "content": [
+              {
+                "type": "item",
+                "item": "lakebed_label",
+                "canvas_depth": 1,
+                "width": 32,
+                "height": 12
+              },
+              {
+                "type": "item",
+                "item": "lakebed_small_keys",
+                "canvas_depth": 1,
+                "canvas_left": 0,
+                "canvas_top": 16,
+                "width": 16,
+                "height": 16
+              },
+              {
+                "type": "item",
+                "item": "lakebed_boss_key",
+                "canvas_depth": 1,
+                "canvas_left": 16,
+                "canvas_top": 16,
+                "width": 16,
+                "height": 16
+              }
+            ]
+          },
+          {
+            "type": "canvas",
+            "width": 32,
+            "height": 32,
+            "margin": "1,2",
+            "content": [
+              {
+                "type": "item",
+                "item": "mansion_label",
+                "canvas_depth": 1,
+                "width": 32,
+                "height": 12
+              },
+              {
+                "type": "item",
+                "item": "mansion_small_keys",
+                "canvas_depth": 1,
+                "canvas_left": 0,
+                "canvas_top": 16,
+                "width": 16,
+                "height": 16
+              },
+              {
+                "type": "item",
+                "item": "mansion_boss_key",
+                "canvas_depth": 1,
+                "canvas_left": 16,
+                "canvas_top": 16,
+                "width": 16,
+                "height": 16
+              }
+            ]
+          },
+          {
+            "type": "canvas",
+            "width": 32,
+            "height": 32,
+            "margin": "1,2",
+            "content": [
+              {
+                "type": "item",
+                "item": "time_label",
+                "canvas_depth": 1,
+                "width": 32,
+                "height": 12
+              },
+              {
+                "type": "item",
+                "item": "time_small_keys",
+                "canvas_depth": 1,
+                "canvas_left": 0,
+                "canvas_top": 16,
+                "width": 16,
+                "height": 16
+              },
+              {
+                "type": "item",
+                "item": "time_boss_key",
+                "canvas_depth": 1,
+                "canvas_left": 16,
+                "canvas_top": 16,
+                "width": 16,
+                "height": 16
+              }
+            ]
+          },
+          {
+            "type": "canvas",
+            "width": 32,
+            "height": 32,
+            "margin": "1,2",
+            "content": [
+              {
+                "type": "item",
+                "item": "sky_label",
+                "canvas_depth": 1,
+                "width": 32,
+                "height": 12
+              },
+              {
+                "type": "item",
+                "item": "sky_small_keys",
+                "canvas_depth": 1,
+                "canvas_left": 0,
+                "canvas_top": 16,
+                "width": 16,
+                "height": 16
+              },
+              {
+                "type": "item",
+                "item": "sky_boss_key",
+                "canvas_depth": 1,
+                "canvas_left": 16,
+                "canvas_top": 16,
+                "width": 16,
+                "height": 16
+              }
+            ]
+          },
+          {
+            "type": "canvas",
+            "width": 32,
+            "height": 32,
+            "margin": "1,2",
+            "content": [
+              {
+                "type": "item",
+                "item": "grounds_label",
+                "canvas_depth": 1,
+                "width": 32,
+                "height": 12
+              },
+              {
+                "type": "item",
+                "item": "grounds_small_keys",
+                "canvas_depth": 1,
+                "canvas_left": 0,
+                "canvas_top": 16,
+                "width": 16,
+                "height": 16
+              },
+              {
+                "type": "item",
+                "item": "grounds_boss_key",
+                "canvas_depth": 1,
+                "canvas_left": 16,
+                "canvas_top": 16,
+                "width": 16,
+                "height": 16
+              }
+            ]
+          },
+          {
+            "type": "canvas",
+            "width": 32,
+            "height": 32,
+            "margin": "1,2",
+            "content": [
+              {
+                "type": "item",
+                "item": "palace_label",
+                "canvas_depth": 1,
+                "width": 32,
+                "height": 12
+              },
+              {
+                "type": "item",
+                "item": "palace_small_keys",
+                "canvas_depth": 1,
+                "canvas_left": 0,
+                "canvas_top": 16,
+                "width": 16,
+                "height": 16
+              },
+              {
+                "type": "item",
+                "item": "palace_boss_key",
+                "canvas_depth": 1,
+                "canvas_left": 16,
+                "canvas_top": 16,
+                "width": 16,
+                "height": 16
+              }
+            ]
+          },
+          {
+            "type": "canvas",
+            "width": 32,
+            "height": 32,
+            "margin": "1,2",
+            "content": [
+              {
+                "type": "item",
+                "item": "castle_label",
+                "canvas_depth": 1,
+                "width": 32,
+                "height": 12
+              },
+              {
+                "type": "item",
+                "item": "castle_small_keys",
+                "canvas_depth": 1,
+                "canvas_left": 0,
+                "canvas_top": 16,
+                "width": 16,
+                "height": 16
+              },
+              {
+                "type": "item",
+                "item": "castle_boss_key",
+                "canvas_depth": 1,
+                "canvas_left": 16,
+                "canvas_top": 16,
+                "width": 16,
+                "height": 16
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

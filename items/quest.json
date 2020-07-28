@@ -1,0 +1,611 @@
+[
+  {
+    "name": "Poe Souls",
+    "type": "consumable",
+    "img": "images/poe.png",
+    "codes": "poe,poesouls,souls,poes",
+    "max_quantity": 60
+  },
+  {
+    "name": "Poes Quick",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/poe_0.png",
+        "codes": "poe0,poesq"
+      },
+      {
+        "img": "images/poe_20.png",
+        "codes": "poe20"
+      },
+      {
+        "img": "images/poe_60.png",
+        "codes": "poe60"
+      }
+    ]
+  },
+  {
+    "name": "Wallet Upgrades",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/wallet.png",
+        "codes": "wallet"
+      },
+      {
+        "img": "images/wallet_big.png",
+        "codes": "bigwallet,wallet1,wallet_big"
+      },
+      {
+        "img": "images/wallet_giant.png",
+        "codes": "giantwallet,wallet2,wallet_giant"
+      }
+    ]
+  },
+  {
+    "name": "Quiver",
+    "type": "progressive",
+    "allow_disabled": false,
+    "codes": "quiver",
+    "stages": [
+      {
+        "img": "images/quiver.png",
+        "codes": "quiver,quiver1"
+      },
+      {
+        "img": "images/quiver_big.png",
+        "codes": "bigquiver,quiver2"
+      },
+      {
+        "img":"images/quiver_giant.png",
+        "codes":"giantquiver,quiver3"
+      }
+    ]
+  },
+  {
+    "name": "Heart Pieces",
+    "type": "consumable",
+    "img": "images/hp.png",
+    "codes": "HP,PoH",
+    "max_quantity": 45
+  },
+  {
+    "name": "Heart Containers",
+    "type": "consumable",
+    "img": "images/hc.png",
+    "codes": "HC",
+    "max_quantity": 8
+  },
+  {
+    "name": "Hidden Skills",
+    "type": "consumable",
+    "img": "images/hiddenskill.png",
+    "codes": "hiddenskills,skills",
+    "max_quantity": 7
+  },
+  {
+    "name": "Rupee",
+    "type": "toggle",
+    "img": "images/rupee.png",
+    "codes": "rupee"
+  },
+  {
+    "name": "Auru's Memo",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/memosketch.png",
+    "codes": "aurumemo,memo"
+  },
+  {
+    "name": "Ashei's Sketch",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/memosketch.png",
+    "codes": "asheissketch,sketch"
+  },
+  {
+    "name": "Renado's Letter",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/letter.png",
+    "codes": "renadosletter,letter"
+  },
+  {
+    "name": "Invoice",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/invoice.png",
+    "codes": "invoice"
+  },
+  {
+    "name": "Wooden Statue",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/woodenstatue.png",
+    "codes": "woodenstatue,statue"
+  },
+  {
+    "name": "Ilia's Charm",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/charm.png",
+    "codes": "iliascharm,charm"
+  },
+  {
+    "name": "Talking Quest",
+    "type": "progressive",
+    "loop": false,
+    "codes": "letterq",
+    "stages": [
+      {
+        "name": "Renado's Letter",
+        "img": "images/letter.png",
+        "codes": "renadosletter,letter,letterq"
+      },
+      {
+        "name": "Telma's Invoice",
+        "img": "images/invoice.png",
+        "codes": "invoice,letterq"
+      },
+      {
+        "name": "Wooden Statue",
+        "img": "images/woodenstatue.png",
+        "codes": "woodenstatue,statue,letterq"
+      },
+      {
+        "name": "Ilia's Charm",
+        "img": "images/charm.png",
+        "codes": "iliascharm,charm,letterq"
+      }
+    ]
+  },
+  {
+    "name": "Auru's Memo / Ashei's Sketch",
+    "type": "composite_toggle",
+    "codes": "memosketch",
+    "item_left": "memo",
+    "item_right": "sketch",
+    "images": [
+      {
+        "left": false,
+        "right": false,
+        "img": "images/memosketch_none.png"
+      },
+      {
+        "left": true,
+        "right": false,
+        "img": "images/memosketch_memo.png"
+      },
+      {
+        "left": false,
+        "right": true,
+        "img": "images/memosketch_sketch.png"
+      },
+      {
+        "left": true,
+        "right": true,
+        "img": "images/memosketch_both.png"
+      }
+    ]
+  },
+  {
+    "name": "Renado's Letter / Wooden Statue",
+    "type": "composite_toggle",
+    "codes": "letterstatue",
+    "item_left": "letter",
+    "item_right": "statue",
+    "images": [
+      {
+        "left": false,
+        "right": false,
+        "img": "images/letterstatue_none.png"
+      },
+      {
+        "left": true,
+        "right": false,
+        "img": "images/letterstatue_letter.png"
+      },
+      {
+        "left": false,
+        "right": true,
+        "img": "images/letterstatue_statue.png"
+      },
+      {
+        "left": true,
+        "right": true,
+        "img": "images/letterstatue_both.png"
+      }
+    ]
+  },
+  {
+    "name": "Telma's Invoice / Ilia's Charm",
+    "type": "composite_toggle",
+    "codes": "invoicecharm",
+    "item_left": "invoice",
+    "item_right": "charm",
+    "images": [
+      {
+        "left": false,
+        "right": false,
+        "img": "images/invoicecharm_none.png"
+      },
+      {
+        "left": true,
+        "right": false,
+        "img": "images/invoicecharm_invoice.png"
+      },
+      {
+        "left": false,
+        "right": true,
+        "img": "images/invoicecharm_charm.png"
+      },
+      {
+        "left": true,
+        "right": true,
+        "img": "images/invoicecharm_both.png"
+      }
+    ]
+  },
+  {
+    "name": "Ancient Sky Book",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/ancientskybook_gray.png",
+        "codes": "skybook"
+      },
+      {
+        "img": "images/skybook0.png",
+        "codes": "skybook_empty"
+      },
+      {
+        "img": "images/skybook1.png",
+        "codes": "skybook_partial1"
+      },
+      {
+        "img": "images/skybook2.png",
+        "codes": "skybook_partial2"
+      },
+      {
+        "img": "images/skybook3.png",
+        "codes": "skybook_partial3"
+      },
+      {
+        "img": "images/skybook4.png",
+        "codes": "skybook_partial4"
+      },
+      {
+        "img": "images/skybook5.png",
+        "codes": "skybook_partial5"
+      },
+      {
+        "img": "images/skybook6.png",
+        "codes": "skybook_full"
+      }
+    ]
+  },
+  {
+    "name": "Fused Shadows",
+    "type": "consumable",
+    "img":"images/shadows.png",
+    "codes":"shadow",
+    "max_quantity": 3
+  },
+  {
+    "name": "Mirror of Twilight",
+    "type": "consumable",
+    "img":"images/mirrorshard.png",
+    "codes":"mirror",
+    "max_quantity": 3
+  },
+  {
+    "name": "Fused Shadow Label 1",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/label_unknown.png",
+        "codes": "shadow1label"
+      },
+      {
+        "img": "images/label_forest.png",
+        "codes": "shadow1label"
+      },
+      {
+        "img": "images/label_mines.png",
+        "codes": "shadow1label"
+      },
+      {
+        "img": "images/label_lakebed.png",
+        "codes": "shadow1label"
+      },
+      {
+        "img": "images/label_mansion.png",
+        "codes": "shadow1label"
+      },
+      {
+        "img": "images/label_time.png",
+        "codes": "shadow1label"
+      },
+      {
+        "img": "images/label_sky.png",
+        "codes": "shadow1label"
+      }
+    ]
+  },
+  {
+    "name": "Fused Shadow Label 2",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/label_unknown.png",
+        "codes": "shadow2label"
+      },
+      {
+        "img": "images/label_forest.png",
+        "codes": "shadow2label"
+      },
+      {
+        "img": "images/label_mines.png",
+        "codes": "shadow2label"
+      },
+      {
+        "img": "images/label_lakebed.png",
+        "codes": "shadow2label"
+      },
+      {
+        "img": "images/label_mansion.png",
+        "codes": "shadow2label"
+      },
+      {
+        "img": "images/label_time.png",
+        "codes": "shadow2label"
+      },
+      {
+        "img": "images/label_sky.png",
+        "codes": "shadow2label"
+      }
+    ]
+  },
+  {
+    "name": "Fused Shadow Label 3",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/label_unknown.png",
+        "codes": "shadow3label"
+      },
+      {
+        "img": "images/label_forest.png",
+        "codes": "shadow3label"
+      },
+      {
+        "img": "images/label_mines.png",
+        "codes": "shadow3label"
+      },
+      {
+        "img": "images/label_lakebed.png",
+        "codes": "shadow3label"
+      },
+      {
+        "img": "images/label_mansion.png",
+        "codes": "shadow3label"
+      },
+      {
+        "img": "images/label_time.png",
+        "codes": "shadow3label"
+      },
+      {
+        "img": "images/label_sky.png",
+        "codes": "shadow3label"
+      }
+    ]
+  },
+  {
+    "name": "Mirror of Twilight Label 1",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/label_unknown.png",
+        "codes": "mirror1label"
+      },
+      {
+        "img": "images/label_forest.png",
+        "codes": "mirror1label"
+      },
+      {
+        "img": "images/label_mines.png",
+        "codes": "mirror1label"
+      },
+      {
+        "img": "images/label_lakebed.png",
+        "codes": "mirror1label"
+      },
+      {
+        "img": "images/label_mansion.png",
+        "codes": "mirror1label"
+      },
+      {
+        "img": "images/label_time.png",
+        "codes": "mirror1label"
+      },
+      {
+        "img": "images/label_sky.png",
+        "codes": "mirror1label"
+      }
+    ]
+  },
+  {
+    "name": "Mirror of Twilight Label 2",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/label_unknown.png",
+        "codes": "mirror2label"
+      },
+      {
+        "img": "images/label_forest.png",
+        "codes": "mirror2label"
+      },
+      {
+        "img": "images/label_mines.png",
+        "codes": "mirror2label"
+      },
+      {
+        "img": "images/label_lakebed.png",
+        "codes": "mirror2label"
+      },
+      {
+        "img": "images/label_mansion.png",
+        "codes": "mirror2label"
+      },
+      {
+        "img": "images/label_time.png",
+        "codes": "mirror2label"
+      },
+      {
+        "img": "images/label_sky.png",
+        "codes": "mirror2label"
+      }
+    ]
+  },
+  {
+    "name": "Mirror of Twilight Label 3",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/label_unknown.png",
+        "codes": "mirror3label"
+      },
+      {
+        "img": "images/label_forest.png",
+        "codes": "mirror3label"
+      },
+      {
+        "img": "images/label_mines.png",
+        "codes": "mirror3label"
+      },
+      {
+        "img": "images/label_lakebed.png",
+        "codes": "mirror3label"
+      },
+      {
+        "img": "images/label_mansion.png",
+        "codes": "mirror3label"
+      },
+      {
+        "img": "images/label_time.png",
+        "codes": "mirror3label"
+      },
+      {
+        "img": "images/label_sky.png",
+        "codes": "mirror3label"
+      }
+    ]
+  },
+  {
+    "name": "Sky Cannon",
+    "type": "toggle",
+    "img": "images/skycannon.png",
+    "codes": "skycannon"
+  },
+  {
+    "name": "Medicine Scent",
+    "type": "toggle",
+    "img": "images/scent_medicine.png",
+    "codes": "medicine"
+  },
+  {
+    "name": "Reekfish Scent",
+    "type": "toggle",
+    "img": "images/scent_reekfish.png",
+    "codes": "reekfish"
+  },
+  {
+    "name": "Bridge of Eldin",
+    "type": "toggle",
+    "img": "images/eldinbridge.png",
+    "codes": "bridge"
+  },
+  {
+    "name": "Faron Twilight",
+    "type": "toggle",
+    "img": "images/vessel.png",
+    "codes": "faron"
+  },
+  {
+    "name": "Eldin Twilight",
+    "type": "toggle",
+    "img": "images/vessel.png",
+    "codes": "eldin"
+  },
+  {
+    "name": "Lanayru Twilight",
+    "type": "toggle",
+    "img": "images/vessel.png",
+    "codes": "lanayru"
+  },
+  {
+    "name": "Golden Bugs",
+    "type": "consumable",
+    "img": "images/bug.png",
+    "codes": "bugs,goldenbugs",
+    "max_quantity": 24
+  },
+  {
+    "name": "DMT Howling Stone",
+    "type": "toggle",
+    "img": "images/howling.png",
+    "codes": "howlDMT"
+  },
+  {
+    "name": "UZR Howling Stone",
+    "type": "toggle",
+    "img": "images/howling.png",
+    "codes": "howlUZR"
+  },
+  {
+    "name": "Sacred Grove Howling Stone",
+    "type": "toggle",
+    "img": "images/howling.png",
+    "codes": "howlSG"
+  },
+  {
+    "name": "Lake Hylia Howling Stone",
+    "type": "toggle",
+    "img": "images/howling.png",
+    "codes": "howlLH"
+  },
+  {
+    "name": "Snowpeak Howling Stone",
+    "type": "toggle",
+    "img": "images/howling.png",
+    "codes": "howlSP"
+  },
+  {
+    "name": "Hidden Village Howling Stone",
+    "type": "toggle",
+    "img": "images/howling.png",
+    "codes": "howlHV"
+  },
+  {
+    "name": "Game Complete",
+    "type": "toggle",
+    "img": "images/tpseal.png",
+    "codes": "triforce"
+  }
+]

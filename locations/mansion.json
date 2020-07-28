@@ -1,0 +1,271 @@
+[
+  {
+    "name": "Snowpeak Mansion",
+    "parent": "Snowpeak Trail",
+    "access_rules": [
+      "coral"
+    ],
+    "sections": [
+      {
+        "name": "Ordon Pumpkin",
+        "hosted_item": "pumpkin"
+      },
+      {
+        "name": "Ordon Goat Cheese",
+        "hosted_item": "cheese"
+      },
+      {
+        "name": "(12) Armor Chests",
+        "access_rules": [
+          "ballandchain"
+        ],
+        "item_count": 2
+      },
+      {
+        "name": "(11) Entry Poe",
+        "chest_unopened_img": "images/poe.png",
+        "chest_opened_img": "images/poe_gray.png",
+        "item_count": 1,
+        "visibility_rules": [
+          "op_poe"
+        ],
+        "access_rules": [
+          "wolf"
+        ]
+      },
+      {
+        "name": "(12) Armor Poe",
+        "access_rules": [
+          "wolf,ballandchain,grounds"
+        ],
+        "chest_unopened_img": "images/poe.png",
+        "chest_opened_img": "images/poe_gray.png",
+        "item_count": 1,
+        "visibility_rules": [
+          "op_poe"
+        ]
+      },
+      {
+        "name": "(11) Yeta",
+        "visibility_rules": [
+          "op_dung"
+        ],
+        "chest_opened_img": "images/map_gray.png",
+        "chest_unopened_img": "images/map.png",
+        "item_count": 1
+      },
+      {
+				"name": "(11) Ooccoo",
+				"item_count": 1,
+				"visibility_rules": [
+					"op_dung"
+        ],
+				"chest_unopened_img": "images/ooccoo.png",
+        "chest_opened_img": "images/ooccoo_gray.png"
+			},
+      {
+        "name": "(11) East Courtyard Free",
+        "item_count": 1
+      },
+      {
+        "name": "(11) East Courtyard Snow",
+        "item_count": 1,
+        "access_rules": [
+          "wolf"
+        ],
+        "visibility_rules": [
+          "op_key"
+        ]
+      },
+      {
+        "name": "(11) East Courtyard Snow",
+        "hosted_item": "mansionsk",
+        "access_rules": [
+          "wolf"
+        ],
+        "visibility_rules": [
+          "op_key_off"
+        ]
+      },
+      {
+        "name": "(11) Ordon Pumpkin",
+        "access_rules": [
+          "mansionsk:1,[mansionsk:4]"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "(11) West Courtyard",
+        "access_rules": [
+          "pumpkin,wolf",
+          "ballandchain,wolf"
+        ],
+        "visibility_rules": [
+          "op_key"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "(11) West Courtyard",
+        "access_rules": [
+          "pumpkin,wolf",
+          "ballandchain,wolf"
+        ],
+        "visibility_rules": [
+          "op_key_off"
+        ],
+        "hosted_item": "mansionsk"
+      },
+      {
+        "name": "(11) Storage Corner",
+        "access_rules": [
+          "pumpkin,$has_explosives",
+          "pumpkin,ballandchain"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "(12) Storage Central",
+        "access_rules": [
+          "pumpkin,ballandchain"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "(11) Chasm Room",
+        "access_rules": [
+          "pumpkin,$has_explosives",
+          "pumpkin,ballandchain"
+        ],
+        "item_count": 2
+      },
+      {
+        "name": "(11) Courtyard Frozen",
+        "access_rules": [
+          "ballandchain",
+          "pumpkin,mansionsk:1,[mansionsk:4],$has_explosives"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "(11) Darkhammer",
+        "access_rules": [
+          "ballandchain",
+          "pumpkin,mansionsk:1,[mansionsk:4],$has_explosives"
+        ],
+        "chest_unopened_img": "images/ballandchain.png",
+        "chest_opened_img": "images/ballandchain_gray.png",
+        "item_count": 1
+      },
+      {
+        "name": "(12) Goat Cheese Chest",
+        "access_rules": [
+          "ballandchain"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "(12) Small Room Chest",
+        "access_rules": [
+          "pumpkin,cheese,ballandchain,$has_explosives"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "(12) Rafter Room",
+        "access_rules": [
+          "pumpkin,cheese,ballandchain"
+        ],
+        "visibility_rules": [
+          "op_key"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "(12) Rafter Room",
+        "access_rules": [
+          "pumpkin,cheese,ballandchain"
+        ],
+        "visibility_rules": [
+          "op_key_off"
+        ],
+        "hosted_item": "mansionsk"
+      },
+      {
+        "name": "(12) Entry HP",
+        "access_rules": [
+          "pumpkin,cheese,ballandchain,mansionsk:1,[mansionsk:3]"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "(12) Frozen Poe",
+        "access_rules": [
+          "pumpkin,cheese,wolf,ballandchain,mansionsk:1,[mansionsk:3]"
+        ],
+        "chest_unopened_img": "images/poe.png",
+        "chest_opened_img": "images/poe_gray.png",
+        "item_count": 1,
+        "visibility_rules": [
+          "op_poe"
+        ]
+      },
+      {
+        "name": "(12) Above Pumpkin",
+        "access_rules": [
+          "pumpkin,cheese,ballandchain,mansionsk:1,[mansionsk:3],clawshot"
+        ],
+        "visibility_rules": [
+          "op_key"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "(12) Above Pumpkin",
+        "access_rules": [
+          "pumpkin,cheese,ballandchain,mansionsk:1,[mansionsk:3],clawshot"
+        ],
+        "visibility_rules": [
+          "op_key_off"
+        ],
+        "hosted_item": "mansionsk"
+      },
+      {
+        "name": "(12) Bedroom Key Chest",
+        "access_rules": [
+          "pumpkin,cheese,ballandchain,mansionsk:2,[mansionsk:4],$has_explosives"
+        ],
+        "visibility_rules": [
+          "op_dung"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "(12) Bedroom Key Chest",
+        "access_rules": [
+          "pumpkin,cheese,ballandchain,mansionsk:2,[mansionsk:4],$has_explosives"
+        ],
+        "visibility_rules": [
+          "op_dung_off"
+        ],
+        "hosted_item": "mansionbk"
+      },
+      {
+        "name": "(12) Blizzeta HC",
+        "access_rules": [
+          "pumpkin,cheese,ballandchain,mansionsk:2,[mansionsk:4],$has_explosives,mansion_boss_key"
+        ],
+        "chest_unopened_img": "images/hc.png",
+        "chest_opened_img": "images/hc_gray.png",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "overworld",
+        "x": 250,
+        "y": 350
+      }
+    ]
+  }
+]

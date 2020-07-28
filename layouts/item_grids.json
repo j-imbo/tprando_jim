@@ -1,0 +1,212 @@
+{
+  "item_grid_tall": {
+    "type": "array",
+    "orientation": "vertical",
+    "content": [
+      {
+        "type": "itemgrid",
+        "h_alignment": "left",
+        "item_margin": "1,2",
+        "rows": [
+          [
+            "wsword",
+            "ms",
+            "shield1",
+            "shield2",
+            "zarmor",
+            "bottle"
+          ],
+          [
+            "lantern",
+            "coral",
+            "bbagwat",
+            "ironboots",
+            "boomerang",
+            "bottles"
+          ],
+          [
+            "bowshot",
+            "memosketch",
+            "clawshot",
+            "spinner",
+            "ballandchain",
+            "dominion"
+          ],
+          [
+            "horsecall",
+            "hawkeye",
+            "skybook",
+            "letterq",
+            "poes",
+            "bug"
+          ]
+        ]
+      },
+      {
+        "type": "layout",
+        "key": "dungeon_grid_tall"
+      }
+    ]
+  },
+  "item_grid_wide": {
+    "type": "array",
+    "orientation": "vertical",
+    "content": [
+      {
+        "type": "itemgrid",
+        "h_alignment": "left",
+        "item_margin": "1,2",
+        "rows": [
+          [
+            "wsword",
+            "ms",
+            "sc",
+            "boomerang",
+            "bow",
+            "slingshot",
+            "clawshot",
+            "lantern",
+            "coral"
+          ],
+          [
+            "shield1",
+            "shield2",
+            "bbagwat",
+            "spinner",
+            "ballandchain",
+            "dominion",
+            "memosketch",
+            "letterq",
+            "skybook"
+          ]
+        ]
+      },
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "5,0",
+        "content": [
+          {
+            "type": "item",
+            "item": "zarmor",
+            "width": 32,
+            "height": 32,
+            "margin": "1,2"
+          },
+          {
+            "type": "item",
+            "item": "marmor",
+            "width": 32,
+            "height": 32,
+            "margin": "1,2"
+          },
+          {
+            "type": "item",
+            "item": "ironboots",
+            "width": 32,
+            "height": 32,
+            "margin": "1,2"
+          },
+          {
+            "type": "item",
+            "item": "bottle",
+            "width": 32,
+            "height": 32,
+            "margin": "1,2"
+          },
+          {
+            "type": "item",
+            "item": "hiddenskills",
+            "width": 32,
+            "height": 32,
+            "margin": "1,2"
+          },
+          {
+            "type": "item",
+            "item": "poes",
+            "width": 32,
+            "height": 32,
+            "margin": "1,2"
+          },
+          {
+            "type":"item",
+            "item": "bugs",
+            "width": 32,
+            "height": 32,
+            "margin": "1,2",
+            "content": []
+          },
+          {
+            "type": "canvas",
+            "width": 32,
+            "height": 32,
+            "margin": "1,2",
+            "content": [
+              {
+                "type": "item",
+                "item": "woods_label",
+                "canvas_depth": 1,
+                "width": 32,
+                "height": 12
+              },
+              {
+                "type": "item",
+                "item": "woods_key",
+                "canvas_depth": 1,
+                "canvas_left": 8,
+                "canvas_top": 16,
+                "width": 16,
+                "height": 16
+              }
+            ]
+          },
+          {
+            "type": "canvas",
+            "width": 32,
+            "height": 32,
+            "margin": "1,2",
+            "content": [
+              {
+                "type": "item",
+                "item": "desert_label",
+                "canvas_depth": 1,
+                "width": 32,
+                "height": 12
+              },
+              {
+                "type": "item",
+                "item": "desert_key",
+                "canvas_depth": 1,
+                "canvas_left": 8,
+                "canvas_top": 16,
+                "width": 16,
+                "height": 16
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "layout",
+        "key": "dungeon_grid_wide"
+      }
+    ]
+  },
+  "options": {
+    "type": "array",
+    "orientation": "vertical",
+    "content": [
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "5",
+        "rows": [
+          [ "op_bug", "op_poe", "op_twilight", "op_egm" ],
+          [ "op_key", "op_dung", "op_mdh", "op_eg2" ],
+          [ "op_shop", "op_botshop", "op_edes", "op_ecits" ],
+          [ "op_scent", "op_skill", "op_epot", "op_ehc" ]
+        ]
+      }
+    ]
+  }
+}

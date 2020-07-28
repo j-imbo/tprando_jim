@@ -1,0 +1,456 @@
+[
+  {
+    "name": "Hero's Bow",
+    "type": "toggle",
+    "img": "images/herosbow.png",
+    "codes": "bow"
+  },
+  {
+    "name": "Slingshot",
+    "type": "toggle",
+    "img": "images/slingshot.png",
+    "codes": "slingshot,sling,ss"
+  },
+  {
+    "name": "Bow/Slingshot",
+    "type": "composite_toggle",
+    "codes": "bowshot",
+    "item_left": "bow",
+    "item_right": "sling",
+    "images": [
+      {
+        "left": false,
+        "right": false,
+        "img": "images/bowshot_none.png"
+      },
+      {
+        "left": true,
+        "right": false,
+        "img": "images/bowshot_bow.png"
+      },
+      {
+        "left": false,
+        "right": true,
+        "img": "images/bowshot_sling.png"
+      },
+      {
+        "left": true,
+        "right": true,
+        "img": "images/bowshot_both.png"
+      }
+    ]
+  },
+  {
+    "name": "Bomb Bags",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/bombbag_gray.png",
+        "codes": "bbag"
+      },
+      {
+        "img": "images/bbag1.png",
+        "codes": "bombs"
+      },
+      {
+        "img": "images/bbag2.png"
+      },
+      {
+        "img": "images/bbag3.png"
+      },
+      {
+        "img": "images/bbag_g.png"
+      }
+    ]
+  },
+  {
+    "name": "Water Bomb",
+    "type": "toggle_badged",
+    "codes": "bbagwat,bombswater",
+    "base_item": "bbag",
+    "img": "images/bbagwat.png"
+  },
+  {
+    "name": "Water Bombs",
+    "type": "toggle",
+    "codes": "bombswater,waterbombs",
+    "img": "images/bomb_water.png"
+  },
+  {
+    "name": "Gale Boomerang",
+    "type": "toggle",
+    "img": "images/galeboomerang.png",
+    "codes": "boomerang,rang"
+  },
+  {
+    "name": "Clawshot",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/clawshot.png",
+        "img_mods": "@disabled"
+      },
+      {
+        "img": "images/clawshot.png",
+        "codes": "clawshot,cs"
+      },
+      {
+        "img": "images/clawshot_double.png",
+        "codes": "doubleshot,dcs,clawshot_double"
+      }
+    ]
+  },
+  {
+    "name": "Fishing Rod",
+    "type": "toggle",
+    "img": "images/fishingrod.png",
+    "codes": "fishingrod,fishing,frod"
+  },
+  {
+    "name": "Coral Earring",
+    "type": "toggle_badged",
+    "base_item": "fishingrod",
+    "img": "images/coralearring.png",
+    "codes": "coralearring,cearring,coral,earring"
+  },
+  {
+    "name": "Spinner",
+    "type": "toggle",
+    "img": "images/spinner.png",
+    "codes": "spinner"
+  },
+  {
+    "name": "Ball and Chain",
+    "type": "toggle",
+    "img": "images/ballandchain.png",
+    "codes": "ballandchain"
+  },
+  {
+    "name": "Dominion Rod",
+    "type": "progressive",
+    "allow_disabled": true,
+    "loop": false,
+    "stages": [
+      {
+        "img": "images/dominionrod_off.png",
+        "codes": "drod_off"
+      },
+      {
+        "img": "images/dominionrod.png",
+        "codes": "dominionrod,dominion,drod"
+      }
+    ]
+  },
+  {
+    "name": "Iron Boots",
+    "type": "toggle",
+    "img": "images/ironboots.png",
+    "codes": "ironboots,boots,irons"
+  },
+  {
+    "name": "Lantern",
+    "type": "toggle",
+    "img": "images/lantern.png",
+    "codes": "lantern,lamp"
+  },
+  {
+    "name": "Horse Call",
+    "type": "toggle",
+    "img": "images/charm.png",
+    "codes": "horsecall,horse,hcall"
+  },
+  {
+    "name": "Hawkeye",
+    "type": "toggle",
+    "img": "images/hawkeye.png",
+    "codes": "hawkeye"
+  },
+  {
+    "name": "Bottle",
+    "type": "consumable",
+    "img": "images/bottle.png",
+    "codes": "bottle",
+    "max_quantity": 4
+  },
+  {
+    "name": "Bottle",
+    "type": "toggle",
+    "img": "images/bottle.png",
+    "codes": "bottlecapture"
+  },
+  {
+    "name": "Bug Shuffle",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/bug_off.png",
+        "codes": "op_bug_off"
+      },
+      {
+        "img": "images/bug_on.png",
+        "codes": "op_bug",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Poe Shuffle",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/poe_off.png",
+        "codes": "op_poe_off"
+      },
+      {
+        "img": "images/poe_on.png",
+        "codes": "op_poe",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Shop Shuffle",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/shop_off.png",
+        "codes": "op_shop_off"
+      },
+      {
+        "img": "images/shop_on.png",
+        "codes": "op_shop",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Dungeon Items Shuffle",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/dung_off.png",
+        "codes": "op_dung_off"
+      },
+      {
+        "img": "images/dung_on.png",
+        "codes": "op_dung",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Key Shuffle",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/key_off.png",
+        "codes": "op_key_off"
+      },
+      {
+        "img": "images/key_on.png",
+        "codes": "op_key",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Bottles required for shop?",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/bottle_off.png",
+        "codes": "op_botshop_off"
+      },
+      {
+        "img": "images/bottle_on.png",
+        "codes": "op_botshop",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "MDH Skip",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/mdh_off.png",
+        "codes": "op_mdh_off"
+      },
+      {
+        "img": "images/mdh_on.png",
+        "codes": "op_mdh",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Twilight Skip",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/twilight_off.png",
+        "codes": "op_twilight_off"
+      },
+      {
+        "img": "images/twilight_on.png",
+        "codes": "op_twilight",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Early CitS",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/ecits_off.png",
+        "codes": "op_ecits_off"
+      },
+      {
+        "img": "images/ecits_on.png",
+        "codes": "op_ecits",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Early Desert",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/edes_off.png",
+        "codes": "op_edes_off"
+      },
+      {
+        "img": "images/edes_on.png",
+        "codes": "op_edes",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Early Grove",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/eg2_off.png",
+        "codes": "op_eg2_off"
+      },
+      {
+        "img": "images/eg2_on.png",
+        "codes": "op_eg2",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Early Post-Mines",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/egm_off.png",
+        "codes": "op_egm_off"
+      },
+      {
+        "img": "images/egm_on.png",
+        "codes": "op_egm",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Open Castle",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/ehc_off.png",
+        "codes": "op_ehc_off"
+      },
+      {
+        "img": "images/ehc_on.png",
+        "codes": "op_ehc",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Early Palace",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/epot_off.png",
+        "codes": "op_epot_off"
+      },
+      {
+        "img": "images/epot_on.png",
+        "codes": "op_epot",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Skill Shuffle",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/skill_off.png",
+        "codes": "op_skill_off"
+      },
+      {
+        "img": "images/skill_on.png",
+        "codes": "op_skill",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Scent Shuffle",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/scent_off.png",
+        "codes": "op_scent_off"
+      },
+      {
+        "img": "images/scent_on.png",
+        "codes": "op_scent",
+        "inherit_codes": false
+      }
+    ]
+  }
+]

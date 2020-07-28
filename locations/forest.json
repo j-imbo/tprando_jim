@@ -1,0 +1,191 @@
+[
+  {
+    "name": "Forest Temple",
+    "parent": "Faron Woods",
+    "access_rules": [
+      "$has_ranged,woods_key:1,$faron"
+    ],
+    "sections": [
+      {
+        "name": "(1) Entry Chest",
+        "item_count": 1
+      },
+      {
+        "name": "(1) Map Chest",
+        "access_rules": [
+          "lantern"
+        ],
+        "visibility_rules": [
+          "op_dung"
+        ],
+        "chest_opened_img": "images/map_gray.png",
+        "chest_unopened_img": "images/map.png",
+        "item_count": 1
+      },
+      {
+        "name": "(2) Chest behind Rock",
+        "access_rules": [
+          "boomerang"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "(2) Compass Chest",
+        "access_rules": [
+          "boomerang",
+          "bow",
+          "ballandchain",
+          "clawshot"
+        ],
+        "visibility_rules": [
+          "op_dung"
+        ],
+        "chest_opened_img": "images/compass_gray.png",
+        "chest_unopened_img": "images/compass.png",
+        "item_count": 1
+      },
+      {
+        "name": "(1) West Lobby Chest",
+        "item_count": 1
+      },
+      {
+        "name": "(1) Deku Like Key",
+        "item_count": 1,
+        "chest_opened_img": "images/smallkey_gray.png",
+        "chest_unopened_img": "images/smallkey.png",
+        "visibility_rules": [
+          "op_key"
+        ]
+      },
+      {
+        "name": "(1) Deku Like Key",
+        "hosted_item": "forestsk",
+        "visibility_rules": [
+          "op_key_off"
+        ]
+      },
+      {
+        "name": "(2) West Stairs HP",
+        "access_rules": [
+          "boomerang"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "(1) West Tile Ledge",
+        "item_count": 1
+      },
+      {
+        "name": "(1) West Totem",
+        "item_count": 1,
+        "visibility_rules": [
+          "op_key"
+        ]
+      },
+      {
+        "name": "(1) West Totem Key",
+        "hosted_item": "forestsk",
+        "visibility_rules": [
+          "op_key_off"
+        ]
+      },
+      {
+        "name": "(1) Miniboss: Ook",
+        "access_rules": [
+          "boomerang,[forestsk:2]",
+          "forestsk:2"
+        ],
+        "chest_unopened_img": "images/galeboomerang.png",
+        "chest_opened_img": "images/galeboomerang_gray.png",
+        "item_count": 1
+      },
+      {
+        "name": "(1) Ooccoo",
+        "item_count": 1,
+        "visibility_rules": [
+          "op_dung"
+        ],
+        "chest_unopened_img": "images/ooccoo.png",
+        "chest_opened_img": "images/ooccoo_gray.png"
+      },
+      {
+        "name": "(1) East Water Chest",
+        "item_count": 1
+      },
+      {
+        "name": "(2) Boss Key Chest",
+        "access_rules": [
+          "boomerang"
+        ],
+        "visibility_rules": [
+          "op_dung"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "(2) Boss Key Chest",
+        "access_rules": [
+          "boomerang"
+        ],
+        "visibility_rules": [
+          "op_dung_off"
+        ],
+        "hosted_item": "forestbk"
+      },
+      {
+        "name": "(1) Monkey Totem Room",
+        "item_count": 1,
+        "access_rules": [
+          "forestsk:1,[forestsk:4]"
+        ]
+      },
+      {
+        "name": "(1) Bridge Chest",
+        "item_count": 1,
+        "visibility_rules": [
+          "op_key"
+        ]
+      },
+      {
+        "name": "(1) Bridge Key",
+        "hosted_item": "forestsk",
+        "visibility_rules": [
+          "op_key_off"
+        ]
+      },
+      {
+        "name": "(2) Boulder Room",
+        "access_rules": [
+          "boomerang,forestsk:1,[forestsk:4]"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "(2) North Tile Room",
+        "access_rules": [
+          "boomerang"
+        ],
+        "item_count": 1,
+        "visibility_rules": [
+          "op_key"
+        ]
+      },
+      {
+        "name": "(2) Diababa HC",
+        "access_rules": [
+          "boomerang,forest_boss_key,[forestsk:4]"
+        ],
+        "chest_unopened_img": "images/hc.png",
+        "chest_opened_img": "images/hc_gray.png",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "overworld",
+        "x": 570,
+        "y": 820
+      }
+    ]
+  }
+]

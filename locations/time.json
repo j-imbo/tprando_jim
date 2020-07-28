@@ -1,0 +1,227 @@
+[
+  {
+    "name": "Temple of Time",
+    "parent": "Outside Temple of Time",
+    "access_rules": [
+      "wolf,woods_key:1,op_eg2",
+      "wolf,woods_key:1,ms,mansion"
+    ],
+    "sections": [
+      {
+				"name": "(12) Ooccoo",
+				"item_count": 1,
+				"visibility_rules": [
+					"op_dung"
+        ],
+				"chest_unopened_img": "images/ooccoo.png",
+        "chest_opened_img": "images/ooccoo_gray.png"
+			},
+      {
+        "name": "(12) Entry",
+        "access_rules": [
+          "lantern"
+        ],
+        "visibility_rules": [
+          "op_key"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "(12) Entry",
+        "access_rules": [
+          "lantern"
+        ],
+        "visibility_rules": [
+          "op_key_off"
+        ],
+        "hosted_item": "timesk"
+      },
+      {
+        "name": "(12) Climb1 PreGate",
+        "access_rules": [
+          "timesk:1"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "(12) Climb1 PostGate",
+        "access_rules": [
+          "timesk:1,$has_breakrange"
+        ],
+        "item_count": 2
+      },
+      {
+        "name": "(13) Gated Poe",
+        "access_rules": [
+          "timesk:1,drod_off,wolf"
+        ],
+        "chest_unopened_img": "images/poe.png",
+        "chest_opened_img": "images/poe_gray.png",
+        "item_count": 1,
+        "visibility_rules": [
+          "op_poe"
+        ]
+      },
+      {
+        "name": "(12) Armos Room",
+        "access_rules": [
+          "timesk:1,$has_breakrange,spinner"
+        ],
+        "visibility_rules": [
+          "op_key"
+        ],
+        "item_count": 2
+      },
+      {
+        "name": "(12) Armos Room",
+        "access_rules": [
+          "timesk:1,$has_breakrange,spinner"
+        ],
+        "visibility_rules": [
+          "op_key_off"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "(12) Armos Room Key",
+        "access_rules": [
+          "timesk:1,$has_breakrange,spinner"
+        ],
+        "visibility_rules": [
+          "op_key_off"
+        ],
+        "hosted_item": "timesk"
+      },
+      {
+        "name": "(13) Armos Room HP",
+        "access_rules": [
+          "timesk:1,$has_breakrange,spinner,drod_off"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "(12) Compass",
+        "access_rules": [
+          "spinner,timesk:2,$has_crystalrange"
+        ],
+        "visibility_rules": [
+          "op_dung"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "(13) Laser Fence",
+        "access_rules": [
+          "spinner,timesk:2,$has_crystalrange,drod_off"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "(12) Scales Horde",
+        "access_rules": [
+          "spinner,timesk:2,$has_crystalrange"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "(13) Scales Ledge",
+        "access_rules": [
+          "spinner,timesk:2,drod_off,clawshot"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "(13) Scales Poe",
+        "access_rules": [
+          "spinner,timesk:2,drod_off,clawshot,wolf"
+        ],
+        "chest_unopened_img": "images/poe.png",
+        "chest_opened_img": "images/poe_gray.png",
+        "item_count": 1,
+        "visibility_rules": [
+          "op_poe"
+        ]
+      },
+      {
+        "name": "(13) Back Room",
+        "access_rules": [
+          "spinner,timesk:2,drod_off,clawshot"
+        ],
+        "visibility_rules": [
+          "op_dung"
+        ],
+        "item_count": 2
+      },
+      {
+        "name": "(13) Back Room",
+        "access_rules": [
+          "spinner,timesk:2,drod_off,clawshot"
+        ],
+        "visibility_rules": [
+          "op_dung_off"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "(13) Back Room Big Key",
+        "access_rules": [
+          "spinner,timesk:2,drod_off,clawshot"
+        ],
+        "visibility_rules": [
+          "op_dung_off"
+        ],
+        "hosted_item": "timebk"
+      },
+      {
+        "name": "(12) Gauntlet",
+        "access_rules": [
+          "spinner,timesk:2,$has_crystalrange"
+        ],
+        "visibility_rules": [
+          "op_key"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "(12) Gauntlet Key",
+        "access_rules": [
+          "spinner,timesk:2,$has_crystalrange"
+        ],
+        "visibility_rules": [
+          "op_key_off"
+        ],
+        "hosted_item": "timesk"
+      },
+      {
+        "name": "(12) Baby Horde",
+        "access_rules": [
+          "spinner,timesk:2,$has_crystalrange"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "(12) Darknut",
+        "access_rules": [
+          "spinner,$has_crystalrange,timesk:3"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "(13) Armogohma HC",
+        "access_rules": [
+          "spinner,$has_crystalrange,timesk:3,drod_off,time_boss_key"
+        ],
+        "chest_unopened_img": "images/hc.png",
+        "chest_opened_img": "images/hc_gray.png",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "overworld",
+        "x": 485,
+        "y": 855
+      }
+    ]
+  }
+]

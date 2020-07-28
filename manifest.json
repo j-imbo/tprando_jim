@@ -1,0 +1,18 @@
+﻿{
+  "name": "TP Randomizer - Map and Items Tracker",
+  "game_name": "The Legend of Zelda: Twilight Princess",
+  "package_version": "0.16.1",
+  "package_uid": "tprando_jim",
+  "author": "j_im",
+  "variants": {
+    "standard": {
+      "display_name": "Map Tracker"
+    },
+    "var_itemsonly": {
+      "display_name": "Items Only"
+    },
+    "var_minimal": {
+      "display_name": "Items Only (Minimal)"
+    }
+  }
+}
