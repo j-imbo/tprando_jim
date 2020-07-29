@@ -112,13 +112,6 @@ function skyvis()
   return ecits
 end
 
-function bridge()
-  local bridge = has("bridge")
-  local twil = has("op_twilight")
-
-  return bridge or twil
-end
-
 function desert()
   local memo = has("memo")
   local twil = lanayru()
@@ -339,4 +332,154 @@ function howl6()
   end
 
   return count >= 6
+end
+
+function sword()
+  local wood = has("ws")
+  local mas = has("ms")
+
+  return wood or mas
+end
+
+function shield()
+  local wood = has("shield1")
+  local hyl = has("shield2")
+
+  return wood or hyl
+end
+
+function dmg()
+  local bnc = has("ballandchain")
+  local bow = has("bow")
+  local bomb = has("bombs")
+  local spin = has("spinner")
+  local wood = has("ws")
+  local mas = has("ms")
+  local wolf = has("wolf")
+  local boot = has("ironboots")
+
+  return bnc or bow or bomb or spin or wood or mas or wolf or boot
+end
+
+function watdmg()
+  local watbom = has("waterbombs")
+  local wood = has("ws")
+  local mas = has("ms")
+
+  return watbom or wood or mas
+end
+
+function ook()
+  local dmg = dmg()
+
+  return dmg
+end
+
+function diababa()
+  local boom = has("boomerang")
+  local bow = has("bow")
+  local bomb = has("bombs")
+
+  local dmg = dmg()
+
+  return (boom or (bow and bomb)) and dmg
+end
+
+function dangoro()
+  local boot = has("ironboots")
+
+  return boot
+end
+
+function fyrus()
+  local bow = has("bow")
+  local wood = has("ws")
+  local mas = has("ms")
+  local boot = has("ironboots")
+
+  return bow and (wood or mas) and boot
+end
+
+function dekutoad()
+  local dmg = dmg()
+
+  return dmg
+end
+
+function morpheel()
+  local claw = has("clawshot")
+  local boot = has("ironboots")
+  local watbom = has("bombswater")
+  local wood = has("ws")
+  local mas = has("ms")
+
+  return claw and boot and (watbom or wood or mas)
+end
+
+function deathsword()
+  local bow = has("bow")
+  local claw = has("claw")
+  local boom = has("boomerang")
+  local wolf = has("wolf")
+  local dmg = dmg()
+
+  return dmg and (bow or claw or boom) and wolf
+end
+
+function stallord()
+  local spin = has("spinner")
+  local mas = has("ms")
+  local wood = has("ws")
+
+  return spin and (mas or wood)
+end
+
+function darkhammer()
+  local dmg = dmg()
+
+  return dmg
+end
+
+function blizzeta()
+  local bnc = has("ballandchain")
+
+  return bnc
+end
+
+function darknut()
+  local bnc = has("ballandchain")
+  local wood = has("ws")
+  local mas = has("ms")
+  local ba = bomb_arrows()
+
+  return bnc or wood or mas or ba
+end
+
+function armogohma()
+  local dom = has("dominion")
+  local bow = has("bow")
+
+  return dom and bow
+end
+
+function aeralfos()
+  local claw = has("clawshot")
+  local bnc = has("ballandchain")
+  local bow = has("bow")
+  local bomb = has("bombs")
+  local wood = has("ws")
+  local mas = has("ms")
+  local wolf = has("wolf")
+  local boot = has("ironboots")
+
+  return claw and (bnc or bow or bomb or wood or mas or wolf or boot)
+end
+
+function argorok()
+  local claw = has("clawshot_double")
+  local ord = has("os")
+  local mas = has("ms")
+  local boot = has("ironboots")
+
+  return claw and (ord or mas) and boot
 end

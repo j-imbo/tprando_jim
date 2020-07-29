@@ -338,7 +338,7 @@
           {
             "name": "Lost Woods",
             "access_rules": [
-                  "wolf"
+                  "wolf,$grove2"
             ],
             "sections": [
               {
@@ -1011,7 +1011,7 @@
               {
                 "name": "(13) Owl Statue Chest",
                 "access_rules": [
-                  "dominion,clawshot,$bridge"
+                  "dominion,clawshot,"
                 ],
                 "item_count": 1
               },
@@ -1588,7 +1588,9 @@
               {
                 "name": "(8) Skulltula Grotto Chest",
                 "access_rules": [
-                  "lantern,wolf"
+                  "lantern,wolf,ws",
+                  "lantern,wolf,ms",
+                  "lantern,wolf,bombs"
                 ],
                 "item_count": 1
               }
@@ -1641,7 +1643,7 @@
                 "name": "(12) Ice Cavern HP",
                 "item_count": 1,
                 "access_rules": [
-                  "$has_explosives,ballandchain"
+                  "ballandchain"
                 ]
               },
               {
@@ -1938,7 +1940,7 @@
                 "chest_unopened_img": "images/woodenstatue.png",
                 "chest_opened_img": "images/woodenstatue_gray.png",
                 "access_rules": [
-                  "medicine"
+                  "time,wolf"
                 ],
                 "hosted_item": "statue"
               }
@@ -2160,7 +2162,8 @@
                   "op_shop"
                 ],
                 "access_rules": [
-                  "$mines,lakebed"
+                  "$mines,lakebed",
+                  "$midlak"
                 ]
               },
               {
@@ -2227,9 +2230,6 @@
         "children": [
           {
             "name": "Fishing Hole",
-            "access_rules": [
-              "fishingrod"
-            ],
             "sections": [
               {
                 "name": "(FF) Central HP",
@@ -2492,7 +2492,7 @@
               {
                 "name": "(8) Ledge Grotto Chest",
                 "access_rules":[
-                  "ironboots,wolf"
+                  "ironboots,wolf,$watdmg"
                 ],
                 "item_count": 1
               }
@@ -2736,7 +2736,8 @@
                 "name": "(8) Grotto Chest",
                 "item_count": 1,
                 "access_rules": [
-                  "wolf"
+                  "wolf,$shield",
+                  "wolf,bow"
                 ]
               }
             ],
@@ -3021,10 +3022,6 @@
             ],
             "sections": [
               {
-                "name": "(9) Bridge of Eldin",
-                "hosted_item": "bridge"
-              },
-              {
                 "name": "(9) Poe Outside",
                 "item_count": 1,
                 "chest_unopened_img": "images/poe.png",
@@ -3052,7 +3049,7 @@
                 "name": "(13) Room 33 Poe",
                 "item_count": 1,
                 "access_rules": [
-                  "spinner,ballandchain,dominion,wolf"
+                  "bow,spinner,ballandchain,dominion,wolf"
                 ],
                 "chest_unopened_img": "images/poe.png",
                 "chest_opened_img":"images/poe_gray.png",
@@ -3064,7 +3061,7 @@
                 "name": "(15) Room 44 Poe",
                 "item_count": 1,
                 "access_rules": [
-                  "spinner,ballandchain,dominion,clawshot_double,wolf"
+                  "$darknut,bow,spinner,ballandchain,dominion,clawshot_double,wolf"
                 ],
                 "chest_unopened_img": "images/poe.png",
                 "chest_opened_img":"images/poe_gray.png",
@@ -3076,7 +3073,7 @@
                 "name": "(15) Floor 50 Reward",
                 "item_count": 1,
                 "access_rules": [
-                  "spinner,ballandchain,dominion,clawshot_double,wolf"
+                  "$aeralfos,$darknut,bow,spinner,ballandchain,dominion,clawshot_double,wolf"
                 ],
                 "visibility_rules": [
                   "op_shop"
@@ -3235,7 +3232,7 @@
                 "chest_opened_img": "images/hp_gray.png"
               },
               {
-                "name": "(9) Chest Near Campsite",
+                "name": "(9) Campsite Corner Chest",
                 "item_count": 1
               },
               {

@@ -194,14 +194,14 @@
       {
         "name": "(3) Dangoro",
         "access_rules": [
-          "minessk:3"
+          "minessk:3,$dangoro"
         ],
         "item_count": 1
       },
       {
         "name": "(4) Compass Chest",
         "access_rules": [
-          "minessk:3,bow"
+          "minessk:3,bow,$dangoro"
         ],
         "visibility_rules": [
           "op_dung"
@@ -211,7 +211,7 @@
       {
         "name": "(4) Elder3",
         "access_rules": [
-          "minessk:3,bow"
+          "minessk:3,bow,$dangoro"
         ],
         "visibility_rules": [
           "op_dung"
@@ -223,7 +223,7 @@
       {
         "name": "(4) Elder3",
         "access_rules": [
-          "minessk:3,bow"
+          "minessk:3,bow,$dangoro"
         ],
         "visibility_rules": [
           "op_dung_off"
@@ -233,21 +233,21 @@
       {
         "name": "(4) Elder3 Room",
         "access_rules": [
-          "minessk:3,bow"
+          "minessk:3,bow,$dangoro"
         ],
         "item_count": 1
       },
       {
         "name": "(4) Last Chest",
         "access_rules": [
-          "minessk:3,bow"
+          "minessk:3,bow,$dangoro"
         ],
         "item_count": 1
       },
       {
         "name": "(4) Fyrus HC",
         "access_rules": [
-          "minessk:2,bow,mines_boss_key:3"
+          "minessk:2,bow,mines_boss_key:3,$fyrus"
         ],
         "chest_unopened_img": "images/hc.png",
         "chest_opened_img": "images/hc_gray.png",

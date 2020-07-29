@@ -78,7 +78,7 @@
       {
         "name": "(15) West Sol",
         "access_rules": [
-          "clawshot,palacesk:2,[palacesk:7]"
+          "clawshot,palacesk:2,[palacesk:7],$sword"
         ],
         "hosted_item": "westsol"
       },
@@ -154,7 +154,7 @@
       {
         "name": "(15) East Sol",
         "access_rules": [
-          "clawshot_double,palacesk:2,[palacesk:7]"
+          "clawshot_double,palacesk:2,[palacesk:7],$sword"
         ],
         "hosted_item": "eastsol"
       },

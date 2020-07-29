@@ -89,7 +89,7 @@
       {
         "name": "(14) Aeralfos",
         "access_rules": [
-          "ironboots,spinner,skysk:1,boomerang"
+          "ironboots,spinner,skysk:1,boomerang,$aeralfos"
         ],
         "item_count": 1
       },
@@ -206,7 +206,7 @@
       {
         "name": "(15) Argorok HC",
         "access_rules": [
-          "ironboots,spinner,clawshot_double,$has_explosives,sky_boss_key"
+          "ironboots,spinner,clawshot_double,$has_explosives,sky_boss_key,$argorok"
         ],
         "chest_unopened_img": "images/hc.png",
         "chest_opened_img": "images/hc_gray.png",

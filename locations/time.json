@@ -202,14 +202,14 @@
       {
         "name": "(12) Darknut",
         "access_rules": [
-          "spinner,$has_crystalrange,timesk:3"
+          "spinner,$has_crystalrange,timesk:3,$darknut"
         ],
         "item_count": 1
       },
       {
         "name": "(13) Armogohma HC",
         "access_rules": [
-          "spinner,$has_crystalrange,timesk:3,drod_off,time_boss_key"
+          "spinner,$has_crystalrange,timesk:3,drod_off,time_boss_key,$armogohma"
         ],
         "chest_unopened_img": "images/hc.png",
         "chest_opened_img": "images/hc_gray.png",

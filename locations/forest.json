@@ -92,8 +92,8 @@
       {
         "name": "(1) Miniboss: Ook",
         "access_rules": [
-          "boomerang,[forestsk:2]",
-          "forestsk:2"
+          "boomerang,[forestsk:2],$ook",
+          "forestsk:2,$ook"
         ],
         "chest_unopened_img": "images/galeboomerang.png",
         "chest_opened_img": "images/galeboomerang_gray.png",
@@ -173,7 +173,7 @@
       {
         "name": "(2) Diababa HC",
         "access_rules": [
-          "boomerang,forest_boss_key,[forestsk:4]"
+          "$diababa,forest_boss_key,[forestsk:4]"
         ],
         "chest_unopened_img": "images/hc.png",
         "chest_opened_img": "images/hc_gray.png",

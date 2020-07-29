@@ -36,7 +36,7 @@
       {
         "name": "(12) Armor Poe",
         "access_rules": [
-          "wolf,ballandchain,grounds"
+          "wolf,ballandchain"
         ],
         "chest_unopened_img": "images/poe.png",
         "chest_opened_img": "images/poe_gray.png",
@@ -150,8 +150,8 @@
       {
         "name": "(11) Darkhammer",
         "access_rules": [
-          "ballandchain",
-          "pumpkin,mansionsk:1,[mansionsk:4],$has_explosives"
+          "ballandchain,$darkhammer",
+          "pumpkin,mansionsk:1,[mansionsk:4],$has_explosives,$darkhammer"
         ],
         "chest_unopened_img": "images/ballandchain.png",
         "chest_opened_img": "images/ballandchain_gray.png",
@@ -160,7 +160,7 @@
       {
         "name": "(12) Goat Cheese Chest",
         "access_rules": [
-          "ballandchain"
+          "ballandchain,$darkhammer"
         ],
         "item_count": 1
       },

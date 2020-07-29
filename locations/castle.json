@@ -14,6 +14,9 @@
         "item_count": 1,
         "visibility_rules": [
           "op_key"
+        ],
+        "access_rules": [
+          "$dmg"
         ]
       },
       {
@@ -23,15 +26,24 @@
         "hosted_item": "castlesk",
         "visibility_rules": [
           "op_key_off"
+        ],
+        "access_rules": [
+          "$dmg"
         ]
       },
       {
         "name": "Chest behind KB",
-        "item_count": 1
+        "item_count": 1,
+        "access_rules": [
+          "$dmg"
+        ]
       },
       {
         "name": "Chest on Wall near KB",
-        "item_count": 1
+        "item_count": 1,
+        "access_rules": [
+          "$dmg"
+        ]
       },
       {
         "name": "East Courtyard Gate Chest",
@@ -39,28 +51,28 @@
           "op_dung"
         ],
         "access_rules": [
-          "boomerang"
+          "boomerang,$dmg"
         ],
         "item_count": 1
       },
       {
         "name": "East Courtyard Wall Chest",
         "access_rules": [
-          "boomerang"
+          "boomerang,$dmg"
         ],
         "item_count": 1
       },
       {
         "name": "Graveyard Lower Chests",
         "access_rules": [
-          "boomerang,wolf,$break_boulders"
+          "boomerang,wolf,$break_boulders,$dmg"
         ],
         "item_count": 3
       },
       {
         "name": "Graveyard Upper Chest",
         "access_rules": [
-          "boomerang,wolf,$break_boulders,lantern,dominion"
+          "boomerang,wolf,$break_boulders,lantern,dominion,$dmg"
         ],
         "visibility_rules": [
           "op_key"
@@ -70,7 +82,7 @@
       {
         "name": "Graveyard Upper Chest",
         "access_rules": [
-          "wolf,$break_boulders,lantern,dominion"
+          "wolf,$break_boulders,lantern,dominion,$dmg"
         ],
         "visibility_rules": [
           "op_key_off"
@@ -84,27 +96,27 @@
         ],
         "item_count": 1,
         "access_rules": [
-          "clawshot,castlesk:1"
+          "clawshot,castlesk:1,$dmg"
         ]
       },
       {
         "name": "Darknut Chest",
         "access_rules": [
-          "castlesk:1,clawshot_double,boomerang"
+          "castlesk:1,clawshot_double,boomerang,$darknut"
         ],
         "item_count": 1
       },
       {
         "name": "West Side Lobby Chests",
         "access_rules": [
-          "castlesk:1,clawshot_double,boomerang,bow"
+          "castlesk:1,clawshot_double,boomerang,bow,$darknut"
         ],
         "item_count": 2
       },
       {
         "name": "Castle Wall Chests",
         "access_rules":[
-          "castlesk:1,clawshot_double,boomerang"
+          "castlesk:1,clawshot_double,boomerang,$darknut,$aeralfos"
         ],
         "visibility_rules": [
           "op_dung, op_key"
@@ -114,47 +126,47 @@
       {
         "name": "Castle Wall Big Chest",
         "access_rules":[
-          "castlesk:1,clawshot_double"
+          "castlesk:1,clawshot_double,$darknut"
         ],
         "visibility_rules": [
-          "op_dung_off, op_key,boomerang"
+          "op_dung_off,op_key,boomerang"
         ],
         "item_count": 1
       },
       {
         "name": "Castle Wall Big Key",
         "access_rules":[
-          "castlesk:1,clawshot_double,boomerang"
+          "castlesk:1,clawshot_double,boomerang,$darknut"
         ],
         "visibility_rules": [
-          "op_dung_off, op_key"
+          "op_dung_off,op_key"
         ],
         "hosted_item": "castlebk"
       },
       {
         "name": "Castle Wall BK Chest",
         "access_rules":[
-          "castlesk:1,clawshot_double,boomerang"
+          "castlesk:1,clawshot_double,boomerang,$darknut"
         ],
         "visibility_rules": [
-          "op_key_off, op_dung"
+          "op_key_off,op_dung"
         ],
         "item_count": 1
       },
       {
         "name": "Castle Wall Key Chest",
         "access_rules":[
-          "castlesk:1,clawshot_double,boomerang"
+          "castlesk:1,clawshot_double,boomerang,$darknut,$aeralfos"
         ],
         "visibility_rules": [
-          "op_key_off, op_dung"
+          "op_key_off,op_dung"
         ],
         "hosted_item": "castlekey"
       },
       {
         "name": "Treasury",
         "access_rules": [
-          "castlesk:3,clawshot_double,spinner,wolf"
+          "castlesk:3,clawshot_double,spinner,wolf,$darknut"
         ],
         "item_count": 13
       },
@@ -162,7 +174,7 @@
         "name": "Throne Room",
         "hosted_item": "triforce",
         "access_rules": [
-          "castlesk:2,clawshot_double,spinner,wolf,castle_boss_key,boomerang"
+          "ms,skills:1,castlesk:2,clawshot_double,spinner,wolf,castle_boss_key,boomerang,$darknut"
         ]
       }
     ],
