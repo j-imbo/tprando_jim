@@ -472,7 +472,7 @@
               {
                 "name": "(13) HP Chest",
                 "access_rules": [
-                  "dominion"
+                  "drod_off"
                 ],
                 "item_count": 1
               },
@@ -485,7 +485,7 @@
                   "op_poe"
                 ],
                 "access_rules": [
-                  "wolf,dominion"
+                  "wolf,drod_off"
                 ]
               },
               {
@@ -1426,7 +1426,7 @@
                 "chest_opened_img": "images/armor_zora_gray.png",
                 "item_count": 1,
                 "access_rules": [
-                  "$lanayru,bow,boomerang"
+                  "$lanayru"
                 ]
               },
               {
@@ -1434,7 +1434,7 @@
                 "chest_unopened_img": "images/earring.png",
                 "chest_opened_img": "images/earring_gray.png",
                 "access_rules": [
-                  "$lanayru,bow,boomerang,sketch,$midlak"
+                  "$lanayru,sketch,$midlak"
                 ],
                 "item_count": 1
               },
