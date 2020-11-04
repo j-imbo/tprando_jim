@@ -52,17 +52,7 @@
         "name": "(1) Deku Like Key",
         "item_count": 1,
         "chest_opened_img": "images/smallkey_gray.png",
-        "chest_unopened_img": "images/smallkey.png",
-        "visibility_rules": [
-          "op_key"
-        ]
-      },
-      {
-        "name": "(1) Deku Like Key",
-        "hosted_item": "forestsk",
-        "visibility_rules": [
-          "op_key_off"
-        ]
+        "chest_unopened_img": "images/smallkey.png"
       },
       {
         "name": "(2) West Stairs HP",
@@ -77,17 +67,7 @@
       },
       {
         "name": "(1) West Totem",
-        "item_count": 1,
-        "visibility_rules": [
-          "op_key"
-        ]
-      },
-      {
-        "name": "(1) West Totem Key",
-        "hosted_item": "forestsk",
-        "visibility_rules": [
-          "op_key_off"
-        ]
+        "item_count": 1
       },
       {
         "name": "(1) Miniboss: Ook",
@@ -123,16 +103,6 @@
         "item_count": 1
       },
       {
-        "name": "(2) Boss Key Chest",
-        "access_rules": [
-          "boomerang"
-        ],
-        "visibility_rules": [
-          "op_dung_off"
-        ],
-        "hosted_item": "forestbk"
-      },
-      {
         "name": "(1) Monkey Totem Room",
         "item_count": 1,
         "access_rules": [
@@ -141,17 +111,7 @@
       },
       {
         "name": "(1) Bridge Chest",
-        "item_count": 1,
-        "visibility_rules": [
-          "op_key"
-        ]
-      },
-      {
-        "name": "(1) Bridge Key",
-        "hosted_item": "forestsk",
-        "visibility_rules": [
-          "op_key_off"
-        ]
+        "item_count": 1
       },
       {
         "name": "(2) Boulder Room",
@@ -165,10 +125,7 @@
         "access_rules": [
           "boomerang"
         ],
-        "item_count": 1,
-        "visibility_rules": [
-          "op_key"
-        ]
+        "item_count": 1
       },
       {
         "name": "(2) Diababa HC",

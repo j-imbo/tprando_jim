@@ -61,50 +61,14 @@
         "access_rules": [
           "$bomb_arrows"
         ],
-        "visibility_rules": [
-          "op_key"
-        ],
         "item_count": 1
-      },
-      {
-        "name": "(6) E. Stalactite",
-        "access_rules": [
-          "$bomb_arrows"
-        ],
-        "visibility_rules": [
-          "op_key_off"
-        ],
-        "hosted_item": "lakebedsk"
       },
       {
         "name": "(6) East Donut",
         "access_rules": [
           "$bomb_arrows,lakebedsk:1"
-        ],
-        "visibility_rules": [
-          "op_key"
         ],
         "item_count": 2
-      },
-      {
-        "name": "(6) East Donut",
-        "access_rules": [
-          "$bomb_arrows,lakebedsk:1"
-        ],
-        "visibility_rules": [
-          "op_key_off"
-        ],
-        "item_count": 1
-      },
-      {
-        "name": "(6) East Donut Key",
-        "access_rules": [
-          "$bomb_arrows,lakebedsk:1"
-        ],
-        "visibility_rules": [
-          "op_key_off"
-        ],
-        "hosted_item": "lakebedsk"
       },
       {
         "name": "(6) East Tower Small",
@@ -142,20 +106,7 @@
         "access_rules": [
           "eastflow"
         ],
-        "visibility_rules": [
-          "op_key"
-        ],
         "item_count": 1
-      },
-      {
-        "name": "(6) Quarter Circle",
-        "access_rules": [
-          "eastflow"
-        ],
-        "visibility_rules": [
-          "op_key_off"
-        ],
-        "hosted_item": "lakebedsk"
       },
       {
         "name": "(6) Pre-Toad Underwater",

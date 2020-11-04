@@ -59,20 +59,7 @@
         "access_rules": [
           "groundssk:1"
         ],
-        "visibility_rules": [
-          "op_key"
-        ],
         "item_count": 1
-      },
-      {
-        "name": "(9) Redead Knight 1",
-        "access_rules": [
-          "groundssk:1"
-        ],
-        "visibility_rules": [
-          "op_key_off"
-        ],
-        "hosted_item": "groundssk"
       },
       {
         "name": "(9) Second Poe",
@@ -96,20 +83,7 @@
         "access_rules": [
           "groundssk:2"
         ],
-        "visibility_rules": [
-          "op_key"
-        ],
         "item_count": 1
-      },
-      {
-        "name": "(9) Redead Knight 2",
-        "access_rules": [
-          "groundssk:2"
-        ],
-        "visibility_rules": [
-          "op_key_off"
-        ],
-        "hosted_item": "groundssk"
       },
       {
         "name": "(9) Third Poe",
@@ -123,20 +97,7 @@
         "access_rules": [
           "groundssk:3"
         ],
-        "visibility_rules": [
-          "op_key"
-        ],
         "item_count": 1
-      },
-      {
-        "name": "(9) Ghost Rats",
-        "access_rules": [
-          "groundssk:3"
-        ],
-        "visibility_rules": [
-          "op_key_off"
-        ],
-        "hosted_item": "groundssk"
       },
       {
         "name": "(9) Chandelier",
@@ -164,20 +125,7 @@
         "access_rules": [
           "$has_explosives,agp1,agp2,agp3,agp4,groundssk:4"
         ],
-        "visibility_rules": [
-          "op_key"
-        ],
         "item_count": 1
-      },
-      {
-        "name": "(9) Spinning Tower",
-        "access_rules": [
-          "$has_explosives,agp1,agp2,agp3,agp4,groundssk:4"
-        ],
-        "visibility_rules": [
-          "op_key_off"
-        ],
-        "hosted_item": "groundssk"
       },
 			{
 				"name": "(9) Ooccoo",

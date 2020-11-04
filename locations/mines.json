@@ -8,24 +8,7 @@
     "sections": [
       {
         "name": "(3) Entry Chests",
-        "item_count": 2,
-        "visibility_rules": [
-          "op_key"
-        ]
-      },
-      {
-        "name": "(3) Entry Chest",
-        "item_count": 1,
-        "visibility_rules": [
-          "op_key_off"
-        ]
-      },
-      {
-        "name": "(3) Entry Key",
-        "hosted_item": "minessk",
-        "visibility_rules": [
-          "op_key_off"
-        ]
+        "item_count": 2
       },
       {
         "name": "(3) Elder1",
@@ -93,60 +76,14 @@
         "access_rules": [
           "minessk:1"
         ],
-        "visibility_rules": [
-          "op_key"
-        ],
         "item_count": 3
-      },
-      {
-        "name": "(3) Gate Room",
-        "access_rules": [
-          "minessk:1"
-        ],
-        "visibility_rules": [
-          "op_key_off"
-        ],
-        "item_count": 2
-      },
-      {
-        "name": "(3) Gate Room Key",
-        "access_rules": [
-          "minessk:1"
-        ],
-        "visibility_rules": [
-          "op_key_off"
-        ],
-        "hosted_item": "minessk"
       },
       {
         "name": "(3) Long Water Room",
         "access_rules": [
           "minessk:2"
         ],
-        "visibility_rules": [
-          "op_key"
-        ],
         "item_count": 2
-      },
-      {
-        "name": "(3) Underwater Chest",
-        "access_rules": [
-          "minessk:2"
-        ],
-        "visibility_rules": [
-          "op_key_off"
-        ],
-        "item_count": 1
-      },
-      {
-        "name": "(3) Beamos Key",
-        "access_rules": [
-          "minessk:2"
-        ],
-        "visibility_rules": [
-          "op_key_off"
-        ],
-        "hosted_item": "minessk"
       },
       {
         "name": "(7) Clawshot Chest",

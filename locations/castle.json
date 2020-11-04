@@ -12,21 +12,6 @@
         "chest_unopened_img": "images/smallkey.png",
         "chest_opened_img": "images/smallkey_gray.png",
         "item_count": 1,
-        "visibility_rules": [
-          "op_key"
-        ],
-        "access_rules": [
-          "$dmg"
-        ]
-      },
-      {
-        "name": "King Bulblin",
-        "chest_unopened_img": "images/smallkey.png",
-        "chest_opened_img": "images/smallkey_gray.png",
-        "hosted_item": "castlesk",
-        "visibility_rules": [
-          "op_key_off"
-        ],
         "access_rules": [
           "$dmg"
         ]
@@ -74,20 +59,7 @@
         "access_rules": [
           "boomerang,wolf,$break_boulders,lantern,dominion,$dmg"
         ],
-        "visibility_rules": [
-          "op_key"
-        ],
         "item_count": 1
-      },
-      {
-        "name": "Graveyard Upper Chest",
-        "access_rules": [
-          "wolf,$break_boulders,lantern,dominion,$dmg"
-        ],
-        "visibility_rules": [
-          "op_key_off"
-        ],
-        "hosted_item": "castlesk"
       },
       {
         "name": "Foyer Compass Chest",
@@ -119,17 +91,17 @@
           "castlesk:1,clawshot_double,boomerang,$darknut,$aeralfos"
         ],
         "visibility_rules": [
-          "op_dung, op_key"
+          "op_dung"
         ],
         "item_count": 2
       },
       {
-        "name": "Castle Wall Big Chest",
+        "name": "Castle Wall Chest",
         "access_rules":[
           "castlesk:1,clawshot_double,$darknut"
         ],
         "visibility_rules": [
-          "op_dung_off,op_key,boomerang"
+          "op_dung_off"
         ],
         "item_count": 1
       },
@@ -139,29 +111,9 @@
           "castlesk:1,clawshot_double,boomerang,$darknut"
         ],
         "visibility_rules": [
-          "op_dung_off,op_key"
+          "op_dung_off"
         ],
         "hosted_item": "castlebk"
-      },
-      {
-        "name": "Castle Wall BK Chest",
-        "access_rules":[
-          "castlesk:1,clawshot_double,boomerang,$darknut"
-        ],
-        "visibility_rules": [
-          "op_key_off,op_dung"
-        ],
-        "item_count": 1
-      },
-      {
-        "name": "Castle Wall Key Chest",
-        "access_rules":[
-          "castlesk:1,clawshot_double,boomerang,$darknut,$aeralfos"
-        ],
-        "visibility_rules": [
-          "op_key_off,op_dung"
-        ],
-        "hosted_item": "castlekey"
       },
       {
         "name": "Treasury",

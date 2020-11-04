@@ -72,19 +72,6 @@
         "item_count": 1,
         "access_rules": [
           "wolf"
-        ],
-        "visibility_rules": [
-          "op_key"
-        ]
-      },
-      {
-        "name": "(11) East Courtyard Snow",
-        "hosted_item": "mansionsk",
-        "access_rules": [
-          "wolf"
-        ],
-        "visibility_rules": [
-          "op_key_off"
         ]
       },
       {
@@ -100,21 +87,7 @@
           "pumpkin,wolf",
           "ballandchain,wolf"
         ],
-        "visibility_rules": [
-          "op_key"
-        ],
         "item_count": 1
-      },
-      {
-        "name": "(11) West Courtyard",
-        "access_rules": [
-          "pumpkin,wolf",
-          "ballandchain,wolf"
-        ],
-        "visibility_rules": [
-          "op_key_off"
-        ],
-        "hosted_item": "mansionsk"
       },
       {
         "name": "(11) Storage Corner",
@@ -176,20 +149,7 @@
         "access_rules": [
           "pumpkin,cheese,ballandchain"
         ],
-        "visibility_rules": [
-          "op_key"
-        ],
         "item_count": 1
-      },
-      {
-        "name": "(12) Rafter Room",
-        "access_rules": [
-          "pumpkin,cheese,ballandchain"
-        ],
-        "visibility_rules": [
-          "op_key_off"
-        ],
-        "hosted_item": "mansionsk"
       },
       {
         "name": "(12) Entry HP",
@@ -215,20 +175,7 @@
         "access_rules": [
           "pumpkin,cheese,ballandchain,mansionsk:1,[mansionsk:3],clawshot"
         ],
-        "visibility_rules": [
-          "op_key"
-        ],
         "item_count": 1
-      },
-      {
-        "name": "(12) Above Pumpkin",
-        "access_rules": [
-          "pumpkin,cheese,ballandchain,mansionsk:1,[mansionsk:3],clawshot"
-        ],
-        "visibility_rules": [
-          "op_key_off"
-        ],
-        "hosted_item": "mansionsk"
       },
       {
         "name": "(12) Bedroom Key Chest",

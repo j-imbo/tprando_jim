@@ -21,20 +21,7 @@
         "access_rules": [
           "lantern"
         ],
-        "visibility_rules": [
-          "op_key"
-        ],
         "item_count": 1
-      },
-      {
-        "name": "(12) Entry",
-        "access_rules": [
-          "lantern"
-        ],
-        "visibility_rules": [
-          "op_key_off"
-        ],
-        "hosted_item": "timesk"
       },
       {
         "name": "(12) Climb1 PreGate",
@@ -67,30 +54,7 @@
         "access_rules": [
           "timesk:1,$has_breakrange,spinner"
         ],
-        "visibility_rules": [
-          "op_key"
-        ],
         "item_count": 2
-      },
-      {
-        "name": "(12) Armos Room",
-        "access_rules": [
-          "timesk:1,$has_breakrange,spinner"
-        ],
-        "visibility_rules": [
-          "op_key_off"
-        ],
-        "item_count": 1
-      },
-      {
-        "name": "(12) Armos Room Key",
-        "access_rules": [
-          "timesk:1,$has_breakrange,spinner"
-        ],
-        "visibility_rules": [
-          "op_key_off"
-        ],
-        "hosted_item": "timesk"
       },
       {
         "name": "(13) Armos Room HP",
@@ -177,20 +141,7 @@
         "access_rules": [
           "spinner,timesk:2,$has_crystalrange"
         ],
-        "visibility_rules": [
-          "op_key"
-        ],
         "item_count": 1
-      },
-      {
-        "name": "(12) Gauntlet Key",
-        "access_rules": [
-          "spinner,timesk:2,$has_crystalrange"
-        ],
-        "visibility_rules": [
-          "op_key_off"
-        ],
-        "hosted_item": "timesk"
       },
       {
         "name": "(12) Baby Horde",

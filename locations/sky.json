@@ -53,16 +53,6 @@
         "chest_opened_img": "images/ooccoo_gray.png"
       },
       {
-        "name": "(15) West Wing Key",
-        "access_rules": [
-          "ironboots,spinner,[clawshot_double]"
-        ],
-        "visibility_rules": [
-          "op_key_off"
-        ],
-        "hosted_item": "skysk"
-      },
-      {
         "name": "(14) Map Chest",
         "access_rules": [
           "ironboots,spinner,skysk:1"
@@ -108,9 +98,6 @@
         "name": "(15) West Wing Key Chest",
         "access_rules": [
           "ironboots,spinner,[clawshot_double]"
-        ],
-        "visibility_rules": [
-          "op_key"
         ],
         "item_count": 1
       },
