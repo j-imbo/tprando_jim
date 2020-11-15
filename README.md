@@ -2,7 +2,7 @@
 ## made by j_im
 An EmoTracker tracker package for Twilight Princess Randomizer
 
-Download EmoTracker [here](emotracker.net)
+Download EmoTracker [here](https://emotracker.net)
 
 Usage: put zip or folder into ../EmoTracker/packs
 
