@@ -1,0 +1,132 @@
+{
+  "item_grid_wide": {
+    "type": "array",
+    "orientation": "vertical",
+    "content": [
+      {
+        "type": "itemgrid",
+        "h_alignment": "left",
+        "item_margin": "1,2",
+        "rows": [
+          [
+            "wsword",
+            "sc",
+            "lantern",
+            "prod",
+            "boomerang",
+            "bow",
+            "slingshot",
+            "clawshot",
+            "skybook"
+          ],
+          [
+            "shields",
+            "bombs",
+            "spinner",
+            "ballandchain",
+            "dominion",
+            "memo",
+            "sketch",
+            "letterstatue",
+            "invoicecharm"
+          ]
+        ]
+      },
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,-4,0,-4",
+        "content": [
+          {
+            "type": "itemgrid",
+            "h_alignment": "left",
+            "item_margin": "1,2",
+            "rows": [
+              [
+                "zarmor",
+                "marmor",
+                "ironboots",
+                "bottle",
+                "hiddenskills",
+                "poes",
+                "bugs"
+              ]
+            ]
+          },
+          {
+            "type": "array",
+            "orientation": "vertical",
+            "margin": "-2,0",
+            "content": [
+              {
+                "type": "itemgrid",
+                "rows": [
+                  ["gate_label"]
+                ],
+                "item_size": 32,
+                "margin": "-2,2,-2,-12"
+              },
+              {
+                "type": "itemgrid",
+                "rows": [
+                  ["gatekeys"]
+                ],
+                "item_size": 16,
+                "margin": "2,-14,-2,-2"
+              }
+            ]
+          },
+          {
+            "type": "array",
+            "orientation": "vertical",
+            "margin": "-2,0",
+            "content": [
+              {
+                "type": "itemgrid",
+                "rows": [
+                  ["desert_label"]
+                ],
+                "item_size": 32,
+                "margin": "-2,2,-2,-12"
+              },
+              {
+                "type": "itemgrid",
+                "rows": [
+                  ["desert_key"]
+                ],
+                "item_size": 16,
+                "margin": "2,-14,-2,-2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "layout",
+        "key": "dungeon_grid_wide"
+      }
+    ]
+  },
+  "settings_popup": {
+    "type": "array",
+    "orientation": "vertical",
+    "content": [
+      {
+        "type": "group",
+        "header": "Settings",
+        "content": [
+          {
+            "type": "itemgrid",
+            "h_alignment": "center",
+            "item_margin": "5",
+            "rows": [
+              [ "op_bug", "op_poe", "op_npc", "op_sky", "op_shop", "op_skill" ],
+              [ "op_gm", "op_lkbd", "op_grnds", "op_ruins", "op_grove", "op_cannon" ],
+              [ "", "op_fw", "op_mdh", "op_pot", "op_hc", "" ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -3,191 +3,125 @@
     "name": "Goron Mines",
     "parent": "Death Mountain",
     "access_rules": [
-      "ironboots,$eldin"
+      "ib,$goron"
     ],
     "sections": [
       {
-        "name": "(3) Entry Chests",
-        "item_count": 2
-      },
-      {
-        "name": "(3) Elder1",
-        "item_count": 1,
+        "name": "Entrance Chest",
         "access_rules": [
-          "minessk:1"
-        ],
-        "visibility_rules": [
-          "op_dung"
-        ],
-        "chest_unopened_img": "images/mineskey1.png",
-        "chest_opened_img": "images/mineskey1_gray.png"
-      },
-      {
-        "name": "(3) Elder1",
-        "access_rules": [
-          "minessk:1"
-        ],
-        "visibility_rules": [
-          "op_dung_off"
-        ],
-        "hosted_item": "minesbk"
-      },
-      {
-        "name": "(3) Elder1 Room",
-        "access_rules": [
-          "minessk:1"
-        ],
-        "visibility_rules": [
-          "op_dung"
-        ],
-        "item_count": 2
-      },
-      {
-        "name": "(3) Elder1 Room",
-        "access_rules": [
-          "minessk:1"
-        ],
-        "item_count": 1,
-        "visibility_rules": [
-          "op_dung_off"
-        ]
-      },
-      {
-				"name": "(3) Ooccoo",
-				"item_count": 1,
-				"visibility_rules": [
-					"op_dung"
-        ],
-        "access_rules": [
-          "minessk:1"
-        ],
-				"chest_unopened_img": "images/ooccoo.png",
-        "chest_opened_img": "images/ooccoo_gray.png"
-			},
-      {
-        "name": "(3) Magnet Maze HP",
-        "access_rules": [
-          "minessk:1"
+          "$minesswitch,$woodendoor"
         ],
         "item_count": 1
       },
       {
-        "name": "(3) Gate Room",
+        "name": "Magnet Room Bottom",
         "access_rules": [
-          "minessk:1"
+          "ib,$woodendoor"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Magnet Maze",
+        "access_rules": [
+          "ib,$woodendoor,minessk:1"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Gor Amato's Room",
+        "access_rules": [
+          "ib,$woodendoor,minessk:1"
         ],
         "item_count": 3
       },
       {
-        "name": "(3) Long Water Room",
+        "name": "Crystal Switch Room",
         "access_rules": [
-          "minessk:2"
+          "ib,$woodendoor,minessk:1"
         ],
         "item_count": 2
       },
       {
-        "name": "(7) Clawshot Chest",
+        "name": "Magnet Wall",
         "access_rules": [
-          "minessk:2,clawshot"
+          "ib,$woodendoor,minessk:1"
         ],
         "item_count": 1
       },
       {
-        "name": "(3) Elder2",
+        "name": "Outside Beamos",
         "access_rules": [
-          "minessk:3"
-        ],
-        "visibility_rules": [
-          "op_dung"
-        ],
-        "chest_unopened_img": "images/mineskey2.png",
-        "chest_opened_img": "images/mineskey2_gray.png",
-        "item_count": 1
-      },
-      {
-        "name": "(3) Elder2",
-        "access_rules": [
-          "minessk:3"
-        ],
-        "visibility_rules": [
-          "op_dung_off"
-        ],
-        "hosted_item": "minesbk"
-      },
-      {
-        "name": "(3) Elder2 Room",
-        "access_rules": [
-          "minessk:3"
+          "ib,$woodendoor,minessk:2,sword",
+          "ib,$woodendoor,minessk:2,bow"
         ],
         "item_count": 1
       },
       {
-        "name": "(3) Chest Before Dangoro",
+        "name": "Outside Underwater",
         "access_rules": [
-          "minessk:3"
+          "ib,$woodendoor,minessk:2,sword"
         ],
         "item_count": 1
       },
       {
-        "name": "(3) Dangoro",
+        "name": "Outside Clawshot",
         "access_rules": [
-          "minessk:3,$dangoro"
+          "ib,$woodendoor,minessk:2,sword,cs,sling",
+          "ib,$woodendoor,minessk:2,bow,cs"
         ],
         "item_count": 1
       },
       {
-        "name": "(4) Compass Chest",
+        "name": "Gor Ebizo's Room",
         "access_rules": [
-          "minessk:3,bow,$dangoro"
+          "ib,$woodendoor,minessk:3,sword",
+          "ib,$woodendoor,minessk:3,bow"
         ],
-        "visibility_rules": [
-          "op_dung"
+        "item_count": 2
+      },
+      {
+        "name": "Before Dangoro",
+        "access_rules": [
+          "ib,$woodendoor,minessk:3,sword",
+          "ib,$woodendoor,minessk:3,bow"
         ],
         "item_count": 1
       },
       {
-        "name": "(4) Elder3",
+        "name": "Dangoro's Chest",
         "access_rules": [
-          "minessk:3,bow,$dangoro"
-        ],
-        "visibility_rules": [
-          "op_dung"
-        ],
-        "chest_unopened_img": "images/mineskey3.png",
-        "chest_opened_img": "images/mineskey3_gray.png",
-        "item_count": 1
-      },
-      {
-        "name": "(4) Elder3",
-        "access_rules": [
-          "minessk:3,bow,$dangoro"
-        ],
-        "visibility_rules": [
-          "op_dung_off"
-        ],
-        "hosted_item": "minesbk"
-      },
-      {
-        "name": "(4) Elder3 Room",
-        "access_rules": [
-          "minessk:3,bow,$dangoro"
+          "ib,$woodendoor,minessk:3,sword,$dangoro",
+          "ib,$woodendoor,minessk:3,bow,$dangoro"
         ],
         "item_count": 1
       },
       {
-        "name": "(4) Last Chest",
+        "name": "Beamos Room",
         "access_rules": [
-          "minessk:3,bow,$dangoro"
+          "ib,$woodendoor,minessk:3,bow,$dangoro"
         ],
         "item_count": 1
       },
       {
-        "name": "(4) Fyrus HC",
+        "name": "Gor Liggs' Room",
         "access_rules": [
-          "minessk:2,bow,mines_boss_key:3,$fyrus"
+          "ib,$woodendoor,minessk:3,bow,$dangoro"
         ],
-        "chest_unopened_img": "images/hc.png",
-        "chest_opened_img": "images/hc_gray.png",
+        "item_count": 2
+      },
+      {
+        "name": "Magnet Room Top",
+        "access_rules": [
+          "ib,$woodendoor,bow,$dangoro,minessk:3"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Fyrus",
+        "access_rules": [
+          "ib,$woodendoor,minessk:2,sword,minesbk:3,bow,$bulblin,$fyrus",
+          "ib,$woodendoor,minessk:2,bow,minesbk:3,bow,$bulblin,$fyrus"
+        ],
         "item_count": 1
       }
     ],

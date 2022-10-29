@@ -5,18 +5,12 @@
     "stages":[
       {
         "img":"images/sword_wooden.png",
-        "codes":"sword0,woodensword,wsword"
+        "codes":"sword0,woodensword,wsword,ws,sword,swords"
       },
       {
       "img": "images/sword_ordon.png",
-      "codes": "sword1,ordonsword,osword"
-      }
-    ]
-  },
-  {
-    "name": "Master Sword",
-    "type": "progressive",
-    "stages": [
+      "codes": "sword1,ordonsword,osword,os"
+      },
       {
         "img": "images/sword_master.png",
         "codes": "ms,mastersword"
@@ -51,6 +45,23 @@
     "type": "toggle",
     "img": "images/shield_hylian.png",
     "codes": "shield2,hylianshield,hshield"
+  },
+  {
+    "name": "Shields",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/shield_wooden.png",
+        "codes": "shield1,woodenshield,wshield,shields"
+      },
+      {
+        "img": "images/shield_ordon.png"
+      },
+      {
+        "img": "images/shield_hylian.png",
+        "codes": "shield2,hylianshield,hshield"
+      }
+    ]
   },
   {
     "name": "Hero's Clothes",

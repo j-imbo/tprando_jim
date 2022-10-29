@@ -1,0 +1,80 @@
+{
+  "dungeon_grid_wide": {
+    "type": "array",
+    "orientation": "vertical",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "-2,0,-2,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "item_margin": "1,2",
+            "dock": "left",
+            "rows": [
+              [
+                "forest",
+                "mines",
+                "lakebed",
+                "grounds",
+                "mansion",
+                "time",
+                "sky",
+                "palace",
+                "triforce"
+              ],
+              [
+                "forest_label",
+                "mines_label",
+                "lakebed_label",
+                "grounds_label",
+                "mansion_label",
+                "time_label",
+                "sky_label",
+                "palace_label",
+                "castle_label"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "-2,-24,-2,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "dock": "left",
+            "item_margin": "1,2",
+            "rows": [
+              [
+                "forestsk",
+                "minessk",
+                "lakebedsk",
+                "groundssk",
+                "mansionsk",
+                "timesk",
+                "skysk",
+                "palacesk",
+                "castlesk"
+              ],
+              [
+                "forestbk",
+                "minesbk",
+                "lakebedbk",
+                "groundsbk",
+                "mansionbk",
+                "timebk",
+                "skybk",
+                "palacebk",
+                "castlebk"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

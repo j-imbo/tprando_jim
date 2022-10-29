@@ -3,167 +3,146 @@
     "name": "Temple of Time",
     "parent": "Outside Temple of Time",
     "access_rules": [
-      "wolf,woods_key:1,op_eg2",
-      "wolf,woods_key:1,ms,mansion"
+      "sc,ms,$skullkid,$shadowbeast"
     ],
     "sections": [
       {
-				"name": "(12) Ooccoo",
-				"item_count": 1,
-				"visibility_rules": [
-					"op_dung"
-        ],
-				"chest_unopened_img": "images/ooccoo.png",
-        "chest_opened_img": "images/ooccoo_gray.png"
-			},
-      {
-        "name": "(12) Entry",
+        "name": "Lobby Lantern Chest",
         "access_rules": [
           "lantern"
         ],
         "item_count": 1
       },
       {
-        "name": "(12) Climb1 PreGate",
+        "name": "First Stairs Gohma Gate",
         "access_rules": [
-          "timesk:1"
+          "timesk:1,$younggohma"
         ],
         "item_count": 1
       },
       {
-        "name": "(12) Climb1 PostGate",
+        "name": "First Stairs Window",
         "access_rules": [
-          "timesk:1,$has_breakrange"
+          "timesk:1,$ranged"
         ],
-        "item_count": 2
+        "item_count": 1
       },
       {
-        "name": "(13) Gated Poe",
+        "name": "First Stairs Armos",
         "access_rules": [
-          "timesk:1,drod_off,wolf"
+          "timesk:1,$armos,$ranged"
         ],
-        "chest_unopened_img": "images/poe.png",
-        "chest_opened_img": "images/poe_gray.png",
+        "item_count": 1
+      },
+      {
+        "name": "Poe Behind Gate",
+        "access_rules": [
+          "timesk:1,$ranged,$younggohma,$lizalfos,drod_off"
+        ],
         "item_count": 1,
         "visibility_rules": [
           "op_poe"
         ]
       },
       {
-        "name": "(12) Armos Room",
+        "name": "Armos Antechamber East",
         "access_rules": [
-          "timesk:1,$has_breakrange,spinner"
-        ],
-        "item_count": 2
-      },
-      {
-        "name": "(13) Armos Room HP",
-        "access_rules": [
-          "timesk:1,$has_breakrange,spinner,drod_off"
+          "timesk:1,$ranged,$younggohma,$lizalfos,spinner,$armos"
         ],
         "item_count": 1
       },
       {
-        "name": "(12) Compass",
+        "name": "Armos Antechamber North",
         "access_rules": [
-          "spinner,timesk:2,$has_crystalrange"
-        ],
-        "visibility_rules": [
-          "op_dung"
+          "timesk:1,$ranged,$younggohma,$lizalfos,spinner"
         ],
         "item_count": 1
       },
       {
-        "name": "(13) Laser Fence",
+        "name": "Armos Antechamber Statue",
         "access_rules": [
-          "spinner,timesk:2,$has_crystalrange,drod_off"
+          "timesk:1,$ranged,$younggohma,$lizalfos,spinner,drod_off"
         ],
         "item_count": 1
       },
       {
-        "name": "(12) Scales Horde",
+        "name": "Moving Wall Beamos Room",
         "access_rules": [
-          "spinner,timesk:2,$has_crystalrange"
+          "timesk:2,$ranged,$younggohma,$lizalfos,spinner,bow"
         ],
         "item_count": 1
       },
       {
-        "name": "(13) Scales Ledge",
+        "name": "Moving Wall Dinalfos Room",
         "access_rules": [
-          "spinner,timesk:2,drod_off,clawshot"
+          "timesk:2,$ranged,$younggohma,$lizalfos,spinner,$dinalfos,drod_off"
         ],
         "item_count": 1
       },
       {
-        "name": "(13) Scales Poe",
+        "name": "Scales Gohma",
         "access_rules": [
-          "spinner,timesk:2,drod_off,clawshot,wolf"
+          "timesk:2,$ranged,$younggohma,$lizalfos,spinner,$dinalfos,bow,$lizalfos,$gohma"
         ],
-        "chest_unopened_img": "images/poe.png",
-        "chest_opened_img": "images/poe_gray.png",
+        "item_count": 1
+      },
+      {
+        "name": "Scales Upper Chest",
+        "access_rules": [
+          "timesk:2,$ranged,$younggohma,$lizalfos,spinner,$dinalfos,bow,$lizalfos,cs"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Poe Above Scales",
+        "access_rules": [
+          "timesk:2,$ranged,$younggohma,$lizalfos,spinner,$dinalfos,bow,$lizalfos,sc"
+        ],
         "item_count": 1,
         "visibility_rules": [
           "op_poe"
         ]
       },
       {
-        "name": "(13) Back Room",
+        "name": "Big Key Chest",
         "access_rules": [
-          "spinner,timesk:2,drod_off,clawshot"
-        ],
-        "visibility_rules": [
-          "op_dung"
-        ],
-        "item_count": 2
-      },
-      {
-        "name": "(13) Back Room",
-        "access_rules": [
-          "spinner,timesk:2,drod_off,clawshot"
-        ],
-        "visibility_rules": [
-          "op_dung_off"
+          "timesk:2,$ranged,$younggohma,$lizalfos,spinner,$dinalfos,bow,$lizalfos,cs"
         ],
         "item_count": 1
       },
       {
-        "name": "(13) Back Room Big Key",
+        "name": "Floor Switch Puzzle Room Upper Chest",
         "access_rules": [
-          "spinner,timesk:2,drod_off,clawshot"
-        ],
-        "visibility_rules": [
-          "op_dung_off"
-        ],
-        "hosted_item": "timebk"
-      },
-      {
-        "name": "(12) Gauntlet",
-        "access_rules": [
-          "spinner,timesk:2,$has_crystalrange"
+          "timesk:2,$ranged,$younggohma,$lizalfos,spinner,$dinalfos,bow,$lizalfos,cs,$helmasaur"
         ],
         "item_count": 1
       },
       {
-        "name": "(12) Baby Horde",
+        "name": "Gilloutine Chest",
         "access_rules": [
-          "spinner,timesk:2,$has_crystalrange"
+          "timesk:2,$ranged,$younggohma,$lizalfos,spinner,$dinalfos,bow,$lizalfos"
         ],
         "item_count": 1
       },
       {
-        "name": "(12) Darknut",
+        "name": "Chest Before Darknut",
         "access_rules": [
-          "spinner,$has_crystalrange,timesk:3,$darknut"
+          "timesk:2,$ranged,$younggohma,$lizalfos,spinner,$dinalfos,bow,$lizalfos,$armos,$gohma"
         ],
         "item_count": 1
       },
       {
-        "name": "(13) Armogohma HC",
+        "name": "Darknut",
         "access_rules": [
-          "spinner,$has_crystalrange,timesk:3,drod_off,time_boss_key,$armogohma"
+          "timesk:3,$ranged,$younggohma,$lizalfos,spinner,$dinalfos,bow,$lizalfos,$gohma,$armos,$darknut"
         ],
-        "chest_unopened_img": "images/hc.png",
-        "chest_opened_img": "images/hc_gray.png",
+        "item_count": 1
+      },
+      {
+        "name": "Crumbling Corridor",
+        "access_rules": [
+          "drod_off,bow,spinner,$lizalfos,$dinalfos,$darknut,timesk:3,timebk,$armogohma"
+        ],
         "item_count": 1
       }
     ],

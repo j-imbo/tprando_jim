@@ -3,201 +3,138 @@
     "name": "City in the Sky",
     "parent": "Lake Hylia",
     "access_rules": [
-      "$skycannon,clawshot,$lanayru"
+      "cs,$skycannon"
     ],
     "sections": [
       {
-        "name": "(14) Entrance Pool",
+        "name": "Entry Pool",
         "access_rules": [
-          "ironboots"
+          "ib"
         ],
         "item_count": 2
       },
       {
-        "name": "(14) Shop Red Potion",
+        "name": "East Fans",
         "access_rules": [
-          "$bottleshop"
-        ],
-        "item_count": 1,
-        "visibility_rules": [
-          "op_shop"
-        ]
-      },
-      {
-        "name": "(14) Shop Blue Potion",
-        "access_rules": [
-          "$bottleshop"
-        ],
-        "item_count": 1,
-        "visibility_rules": [
-          "op_shop"
-        ]
-      },
-      {
-        "name": "(14) Shop Lantern Oil",
-        "access_rules": [
-          "lantern"
-        ],
-        "item_count": 1,
-        "visibility_rules": [
-          "op_shop"
-        ]
-      },
-      {
-				"name": "(14) Ooccoo",
-				"item_count": 1,
-				"visibility_rules": [
-					"op_dung"
-        ],
-				"chest_unopened_img": "images/ooccoo.png",
-        "chest_opened_img": "images/ooccoo_gray.png"
-      },
-      {
-        "name": "(14) Map Chest",
-        "access_rules": [
-          "ironboots,spinner,skysk:1"
-        ],
-        "visibility_rules": [
-          "op_dung"
+          "spinner,skysk:1"
         ],
         "item_count": 1
       },
       {
-        "name": "(14) East Tile",
+        "name": "East Lower Level",
         "access_rules": [
-          "ironboots,spinner,skysk:1"
+          "spinner,skysk:1,dcs"
         ],
         "item_count": 1
       },
       {
-        "name": "(14) East Post-Dynalfos",
+        "name": "East Tileworm",
         "access_rules": [
-          "ironboots,spinner,skysk:1,boomerang"
-        ],
-        "item_count": 2
-      },
-      {
-        "name": "(14) Aeralfos",
-        "access_rules": [
-          "ironboots,spinner,skysk:1,boomerang,$aeralfos"
+          "spinner,skysk:1"
         ],
         "item_count": 1
       },
       {
-        "name": "(15) Compass",
+        "name": "East Dinalfos Alcove",
         "access_rules": [
-          "ironboots,spinner,skysk:1,boomerang,clawshot_double"
-        ],
-        "visibility_rules": [
-          "op_dung"
-        ],
-        "item_count": 1
-      },
-      
-      {
-        "name": "(15) West Wing Key Chest",
-        "access_rules": [
-          "ironboots,spinner,[clawshot_double]"
+          "spinner,skysk:1,$tileworm,$dinalfos"
         ],
         "item_count": 1
       },
       {
-        "name": "(15) West Maze",
+        "name": "East Dinalfos Ledge",
         "access_rules": [
-          "ironboots,spinner,clawshot_double"
+          "spinner,skysk:1,$tileworm,$dinalfos"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Aeralfos",
+        "access_rules": [
+          "spinner,skysk:1,ib,$dinalfos,$aeralfos"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "West First",
+        "access_rules": [
+          "dcs"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "West Baba Tower",
+        "access_rules": [
+          "dcs"
         ],
         "item_count": 3
       },
       {
-        "name": "(15) West Tower",
+        "name": "West Skygarden",
         "access_rules": [
-          "ironboots,spinner,clawshot_double,$has_explosives"
-        ],
-        "item_count": 3
-      },
-      {
-        "name": "(15) West Gardens",
-        "access_rules": [
-          "ironboots,spinner,clawshot_double,$has_explosives"
+          "dcs"
         ],
         "item_count": 4
       },
       {
-        "name": "(15) West Gardens Poe",
+        "name": "Skygarden Poe",
         "access_rules": [
-          "ironboots,spinner,clawshot_double,$has_explosives,wolf"
+          "dcs,sc"
         ],
-        "chest_unopened_img": "images/poe.png",
-        "chest_opened_img": "images/poe_gray.png",
         "item_count": 1,
         "visibility_rules": [
           "op_poe"
         ]
       },
       {
-        "name": "(15) Central Lower Turret",
+        "name": "Central Outside Ledge",
         "access_rules": [
-          "ironboots,spinner,clawshot_double,$has_explosives"
-        ],
-        "visibility_rules": [
-          "op_dung"
+          "dcs,$dinalfos,$walltula,$kargarok,sc"
         ],
         "item_count": 1
       },
       {
-        "name": "(15) Central Exterior",
+        "name": "Poe Above Central Fan",
         "access_rules": [
-          "ironboots,spinner,clawshot_double,$has_explosives,wolf"
+          "dcs,$dinalfos,$walltula,$kargarok,sc"
         ],
-        "item_count": 2
-      },
-      {
-        "name": "(15) Central Poe",
-        "access_rules": [
-          "ironboots,spinner,clawshot_double,$has_explosives,wolf"
-        ],
-        "chest_unopened_img": "images/poe.png",
-        "chest_opened_img": "images/poe_gray.png",
         "item_count": 1,
         "visibility_rules": [
           "op_poe"
         ]
       },
       {
-        "name": "(15) BK Chest",
+        "name": "Poe Island Chest",
         "access_rules": [
-          "ironboots,spinner,clawshot_double,$has_explosives,wolf"
-        ],
-        "visibility_rules": [
-          "op_dung"
+          "dcs,$dinalfos,$walltula,$kargarok,sc"
         ],
         "item_count": 1
       },
       {
-        "name": "(15) BK Chest",
+        "name": "Big Key Chest",
         "access_rules": [
-          "ironboots,spinner,clawshot_double,$has_explosives,wolf"
-        ],
-        "visibility_rules": [
-          "op_dung_off"
-        ],
-        "hosted_item": "skybk"
-      },
-      {
-        "name": "(15) Rear Tower Fan",
-        "access_rules": [
-          "ironboots,spinner,clawshot_double,$has_explosives"
+          "dcs,$dinalfos,$walltula,$kargarok,sc,ib"
         ],
         "item_count": 1
       },
       {
-        "name": "(15) Argorok HC",
+        "name": "Below Big Key Chest",
         "access_rules": [
-          "ironboots,spinner,clawshot_double,$has_explosives,sky_boss_key,$argorok"
+          "dcs,$helmasaur"
         ],
-        "chest_unopened_img": "images/hc.png",
-        "chest_opened_img": "images/hc_gray.png",
         "item_count": 1
+      },
+      {
+        "name": "North Fan",
+        "access_rules": [
+          "dcs,$baba,kargarok,sc,ib"
+        ]
+      },
+      {
+        "name": "Argorok",
+        "access_rules": [
+          "dcs,$baba,kargarok,sc,ib,$aeralfos,skybk,$argorok"
+        ]
       }
     ],
     "map_locations": [

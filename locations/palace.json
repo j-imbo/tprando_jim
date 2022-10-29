@@ -3,132 +3,106 @@
     "name": "Palace of Twilight",
     "parent": "Arbiter's Grounds",
     "access_rules": [
-      "mirror:3,grounds",
-      "$palace,grounds"
+      "groundsk:4,lantern,$poe,sc,cs,$redead,$stalchild,$bubble,$ghoulrat,$stalfos,spinner,groundsbk,$stallord,$palace"
     ],
     "sections": [
       {
-        "name": "(15) West Head",
-        "item_count": 1
-      },
-      {
-        "name": "(FF) West HP",
+        "name": "Pedestal of Sols",
         "access_rules": [
-          "clawshot,sword_light"
+          "$phantomzant,cs,$zanthead,palacesk:4,$shadowbeast"
         ],
         "item_count": 1
       },
       {
-        "name": "(15) West Middle",
+        "name": "West First Central",
         "access_rules": [
-          "palacesk:1,[palacesk:6],clawshot"
+          "$zanthead"
         ],
-        "visibility_rules": [
-          "op_dung"
+        "item_count": 1
+      },
+      {
+        "name": "West Darkwall",
+        "access_rules": [
+          "ls,dcs"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "West Second Central",
+        "access_rules": [
+          "palacesk:1,$zanthead,cs"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "West Second Lower South",
+        "access_rules": [
+          "palacesk:1,$zanthead,cs"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "West Second Southeast",
+        "access_rules": [
+          "palacesk:1,$zanthead,dcs"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "East Wing First Room",
+        "access_rules": [
+          "$phantomzant,cs,$zanthead,palacesk:2"
         ],
         "item_count": 2
       },
       {
-        "name": "(15) West Middle",
+        "name": "East Wing Alcoves",
         "access_rules": [
-          "palacesk:1,[palacesk:6],clawshot"
-        ],
-        "visibility_rules": [
-          "op_dung_off"
-        ],
-        "item_count": 1
-      },
-      {
-        "name": "(15) West Baba",
-        "access_rules": [
-          "palacesk:1,[palacesk:6],clawshot_double"
-        ],
-        "item_count": 1
-      },
-      {
-        "name": "(15) West Sol",
-        "access_rules": [
-          "clawshot,palacesk:2,[palacesk:7],$sword"
-        ],
-        "hosted_item": "westsol"
-      },
-      {
-        "name": "(15) East Entry",
-        "item_count": 2
-      },
-      {
-        "name": "(FF) East Entry Upper",
-        "access_rules": [
-          "eastsol"
+          "$phantomzant,cs,$zanthead,palacesk:2,ls"
         ],
         "item_count": 2
       },
       {
-        "name": "(15) East Middle",
+        "name": "East Wing Second Room",
         "access_rules": [
-          "clawshot_double,palacesk:1,[palacesk:6]"
-        ],
-        "visibility_rules": [
-          "op_dung"
+          "$phantomzant,dcs,$zanthead,palacesk:3,$shadowbeast"
         ],
         "item_count": 4
       },
       {
-        "name": "(15) East Middle",
+        "name": "Central First Room",
         "access_rules": [
-          "clawshot_double,palacesk:1,[palacesk:6]"
-        ],
-        "visibility_rules": [
-          "op_dung_off"
-        ],
-        "item_count": 3
-      },
-      {
-        "name": "(15) East Sol",
-        "access_rules": [
-          "clawshot_double,palacesk:2,[palacesk:7],$sword"
-        ],
-        "hosted_item": "eastsol"
-      },
-      {
-        "name": "(15) Light Sword",
-        "access_rules": [
-          "westsol,eastsol"
+          "ls,$phantomzant,cs,$zanthead,palacesk:4,$shadowbeast"
         ],
         "item_count": 1
       },
       {
-        "name": "(FF) 5 Heads",
+        "name": "Big Key Chest",
         "access_rules": [
-          "sword_light"
+          "ls,$phantomzant,dcs,$zanthead,palacesk:5,$shadowbeast"
         ],
         "item_count": 1
       },
       {
-        "name": "(FF) Terrace",
+        "name": "Central Outdoor",
         "access_rules": [
-          "sword_light,[palacesk:5],palacesk:1"
-        ],
-        "visibility_rules": [
-          "op_dung"
-        ],
-        "item_count": 2
-      },
-      {
-        "name": "(FF) Tower Heads",
-        "access_rules": [
-          "sword_light,[palacesk:6],palacesk:2"
+          "ls,$phantomzant,cs,$zanthead,palacesk:5,$shadowbeast"
         ],
         "item_count": 1
       },
       {
-        "name": "(FF) Zant HC",
+        "name": "Central Tower",
         "access_rules": [
-          "sword_light,[palacesk:7],palacesk:3,palace_boss_key"
+          "ls,$phantomzant,cs,$zanthead,palacesk:6,$shadowbeast"
         ],
-        "item_count": 1,
-        "chest_unopened_img": "images/hc.png",
-        "chest_opened_img": "images/hc_gray.png"
+        "item_count": 1
+      },
+      {
+        "name": "Zant",
+        "access_rules": [
+          "ls,$phantomzant,cs,$zanthead,palacesk:7,$shadowbeast,palacebk,$zant"
+        ],
+        "item_count": 1
       }
     ],
     "map_locations": [

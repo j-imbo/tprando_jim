@@ -3,137 +3,139 @@
     "name": "Forest Temple",
     "parent": "Faron Woods",
     "access_rules": [
-      "$has_ranged,woods_key:1,$faron"
+      ""
     ],
     "sections": [
       {
-        "name": "(1) Entry Chest",
-        "item_count": 1
-      },
-      {
-        "name": "(1) Map Chest",
+        "name": "Entrance Vines",
         "access_rules": [
-          "lantern"
+          "$walltula"
         ],
-        "visibility_rules": [
-          "op_dung"
-        ],
-        "chest_opened_img": "images/map_gray.png",
-        "chest_unopened_img": "images/map.png",
         "item_count": 1
       },
       {
-        "name": "(2) Chest behind Rock",
+        "name": "Central Behind Stairs",
         "access_rules": [
-          "boomerang"
+          "$walltula,$bokoblin,$monkeycage,boomerang,$bombling"
         ],
         "item_count": 1
       },
       {
-        "name": "(2) Compass Chest",
+        "name": "Central North Chest",
         "access_rules": [
-          "boomerang",
-          "bow",
-          "ballandchain",
-          "clawshot"
+          "$walltula,$bokoblin,$monkeycage,lantern"
         ],
-        "visibility_rules": [
-          "op_dung"
-        ],
-        "chest_opened_img": "images/compass_gray.png",
-        "chest_unopened_img": "images/compass.png",
         "item_count": 1
       },
       {
-        "name": "(1) West Lobby Chest",
-        "item_count": 1
-      },
-      {
-        "name": "(1) Deku Like Key",
-        "item_count": 1,
-        "chest_opened_img": "images/smallkey_gray.png",
-        "chest_unopened_img": "images/smallkey.png"
-      },
-      {
-        "name": "(2) West Stairs HP",
+        "name": "Central Hanging from Web",
         "access_rules": [
-          "boomerang"
+          "$walltula,$bokoblin,$monkeycage,$hangingweb"
         ],
         "item_count": 1
       },
       {
-        "name": "(1) West Tile Ledge",
-        "item_count": 1
-      },
-      {
-        "name": "(1) West Totem",
-        "item_count": 1
-      },
-      {
-        "name": "(1) Miniboss: Ook",
+        "name": "Monkey Totem Under Bridge",
         "access_rules": [
-          "boomerang,[forestsk:2],$ook",
-          "forestsk:2,$ook"
+          "$walltula,$bokoblin,$monkeycage,forestsk:1,[forestsk:4]"
         ],
-        "chest_unopened_img": "images/galeboomerang.png",
-        "chest_opened_img": "images/galeboomerang_gray.png",
         "item_count": 1
       },
       {
-        "name": "(1) Ooccoo",
-        "item_count": 1,
-        "visibility_rules": [
-          "op_dung"
-        ],
-        "chest_unopened_img": "images/ooccoo.png",
-        "chest_opened_img": "images/ooccoo_gray.png"
-      },
-      {
-        "name": "(1) East Water Chest",
-        "item_count": 1
-      },
-      {
-        "name": "(2) Boss Key Chest",
+        "name": "Big Key Chest",
         "access_rules": [
-          "boomerang"
-        ],
-        "visibility_rules": [
-          "op_dung"
+          "$walltula,$bokoblin,$monkeycage,boomerang"
         ],
         "item_count": 1
       },
       {
-        "name": "(1) Monkey Totem Room",
-        "item_count": 1,
+        "name": "Water Cave Chest",
         "access_rules": [
-          "forestsk:1,[forestsk:4]"
-        ]
-      },
-      {
-        "name": "(1) Bridge Chest",
-        "item_count": 1
-      },
-      {
-        "name": "(2) Boulder Room",
-        "access_rules": [
-          "boomerang,forestsk:1,[forestsk:4]"
+          "$walltula,$bokoblin,$monkeycage"
         ],
         "item_count": 1
       },
       {
-        "name": "(2) North Tile Room",
+        "name": "West Deku Like",
         "access_rules": [
-          "boomerang"
+          "$walltula,$bokoblin,$monkeycage,$webs,forestsk:2,$bokoblin,$bombling",
+          "$walltula,$bokoblin,$monkeycage,$webs,cs,$bombling",
+          "$walltula,$bokoblin,$monkeycage,lantern,$bombling,$bigbaba,forestsk:2,[forestsk:4],$ook,boomerang"
         ],
         "item_count": 1
       },
       {
-        "name": "(2) Diababa HC",
+        "name": "Totem Pole Chest",
         "access_rules": [
-          "$diababa,forest_boss_key,[forestsk:4]"
+          "$walltula,$bokoblin,$monkeycage,$webs,forestsk:2,$bokoblin,$bombling",
+          "$walltula,$bokoblin,$monkeycage,$webs,cs,$bombling",
+          "$walltula,$bokoblin,$monkeycage,lantern,$bombling,$bigbaba,forestsk:2,[forestsk:4],$ook,boomerang"
         ],
-        "chest_unopened_img": "images/hc.png",
-        "chest_opened_img": "images/hc_gray.png",
+        "item_count": 1
+      },
+      {
+        "name": "West Tile Worm Vines",
+        "access_rules": [
+          "$walltula,$bokoblin,$monkeycage,$webs,forestsk:2,$bokoblin,$bombling",
+          "$walltula,$bokoblin,$monkeycage,$webs,cs,$bombling",
+          "$walltula,$bokoblin,$monkeycage,lantern,$bombling,$bigbaba,forestsk:2,[forestsk:4],$ook,boomerang"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "West Tile Worm Behind Stairs",
+        "access_rules": [
+          "$walltula,$bokoblin,$monkeycage,$webs,forestsk:2,$bokoblin,$bombling,boomerang",
+          "$walltula,$bokoblin,$monkeycage,$webs,cs,$bombling,boomerang",
+          "$walltula,$bokoblin,$monkeycage,lantern,$bombling,$bigbaba,forestsk:2,[forestsk:4],$ook,boomerang"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Big Baba Key",
+        "access_rules": [
+          "$walltula,$bokoblin,$monkeycage,$webs,forestsk:2,$bokoblin,$bombling",
+          "$walltula,$bokoblin,$monkeycage,$webs,cs,$bombling",
+          "$walltula,$bokoblin,$monkeycage,lantern,$bombling,$bigbaba,forestsk:2,[forestsk:4],$ook,boomerang"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Ook",
+        "access_rules": [
+          "$walltula,$bokoblin,$monkeycage,lantern,$bombling,$bigbaba,forestsk:2,[forestsk:4],$ook",
+          "$walltula,$bokoblin,$monkeycage,$webs,forestsk:2,$bokoblin,boomerang,$ook",
+          "$walltula,$bokoblin,$monkeycage,$webs,cs,boomerang,$ook"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Windless Bridge",
+        "access_rules": [
+          "$walltula,$bokoblin,$monkeycage"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "North Deku Like",
+        "access_rules": [
+          "$walltula,$bokoblin,$monkeycage,boomerang"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "East Tile Worm",
+        "access_rules": [
+          "$walltula,$bokoblin,$monkeycage,$tileworm,$skulltula,boomerang,forestsk:1,[forestsk:4]"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Diababa",
+        "access_rules": [
+          "$walltula,$bokoblin,$monkeycage,forestbk,boomerang,$monkeys,$diababa",
+          "$walltula,$bokoblin,$monkeycage,forestbk,boomerang,cs,$diababa"
+        ],
         "item_count": 1
       }
     ],

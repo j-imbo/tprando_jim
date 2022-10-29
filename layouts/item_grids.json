@@ -1,53 +1,4 @@
 {
-  "item_grid_tall": {
-    "type": "array",
-    "orientation": "vertical",
-    "content": [
-      {
-        "type": "itemgrid",
-        "h_alignment": "left",
-        "item_margin": "1,2",
-        "rows": [
-          [
-            "wsword",
-            "ms",
-            "shield1",
-            "shield2",
-            "zarmor",
-            "bottle"
-          ],
-          [
-            "lantern",
-            "coral",
-            "bbagwat",
-            "ironboots",
-            "boomerang",
-            "bottles"
-          ],
-          [
-            "bowshot",
-            "memosketch",
-            "clawshot",
-            "spinner",
-            "ballandchain",
-            "dominion"
-          ],
-          [
-            "horsecall",
-            "hawkeye",
-            "skybook",
-            "letterq",
-            "poes",
-            "bug"
-          ]
-        ]
-      },
-      {
-        "type": "layout",
-        "key": "dungeon_grid_tall"
-      }
-    ]
-  },
   "item_grid_wide": {
     "type": "array",
     "orientation": "vertical",
@@ -59,32 +10,32 @@
         "rows": [
           [
             "wsword",
-            "ms",
             "sc",
+            "lantern",
+            "prod",
             "boomerang",
             "bow",
             "slingshot",
             "clawshot",
-            "lantern",
-            "coral"
+            "skybook"
           ],
           [
-            "shield1",
-            "shield2",
-            "bbagwat",
+            "shields",
+            "bombs",
             "spinner",
             "ballandchain",
             "dominion",
-            "memosketch",
-            "letterq",
-            "skybook"
+            "memo",
+            "sketch",
+            "letterstatue",
+            "invoicecharm"
           ]
         ]
       },
       {
         "type": "array",
         "orientation": "horizontal",
-        "margin": "5,0",
+        "margin": "1,2",
         "content": [
           {
             "type": "item",
@@ -137,52 +88,52 @@
             "content": []
           },
           {
-            "type": "canvas",
+            "type": "container",
             "width": 32,
             "height": 32,
             "margin": "1,2",
-            "content": [
-              {
-                "type": "item",
-                "item": "woods_label",
-                "canvas_depth": 1,
-                "width": 32,
-                "height": 12
-              },
-              {
-                "type": "item",
-                "item": "woods_key",
-                "canvas_depth": 1,
-                "canvas_left": 8,
-                "canvas_top": 16,
-                "width": 16,
-                "height": 16
-              }
-            ]
+            "content": {
+              "type": "array",
+              "orientation": "vertical",
+              "content": [
+                {
+                  "type": "item",
+                  "item": "gate_label",
+                  "width": 32,
+                  "height": 12
+                },
+                {
+                  "type": "item",
+                  "item": "gatekeys",
+                  "width": 16,
+                  "height": 16
+                }
+              ]
+            }
           },
           {
-            "type": "canvas",
+            "type": "container",
             "width": 32,
             "height": 32,
             "margin": "1,2",
-            "content": [
-              {
-                "type": "item",
-                "item": "desert_label",
-                "canvas_depth": 1,
-                "width": 32,
-                "height": 12
-              },
-              {
-                "type": "item",
-                "item": "desert_key",
-                "canvas_depth": 1,
-                "canvas_left": 8,
-                "canvas_top": 16,
-                "width": 16,
-                "height": 16
-              }
-            ]
+            "content": {
+              "type": "array",
+              "orientation": "vertical",
+              "content": [
+                {
+                  "type": "item",
+                  "item": "desert_label",
+                  "width": 32,
+                  "height": 12
+                },
+                {
+                  "type": "item",
+                  "item": "desert_key",
+                  "width": 16,
+                  "height": 16
+                }
+              ]
+            }
           }
         ]
       },
@@ -201,10 +152,9 @@
         "h_alignment": "center",
         "item_margin": "5",
         "rows": [
-          [ "op_bug", "op_poe", "op_twilight", "op_egm" ],
-          [ "op_key", "op_dung", "op_mdh", "op_eg2" ],
-          [ "op_shop", "op_botshop", "op_edes", "op_ecits" ],
-          [ "op_scent", "op_skill", "op_epot", "op_ehc" ]
+          [ "op_bug", "op_poe", "op_npc", "op_sky", "op_shop", "op_skill" ],
+          [ "op_gm", "op_lkbd", "op_grnds", "op_ruins", "op_grove", "op_cannon" ],
+          [ "", "op_fw", "op_mdh", "op_pot", "op_hc", "" ]
         ]
       }
     ]

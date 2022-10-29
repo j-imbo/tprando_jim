@@ -7,25 +7,6 @@
     "max_quantity": 60
   },
   {
-    "name": "Poes Quick",
-    "type": "progressive",
-    "allow_disabled": false,
-    "stages": [
-      {
-        "img": "images/poe_0.png",
-        "codes": "poe0,poesq"
-      },
-      {
-        "img": "images/poe_20.png",
-        "codes": "poe20"
-      },
-      {
-        "img": "images/poe_60.png",
-        "codes": "poe60"
-      }
-    ]
-  },
-  {
     "name": "Wallet Upgrades",
     "type": "progressive",
     "allow_disabled": false,
@@ -81,7 +62,7 @@
   {
     "name": "Hidden Skills",
     "type": "consumable",
-    "img": "images/hiddenskill.png",
+    "img": "images/skill.png",
     "codes": "hiddenskills,skills",
     "max_quantity": 7
   },
@@ -95,14 +76,16 @@
     "name": "Auru's Memo",
     "type": "toggle",
     "loop": true,
-    "img": "images/memosketch.png",
+    "img": "images/memo.png",
+    "img_mods": "overlay|images/badge_m.png",
     "codes": "aurumemo,memo"
   },
   {
     "name": "Ashei's Sketch",
     "type": "toggle",
     "loop": true,
-    "img": "images/memosketch.png",
+    "img": "images/sketch.png",
+    "img_mods": "overlay|images/badge_s.png",
     "codes": "asheissketch,sketch"
   },
   {
@@ -254,35 +237,43 @@
     "allow_disabled": false,
     "stages": [
       {
-        "img": "images/ancientskybook_gray.png",
+        "img": "images/skybook.png",
+        "img_mods": "@disabled",
         "codes": "skybook"
       },
       {
-        "img": "images/skybook0.png",
+        "img": "images/skybook.png",
+        "img_mods": "overlay|images/badge_0.png",
         "codes": "skybook_empty"
       },
       {
-        "img": "images/skybook1.png",
+        "img": "images/skybook.png",
+        "img_mods": "overlay|images/badge_1.png",
         "codes": "skybook_partial1"
       },
       {
-        "img": "images/skybook2.png",
+        "img": "images/skybook.png",
+        "img_mods": "overlay|images/badge_2.png",
         "codes": "skybook_partial2"
       },
       {
-        "img": "images/skybook3.png",
+        "img": "images/skybook.png",
+        "img_mods": "overlay|images/badge_3.png",
         "codes": "skybook_partial3"
       },
       {
-        "img": "images/skybook4.png",
+        "img": "images/skybook.png",
+        "img_mods": "overlay|images/badge_4.png",
         "codes": "skybook_partial4"
       },
       {
-        "img": "images/skybook5.png",
+        "img": "images/skybook.png",
+        "img_mods": "overlay|images/badge_5.png",
         "codes": "skybook_partial5"
       },
       {
-        "img": "images/skybook6.png",
+        "img": "images/skybook.png",
+        "img_mods": "overlay|images/badge_6g.png",
         "codes": "skybook_full"
       }
     ]
@@ -291,14 +282,16 @@
     "name": "Fused Shadows",
     "type": "consumable",
     "img":"images/shadows.png",
-    "codes":"shadow",
+    "codes":"shadowcount",
+    "secondary_codes": "shadow",
     "max_quantity": 3
   },
   {
     "name": "Mirror of Twilight",
     "type": "consumable",
     "img":"images/mirrorshard.png",
-    "codes":"mirror",
+    "codes":"mirrorcount",
+    "secondary_codes": "mirror",
     "max_quantity": 3
   },
   {
@@ -324,6 +317,10 @@
         "codes": "shadow1label"
       },
       {
+        "img": "images/label_grounds.png",
+        "codes": "shadow1label"
+      },
+      {
         "img": "images/label_mansion.png",
         "codes": "shadow1label"
       },
@@ -333,6 +330,10 @@
       },
       {
         "img": "images/label_sky.png",
+        "codes": "shadow1label"
+      },
+      {
+        "img": "images/label_palace.png",
         "codes": "shadow1label"
       }
     ]
@@ -360,6 +361,10 @@
         "codes": "shadow2label"
       },
       {
+        "img": "images/label_grounds.png",
+        "codes": "shadow2label"
+      },
+      {
         "img": "images/label_mansion.png",
         "codes": "shadow2label"
       },
@@ -369,6 +374,10 @@
       },
       {
         "img": "images/label_sky.png",
+        "codes": "shadow2label"
+      },
+      {
+        "img": "images/label_palace.png",
         "codes": "shadow2label"
       }
     ]
@@ -396,6 +405,10 @@
         "codes": "shadow3label"
       },
       {
+        "img": "images/label_grounds.png",
+        "codes": "shadow3label"
+      },
+      {
         "img": "images/label_mansion.png",
         "codes": "shadow3label"
       },
@@ -406,6 +419,10 @@
       {
         "img": "images/label_sky.png",
         "codes": "shadow3label"
+      },
+      {
+        "img": "images/label_palace.png",
+        "codes": "shadow1label"
       }
     ]
   },
@@ -432,6 +449,10 @@
         "codes": "mirror1label"
       },
       {
+        "img": "images/label_grounds.png",
+        "codes": "mirror1label"
+      },
+      {
         "img": "images/label_mansion.png",
         "codes": "mirror1label"
       },
@@ -441,6 +462,10 @@
       },
       {
         "img": "images/label_sky.png",
+        "codes": "mirror1label"
+      },
+      {
+        "img": "images/label_palace.png",
         "codes": "mirror1label"
       }
     ]
@@ -468,6 +493,10 @@
         "codes": "mirror2label"
       },
       {
+        "img": "images/label_grounds.png",
+        "codes": "mirror2label"
+      },
+      {
         "img": "images/label_mansion.png",
         "codes": "mirror2label"
       },
@@ -477,6 +506,10 @@
       },
       {
         "img": "images/label_sky.png",
+        "codes": "mirror2label"
+      },
+      {
+        "img": "images/label_palace.png",
         "codes": "mirror2label"
       }
     ]
@@ -504,6 +537,10 @@
         "codes": "mirror3label"
       },
       {
+        "img": "images/label_grounds.png",
+        "codes": "mirror3label"
+      },
+      {
         "img": "images/label_mansion.png",
         "codes": "mirror3label"
       },
@@ -514,6 +551,110 @@
       {
         "img": "images/label_sky.png",
         "codes": "mirror3label"
+      },
+      {
+        "img": "images/label_palace.png",
+        "codes": "mirror3label"
+      }
+    ]
+  },
+  {
+    "name": "Empty Dungeon 1",
+    "type": "toggle",
+    "codes": "d1",
+    "img": "images/unknown.png"
+  },
+  {
+    "name": "Empty Dungeon 2",
+    "type": "toggle",
+    "codes": "d2",
+    "img": "images/unknown.png"
+  },
+  {
+    "name": "Empty Dungeon Label 1",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/label_unknown.png",
+        "codes": "empty1label"
+      },
+      {
+        "img": "images/label_forest.png",
+        "codes": "empty1label"
+      },
+      {
+        "img": "images/label_mines.png",
+        "codes": "empty1label"
+      },
+      {
+        "img": "images/label_lakebed.png",
+        "codes": "empty1label"
+      },
+      {
+        "img": "images/label_grounds.png",
+        "codes": "empty1label"
+      },
+      {
+        "img": "images/label_mansion.png",
+        "codes": "empty1label"
+      },
+      {
+        "img": "images/label_time.png",
+        "codes": "empty1label"
+      },
+      {
+        "img": "images/label_sky.png",
+        "codes": "empty1label"
+      },
+      {
+        "img": "images/label_palace.png",
+        "codes": "empty1label"
+      }
+    ]
+  },
+  {
+    "name": "Empty Dungeon Label 2",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/label_unknown.png",
+        "codes": "empty2label"
+      },
+      {
+        "img": "images/label_forest.png",
+        "codes": "empty2label"
+      },
+      {
+        "img": "images/label_mines.png",
+        "codes": "empty2label"
+      },
+      {
+        "img": "images/label_lakebed.png",
+        "codes": "empty2label"
+      },
+      {
+        "img": "images/label_grounds.png",
+        "codes": "empty2label"
+      },
+      {
+        "img": "images/label_mansion.png",
+        "codes": "empty2label"
+      },
+      {
+        "img": "images/label_time.png",
+        "codes": "empty2label"
+      },
+      {
+        "img": "images/label_sky.png",
+        "codes": "empty2label"
+      },
+      {
+        "img": "images/label_palace.png",
+        "codes": "empty2label"
       }
     ]
   },

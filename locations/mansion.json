@@ -3,7 +3,7 @@
     "name": "Snowpeak Mansion",
     "parent": "Snowpeak Trail",
     "access_rules": [
-      "coral"
+      "$snowpeak,wolf,$shadowbeast"
     ],
     "sections": [
       {
@@ -15,195 +15,173 @@
         "hosted_item": "cheese"
       },
       {
-        "name": "(12) Armor Chests",
+        "name": "Lobby Chandelier",
         "access_rules": [
-          "ballandchain"
+          "mansionsk:1,[mansionsk:3],bnc"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Lobby Armor",
+        "access_rules": [
+          "bnc"
         ],
         "item_count": 2
       },
       {
-        "name": "(11) Entry Poe",
-        "chest_unopened_img": "images/poe.png",
-        "chest_opened_img": "images/poe_gray.png",
-        "item_count": 1,
-        "visibility_rules": [
-          "op_poe"
-        ],
+        "name": "Armor Poe",
         "access_rules": [
-          "wolf"
-        ]
-      },
-      {
-        "name": "(12) Armor Poe",
-        "access_rules": [
-          "wolf,ballandchain"
+          "bnc,sc"
         ],
-        "chest_unopened_img": "images/poe.png",
-        "chest_opened_img": "images/poe_gray.png",
         "item_count": 1,
         "visibility_rules": [
           "op_poe"
         ]
       },
       {
-        "name": "(11) Yeta",
-        "visibility_rules": [
-          "op_dung"
-        ],
-        "chest_opened_img": "images/map_gray.png",
-        "chest_unopened_img": "images/map.png",
-        "item_count": 1
-      },
-      {
-				"name": "(11) Ooccoo",
-				"item_count": 1,
-				"visibility_rules": [
-					"op_dung"
-        ],
-				"chest_unopened_img": "images/ooccoo.png",
-        "chest_opened_img": "images/ooccoo_gray.png"
-			},
-      {
-        "name": "(11) East Courtyard Free",
-        "item_count": 1
-      },
-      {
-        "name": "(11) East Courtyard Snow",
-        "item_count": 1,
+        "name": "Lobby Poe",
         "access_rules": [
-          "wolf"
-        ]
-      },
-      {
-        "name": "(11) Ordon Pumpkin",
-        "access_rules": [
-          "mansionsk:1,[mansionsk:4]"
+          "bnc"
         ],
-        "item_count": 1
-      },
-      {
-        "name": "(11) West Courtyard",
-        "access_rules": [
-          "pumpkin,wolf",
-          "ballandchain,wolf"
-        ],
-        "item_count": 1
-      },
-      {
-        "name": "(11) Storage Corner",
-        "access_rules": [
-          "pumpkin,$has_explosives",
-          "pumpkin,ballandchain"
-        ],
-        "item_count": 1
-      },
-      {
-        "name": "(12) Storage Central",
-        "access_rules": [
-          "pumpkin,ballandchain"
-        ],
-        "item_count": 1
-      },
-      {
-        "name": "(11) Chasm Room",
-        "access_rules": [
-          "pumpkin,$has_explosives",
-          "pumpkin,ballandchain"
-        ],
-        "item_count": 2
-      },
-      {
-        "name": "(11) Courtyard Frozen",
-        "access_rules": [
-          "ballandchain",
-          "pumpkin,mansionsk:1,[mansionsk:4],$has_explosives"
-        ],
-        "item_count": 1
-      },
-      {
-        "name": "(11) Darkhammer",
-        "access_rules": [
-          "ballandchain,$darkhammer",
-          "pumpkin,mansionsk:1,[mansionsk:4],$has_explosives,$darkhammer"
-        ],
-        "chest_unopened_img": "images/ballandchain.png",
-        "chest_opened_img": "images/ballandchain_gray.png",
-        "item_count": 1
-      },
-      {
-        "name": "(12) Goat Cheese Chest",
-        "access_rules": [
-          "ballandchain,$darkhammer"
-        ],
-        "item_count": 1
-      },
-      {
-        "name": "(12) Small Room Chest",
-        "access_rules": [
-          "pumpkin,cheese,ballandchain,$has_explosives"
-        ],
-        "item_count": 1
-      },
-      {
-        "name": "(12) Rafter Room",
-        "access_rules": [
-          "pumpkin,cheese,ballandchain"
-        ],
-        "item_count": 1
-      },
-      {
-        "name": "(12) Entry HP",
-        "access_rules": [
-          "pumpkin,cheese,ballandchain,mansionsk:1,[mansionsk:3]"
-        ],
-        "item_count": 1
-      },
-      {
-        "name": "(12) Frozen Poe",
-        "access_rules": [
-          "pumpkin,cheese,wolf,ballandchain,mansionsk:1,[mansionsk:3]"
-        ],
-        "chest_unopened_img": "images/poe.png",
-        "chest_opened_img": "images/poe_gray.png",
         "item_count": 1,
         "visibility_rules": [
           "op_poe"
         ]
       },
       {
-        "name": "(12) Above Pumpkin",
+        "name": "Yeta Map",
+        "item_count": 1
+      },
+      {
+        "name": "East Courtyard Buried",
         "access_rules": [
-          "pumpkin,cheese,ballandchain,mansionsk:1,[mansionsk:3],clawshot"
+          "sc"
         ],
         "item_count": 1
       },
       {
-        "name": "(12) Bedroom Key Chest",
+        "name": "East Courtyard Chest",
         "access_rules": [
-          "pumpkin,cheese,ballandchain,mansionsk:2,[mansionsk:4],$has_explosives"
-        ],
-        "visibility_rules": [
-          "op_dung"
+          "sc",
+          "bnc"
         ],
         "item_count": 1
       },
       {
-        "name": "(12) Bedroom Key Chest",
+        "name": "West Courtyard Buried",
         "access_rules": [
-          "pumpkin,cheese,ballandchain,mansionsk:2,[mansionsk:4],$has_explosives"
+          "bnc,sc",
+          "pumpkin,sc"
         ],
-        "visibility_rules": [
-          "op_dung_off"
-        ],
-        "hosted_item": "mansionbk"
+        "item_count": 1
       },
       {
-        "name": "(12) Blizzeta HC",
+        "name": "Central Courtyard Chest",
         "access_rules": [
-          "pumpkin,cheese,ballandchain,mansionsk:2,[mansionsk:4],$has_explosives,mansion_boss_key"
+          "bnc",
+          "pumpkin,bombs,mansionsk:1,[mansionsk:4]"
         ],
-        "chest_unopened_img": "images/hc.png",
-        "chest_opened_img": "images/hc_gray.png",
+        "item_count": 1
+      },
+      {
+        "name": "Pumpkin Chest",
+        "access_rules": [
+          "sc,mansionsk:1,[mansionsk:4],$minifreezard,$chilfos",
+          "bnc,mansionsk:1,[mansionsk:4],$minifreezard,$chilfos"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "West Cannon Room Central",
+        "access_rules": [
+          "bnc"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "West Cannon Room Corner",
+        "access_rules": [
+          "bnc,$smash",
+          "pumpkin,$smash"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "West Beam Room Central",
+        "access_rules": [
+          "bnc,$smash,$icekeese",
+          "pumpkin,$smash,$icekeese",
+          "cheese,bnc,$icekeese"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "West Beam Room Northwest",
+        "access_rules": [
+          "bnc,$smash,$icekeese",
+          "pumpkin,$smash,$icekeese",
+          "cheese,bnc,$icekeese"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "West Beam Room Chandelier",
+        "access_rules": [
+          "bnc,$smash,$chilfos,cheese"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Darkhammer",
+        "access_rules": [
+          "bnc,$darkhammer",
+          "pumpkin,mansionsk:4,bombs,$darkhammer"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Goat Cheese Chest",
+        "access_rules": [
+          "bnc,$darkhammer"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Broken Floor Chest",
+        "access_rules": [
+          "cheese,bnc"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Ice Room Poe",
+        "access_rules": [
+          "cheese,bnc,mansionsk:1,[mansionsk:3],sc"
+        ],
+        "item_count": 1,
+        "visibility_rules": [
+          "op_poe"
+        ]
+      },
+      {
+        "name": "Northeast Chandelier",
+        "access_rules": [
+          "cheese,bnc,cs,mansionsk:1,[mansionsk:3],$chilfos"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Chapel",
+        "access_rules": [
+          "cheese,bnc,mansionsk:2,[mansionsk:4],$chilfos,$minifreezard,$freezard,bombs"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Blizzeta",
+        "access_rules": [
+          "cheese,bnc,mansionsk:2,[mansionsk:4],$chilfos,$minifreezard,$freezard,bombs,mansionbk,$blizzeta"
+        ],
         "item_count": 1
       }
     ],

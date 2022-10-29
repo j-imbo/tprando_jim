@@ -16,56 +16,29 @@
             "content": [
               {
                 "type": "item",
-                "item": "shadow",
+                "item": "shadowcount",
                 "margin": "1,2",
                 "width": 32,
                 "height": 32
               },
               {
-                "type": "canvas",
+                "type": "item",
+                "item": "shadow1label",
                 "width": 32,
-                "height": 12,
-                "margin": "1,2",
-                "content": [
-                  {
-                    "type": "item",
-                    "item": "shadow1label",
-                    "canvas_depth": 1,
-                    "width": 32,
-                    "height": 12
-                  }
-                ]
+                "height": 12
               },
               {
-                "type": "canvas",
+                "type": "item",
+                "item": "shadow2label",
                 "width": 32,
-                "height": 12,
-                "margin": "1,2",
-                "content": [
-                  {
-                    "type": "item",
-                    "item": "shadow2label",
-                    "canvas_depth": 1,
-                    "width": 32,
-                    "height": 12
-                  }
-                ]
+                "height": 12
               },
               {
-                "type": "canvas",
+                "type": "item",
+                "item": "shadow3label",
                 "width": 32,
-                "height": 12,
-                "margin": "1,2",
-                "content": [
-                  {
-                    "type": "item",
-                    "item": "shadow3label",
-                    "canvas_depth": 1,
-                    "width": 32,
-                    "height": 12
-                  }
-                ]
-              }   
+                "height": 12
+              }
             ]
           },
           {
@@ -75,45 +48,25 @@
             "content": [
               {
                 "type": "item",
-                "item": "grounds",
-                "canvas_depth": 1,
+                "item": "d1",
                 "width": 32,
                 "height": 32
               },
               {
-                "type": "canvas",
+                "type": "item",
+                "item": "empty1label",
                 "width": 32,
-                "height": 12,
-                "margin": "1,2",
-                "content": [
-                  {
-                    "type": "item",
-                    "item": "grounds_label",
-                    "canvas_depth": 1,
-                    "width": 32,
-                    "height": 12
-                  }
-                ]
-              },
-              {
-                "type": "canvas",
-                "width": 32,
-                "height": 12,
-                "margin": "1,2",
-                "content": [
-                  {
-                    "type": "item",
-                    "item": "palace_label",
-                    "canvas_depth": 1,
-                    "width": 32,
-                    "height": 12
-                  }
-                ]
+                "height": 12
               },
               {
                 "type": "item",
-                "item": "palace",
-                "canvas_depth": 1,
+                "item": "empty2label",
+                "width": 32,
+                "height": 12
+              },
+              {
+                "type": "item",
+                "item": "d2",
                 "width": 32,
                 "height": 32
               }
@@ -126,55 +79,28 @@
             "content": [
               {
                 "type": "item",
-                "item": "mirror",
+                "item": "mirrorcount",
                 "margin": "1,2",
                 "width": 32,
                 "height": 32
               },
               {
-                "type": "canvas",
+                "type": "item",
+                "item": "mirror1label",
                 "width": 32,
-                "height": 12,
-                "margin": "1,2",
-                "content": [
-                  {
-                    "type": "item",
-                    "item": "mirror1label",
-                    "canvas_depth": 1,
-                    "width": 32,
-                    "height": 12
-                  }
-                ]
+                "height": 12
               },
               {
-                "type": "canvas",
+                "type": "item",
+                "item": "mirror2label",
                 "width": 32,
-                "height": 12,
-                "margin": "1,2",
-                "content": [
-                  {
-                    "type": "item",
-                    "item": "mirror2label",
-                    "canvas_depth": 1,
-                    "width": 32,
-                    "height": 12
-                  }
-                ]
+                "height": 12
               },
               {
-                "type": "canvas",
+                "type": "item",
+                "item": "mirror3label",
                 "width": 32,
-                "height": 12,
-                "margin": "1,2",
-                "content": [
-                  {
-                    "type": "item",
-                    "item": "mirror3label",
-                    "canvas_depth": 1,
-                    "width": 32,
-                    "height": 12
-                  }
-                ]
+                "height": 12
               }
             ]
           }
@@ -186,19 +112,20 @@
         "item_margin": "1,2",
         "rows": [
           [
-            "wsword",
-            "ms",
+            "swords",
             "sc",
-            "shield2",
+            "shields",
             "zarmor",
-            "bbagwat"
+            "marmor",
+            "bombs"
           ],
           [
-            "bowshot",
+            "bow",
+            "slingshot",
             "clawshot",
             "boomerang",
             "lantern",
-            "coral"
+            "prod"
           ],
           [
             "spinner",
@@ -210,9 +137,10 @@
           ],
           [
             "memosketch",
-            "letterq",
+            "letterstatue",
+            "invoicecharm",
             "hiddenskills",
-            "poesq",
+            "poes",
             "bugs"
           ]
         ]

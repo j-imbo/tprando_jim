@@ -3,214 +3,176 @@
     "name": "Lakebed Temple",
     "parent": "Lake Hylia",
     "access_rules": [
-      "ironboots,zarmor,bombs,bombswater,$lanayru"
+      "$lakebed,zarmor"
     ],
     "sections": [
       {
-        "name": "(6) Entry",
-        "item_count": 2
-      },
-      {
-        "name": "(6) Stalactite",
+        "name": "Lobby",
         "access_rules": [
-          "$bomb_arrows"
-        ],
-        "item_count": 1
-      },
-      {
-				"name": "(6) Ooccoo",
-				"item_count": 1,
-				"visibility_rules": [
-					"op_dung"
-        ],
-        "access_rules": [
-          "$bomb_arrows"
-        ],
-				"chest_unopened_img": "images/ooccoo.png",
-        "chest_opened_img": "images/ooccoo_gray.png"
-			},
-      {
-        "name": "(6) Central Room 1F",
-        "access_rules": [
-          "$bomb_arrows"
-        ],
-        "visibility_rules": [
-          "op_dung"
+          "zarmor"
         ],
         "item_count": 2
       },
       {
-        "name": "(6) Central Room 1F",
+        "name": "Stalactite",
         "access_rules": [
-          "$bomb_arrows"
-        ],
-        "visibility_rules": [
-          "op_dung_off"
+          "$launchbombs"
         ],
         "item_count": 1
       },
       {
-        "name": "(7) Chandelier",
+        "name": "Central Room 1F",
         "access_rules": [
-          "$bomb_arrows,clawshot"
-        ],
-        "item_count": 1
-      },
-      {
-        "name": "(6) E. Stalactite",
-        "access_rules": [
-          "$bomb_arrows"
-        ],
-        "item_count": 1
-      },
-      {
-        "name": "(6) East Donut",
-        "access_rules": [
-          "$bomb_arrows,lakebedsk:1"
+          "$launchbombs"
         ],
         "item_count": 2
       },
       {
-        "name": "(6) East Tower Small",
+        "name": "Chandelier",
         "access_rules": [
-          "$bomb_arrows,lakebedsk:2"
+          "$launchbombs,cs"
         ],
         "item_count": 1
       },
       {
-        "name": "(7) East Tower Claw",
+        "name": "Central Spire",
         "access_rules": [
-          "$bomb_arrows,lakebedsk:2,clawshot"
-        ],
-        "visibility_rules": [
-          "op_dung"
+          "$launchbombs,lakebedsk:3,ib"
         ],
         "item_count": 1
       },
       {
-        "name": "(6) Eastern Sluice",
+        "name": "East 2F Southwest",
         "access_rules": [
-          "$bomb_arrows,lakebedsk:2"
-        ],
-        "hosted_item": "eastflow"
-      },
-      {
-        "name": "(6) Central Water",
-        "access_rules": [
-          "eastflow"
+          "$launchbombs,lakebedsk:1"
         ],
         "item_count": 1
       },
       {
-        "name": "(6) Quarter Circle",
+        "name": "East 2F Southeast",
         "access_rules": [
-          "eastflow"
+          "$launchbombs,lakebedsk:1"
         ],
         "item_count": 1
       },
       {
-        "name": "(6) Pre-Toad Underwater",
+        "name": "East Water Supply Small",
         "access_rules": [
-          "eastflow,lakebedsk:3"
+          "$launchbombs,lakebedsk:3"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "East Water Supply Clawshot",
+        "access_rules": [
+          "$launchbombs,lakebedsk:3,cs"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "East Waterwheel Stalactite",
+        "access_rules": [
+          "$launchbombs,lakebedsk:1"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "East Waterwheel Bridge",
+        "access_rules": [
+          "$launchbombs,lakebedsk:3,cs"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Deku Toad Alcove",
+        "access_rules": [
+          "$launchbombs,lakebedsk:2,$dekutoad,cs,zarmor,ib",
+          "$launchbombs,lakebedsk:3"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Deku Toad Underwater",
+        "access_rules": [
+          "$launchbombs,lakebedsk:3,ib,zarmor"
         ],
         "item_count": 2
       },
       {
-        "name": "(6) Deku Toad",
+        "name": "Deku Toad",
         "access_rules": [
-          "eastflow,lakebedsk:3,$dekutoad"
+          "$dekutoad,$launchbombs,lakebedsk:3,zarmor,ib"
         ],
         "item_count": 1
       },
       {
-        "name": "(7) West Chasm",
+        "name": "West Lower Small",
         "access_rules": [
-          "eastflow,clawshot"
-        ],
-        "item_count": 2
-      },
-      {
-        "name": "(7) West Donut Underwater",
-        "access_rules": [
-          "eastflow,clawshot"
+          "$launchbombs,lakebedsk:3,$smash,cs"
         ],
         "item_count": 1
       },
       {
-        "name": "(7) West Tower",
+        "name": "West 2F Central Small",
         "access_rules": [
-          "eastflow,clawshot"
-        ],
-        "visibility_rules": [
-          "op_dung"
-        ],
-        "item_count": 2
-      },
-      {
-        "name": "(7) West Tower",
-        "access_rules": [
-          "eastflow,clawshot"
-        ],
-        "visibility_rules": [
-          "op_dung_off"
+          "$launchbombs,lakebedsk:3,$smash,cs"
         ],
         "item_count": 1
       },
       {
-        "name": "(7) West Sluice",
+        "name": "Underwater Maze",
         "access_rules": [
-          "eastflow,clawshot"
-        ],
-        "hosted_item": "westflow"
-      },
-      {
-        "name": "(7) West Donut Flow",
-        "access_rules": [
-          "westflow"
-        ],
-        "item_count": 2
-      },
-      {
-        "name": "(7) Water Maze",
-        "access_rules": [
-          "westflow"
+          "$launchbombs,lakebedsk:3,$smash,cs,zarmor"
         ],
         "item_count": 1
       },
       {
-        "name": "(7) Boss Key Chest",
+        "name": "Big Key Chest",
         "access_rules": [
-          "westflow"
-        ],
-        "visibility_rules": [
-          "op_dung"
+          "$launchbombs,lakebedsk:3,$smash,cs,zarmor"
         ],
         "item_count": 1
       },
       {
-        "name": "(7) Boss Key Chest",
+        "name": "West 2F SW Underwater",
         "access_rules": [
-          "westflow"
-        ],
-        "visibility_rules": [
-          "op_dung_off"
-        ],
-        "hosted_item": "lakebedbk"
-      },
-      {
-        "name": "(7) Bridge Chest",
-        "access_rules": [
-          "westflow"
+          "$launchbombs,lakebedsk:3,$smash,cs,ib"
         ],
         "item_count": 1
       },
       {
-        "name": "(7) Morpheel HC",
+        "name": "West 2F Northeast",
         "access_rules": [
-          "westflow,lakebed_boss_key,$morpheel"
+          "$launchbombs,lakebedsk:3,$smash,cs"
         ],
-        "chest_unopened_img": "images/hc.png",
-        "chest_opened_img": "images/hc_gray",
+        "item_count": 1
+      },
+      {
+        "name": "West 2F Southeast",
+        "access_rules": [
+          "$launchbombs,lakebedsk:3,$smash,cs"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "West Water Supply Small",
+        "access_rules": [
+          "$launchbombs,lakebedsk:3,$smash,cs"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "West Water Supply Chest",
+        "access_rules": [
+          "$launchbombs,lakebedsk:3,$smash,cs"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Morpheel",
+        "access_rules": [
+          "$launchbombs,lakebedsk:3,cs,lakebedbk,$morpheel"
+        ],
         "item_count": 1
       }
     ],

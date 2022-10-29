@@ -3,183 +3,133 @@
     "name": "Arbiter's Grounds",
     "parent": "Bulblin Base",
     "access_rules": [
-      "$lanayru,$desert,clawshot,wolf,desertsk"
+      "$grounds"
     ],
     "sections": [
       {
-        "name": "(9) Entry",
-        "item_count": 1
-      },
-      {
-        "name": "(9) First Poe",
+        "name": "Entrance Chest",
         "access_rules": [
-          "groundssk:1"
-        ],
-        "hosted_item": "agp1"
-      },
-      {
-        "name": "(9) Poe Scent",
-        "access_rules": [
-          "groundssk:1"
-        ],
-        "visibility_rules": [
-          "op_scent"
+          "$woodendoor"
         ],
         "item_count": 1
       },
       {
-        "name": "(9) Lobby",
+        "name": "Torch Room Chests",
         "access_rules": [
-          "groundssk:1"
-        ],
-        "visibility_rules": [
-          "op_dung"
+          "groundsk:1,lantern"
         ],
         "item_count": 2
       },
       {
-        "name": "(9) Lobby",
+        "name": "Torch Room Poe",
         "access_rules": [
-          "groundssk:1"
-        ],
-        "visibility_rules": [
-          "op_dung_off"
+          "groundsk:1,lantern,sc"
         ],
         "item_count": 1
       },
       {
-        "name": "(9) West Early",
+        "name": "West Small Behind Block",
         "access_rules": [
-          "groundssk:1"
+          "groundsk:1,lantern"
         ],
         "item_count": 1
       },
       {
-        "name": "(9) Redead Knight 1",
+        "name": "East Lower Turnable Redead",
         "access_rules": [
-          "groundssk:1"
+          "groundsk:1,lantern,sc"
         ],
         "item_count": 1
       },
       {
-        "name": "(9) Second Poe",
+        "name": "East Turning Poe",
         "access_rules": [
-          "groundssk:1"
-        ],
-        "hosted_item": "agp2"
-      },
-      {
-        "name": "(9) Compass Chest",
-        "access_rules": [
-          "groundssk:2"
-        ],
-        "visibility_rules": [
-          "op_dung"
+          "groundsk:1,lantern,sc,cs"
         ],
         "item_count": 1
       },
       {
-        "name": "(9) Redead Knight 2",
+        "name": "East Upper Turnable",
         "access_rules": [
-          "groundssk:2"
+          "groundsk:1,lantern"
         ],
         "item_count": 1
       },
       {
-        "name": "(9) Third Poe",
+        "name": "East Upper Turnable Redead",
         "access_rules": [
-          "groundssk:3"
-        ],
-        "hosted_item": "agp3"
-      },
-      {
-        "name": "(9) Ghost Rats",
-        "access_rules": [
-          "groundssk:3"
+          "groundsk:2,lantern,$damage"
         ],
         "item_count": 1
       },
       {
-        "name": "(9) Chandelier",
+        "name": "Hidden Wall Poe",
         "access_rules": [
-          "groundssk:4"
+          "groundsk:3,lantern,sc,$redead"
         ],
         "item_count": 1
       },
       {
-        "name": "(9) First Stalfos",
+        "name": "Ghoul Rat Room",
         "access_rules": [
-          "groundssk:4"
+          "groundsk:3,lantern,$bubble,$stalchild,$redead"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "West Chandelier",
+        "access_rules": [
+          "groundsk:4,lantern,sc"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "West Stalfos",
+        "access_rules": [
+          "groundsk:4,lantern,$woodendoor,$redead,$stalchild,$bubble,$ghoulrat"
         ],
         "item_count": 2
       },
       {
-        "name": "(9) Final Poe",
+        "name": "West Poe",
         "access_rules": [
-          "groundssk:4,$has_explosives"
-        ],
-        "hosted_item": "agp4"
-      },
-      {
-        "name": "(9) Spinning Tower",
-        "access_rules": [
-          "$has_explosives,agp1,agp2,agp3,agp4,groundssk:4"
-        ],
-        "item_count": 1
-      },
-			{
-				"name": "(9) Ooccoo",
-				"item_count": 1,
-				"visibility_rules": [
-					"op_dung"
-        ],
-        "access_rules": [
-          "$has_explosives,agp1,agp2,agp3,agp4,groundssk:5"
-        ],
-        "chest_unopened_img": "images/ooccoo.png",
-        "chest_opened_img": "images/ooccoo_gray.png"
-			},
-      {
-        "name": "(9) Death Sword",
-        "access_rules": [
-          "$has_explosives,agp1,agp2,agp3,agp4,groundssk:5,$deathsword"
+          "groundsk:4,lantern,sc,$smash,$redead,$stalchild,$bubble,$ghoulrat"
         ],
         "item_count": 1
       },
       {
-        "name": "(10) Spinner Room Chests",
+        "name": "Big Key Chest",
         "access_rules": [
-          "$has_explosives,agp1,agp2,agp3,agp4,groundssk:5,spinner"
+          "groundsk:5,lantern,$poe,sc,cs,$redead,$stalchild,$bubble,$ghoulrat,$stalfos,spinner"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "North Turning Room",
+        "access_rules": [
+          "groundsk:4,lantern,$poe,sc,cs,$redead,$stalchild,$bubble,$ghoulrat,$stalfos"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Death Sword",
+        "access_rules": [
+          "groundsk:5,lantern,$poe,sc,cs,$redead,$stalchild,$bubble,$ghoulrat,$stalfos,$deathsword"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Spinner Room",
+        "access_rules": [
+          "groundsk:5,lantern,$poe,sc,cs,$redead,$stalchild,$bubble,$ghoulrat,$stalfos,spinner"
         ],
         "item_count": 5
       },
       {
-        "name": "(10) Boss Key Chest",
+        "name": "Stallord",
         "access_rules": [
-          "$has_explosives,agp1,agp2,agp3,agp4,groundssk:5,spinner"
+          "groundsk:4,lantern,$poe,sc,cs,$redead,$stalchild,$bubble,$ghoulrat,$stalfos,spinner,groundsbk,$stallord"
         ],
-        "visibility_rules": [
-          "op_dung"
-        ],
-        "item_count": 1
-      },
-      {
-        "name": "(10) Boss Key Chest",
-        "access_rules": [
-          "$has_explosives,agp1,agp2,agp3,agp4,groundssk:5,spinner"
-        ],
-        "visibility_rules": [
-          "op_dung_off"
-        ],
-        "hosted_item": "groundsbk"
-      },
-      {
-        "name": "(10) Stallord HC",
-        "access_rules": [
-          "groundssk:4,spinner,grounds_boss_key,$stallord"
-        ],
-        "chest_unopened_img": "images/hc.png",
-        "chest_opened_img": "images/hc_gray.png",
         "item_count": 1
       }
     ],

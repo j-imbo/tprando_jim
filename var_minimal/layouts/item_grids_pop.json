@@ -1,0 +1,138 @@
+{
+  "item_grid_mini": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,10",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "h_alignment": "center",
+        "content": [
+          {
+            "type": "array",
+            "orientation": "vertical",
+            "margin": "5,0",
+            "content": [
+              {
+                "type": "item",
+                "item": "shadowcount",
+                "margin": "1,2",
+                "item_size": 32
+              },
+              {
+                "type": "item",
+                "item": "shadow1label",
+                "item_size": 32
+              },
+              {
+                "type": "item",
+                "item": "shadow2label",
+                "item_size": 32
+              },
+              {
+                "type": "item",
+                "item": "shadow3label",
+                "item_size": 32
+              }
+            ]
+          },
+          {
+            "type": "array",
+            "orientation": "vertical",
+            "margin": "5,0",
+            "content": [
+              {
+                "type": "item",
+                "item": "d1",
+                "item_size": 32
+              },
+              {
+                "type": "item",
+                "item": "empty1label",
+                "item_size": 32
+              },
+              {
+                "type": "item",
+                "item": "empty2label",
+                "item_size": 32
+              },
+              {
+                "type": "item",
+                "item": "d2",
+                "item_size": 32
+              }
+            ]
+          },
+          {
+            "type": "array",
+            "orientation": "vertical",
+            "margin": "5,0",
+            "content": [
+              {
+                "type": "item",
+                "item": "mirrorcount",
+                "margin": "1,2",
+                "item_size": 32
+              },
+              {
+                "type": "item",
+                "item": "mirror1label",
+                "item_size": 32
+              },
+              {
+                "type": "item",
+                "item": "mirror2label",
+                "item_size": 32
+              },
+              {
+                "type": "item",
+                "item": "mirror3label",
+                "item_size": 32
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "itemgrid",
+        "h_alignment": "left",
+        "item_margin": "1,2",
+        "rows": [
+          [
+            "swords",
+            "sc",
+            "shields",
+            "zarmor",
+            "marmor",
+            "bombs"
+          ],
+          [
+            "bow",
+            "slingshot",
+            "clawshot",
+            "boomerang",
+            "lantern",
+            "prod"
+          ],
+          [
+            "spinner",
+            "ballandchain",
+            "dominion",
+            "ironboots",
+            "skybook",
+            "bottle"
+          ],
+          [
+            "memosketch",
+            "letterstatue",
+            "invoicecharm",
+            "hiddenskills",
+            "poes",
+            "bugs"
+          ]
+        ]
+      }
+    ]
+  }
+}

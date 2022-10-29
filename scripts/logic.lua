@@ -4,7 +4,7 @@ function has(item, amount)
   if not amount then
     return count > 0
   else
-    return count == amount
+    return count >= amount
   end
 end
 
@@ -14,472 +14,544 @@ function hasnt(item)
   return count == 0
 end
 
-function break_boulders()
-  local boom = has_explosives()
-  local bnc = has("ballandchain")
-  return (boom or bnc)
-end
-
-function bomb_arrows()
-  local boom = has_explosives()
-  local arro = has("bow")
-  local rang = has("boomerang")
-  if (boom and arro) then
-    return true
-  elseif (rang and boom) then
-    return true, AccessibilityLevel.SequenceBreak
-  else return false
-  end
-end
-
-function has_explosives()
-  local bombs = has("bombs")
-  local watbom = has("bombswater")
-  return (bombs or watbom)
-end
-
-function has_bottle()
-  local bottles = has("bottle")
-  return bottles
-end
-
-function has_ranged()
-  local boomer = has("boomerang")
-  local breakr = has_breakrange()
-
-  return (boomer or breakr)
-end
-
-function has_breakrange()
-  local sling = has("slingshot")
-  local crystal = has_crystalrange()
-
-  return (sling or crystal)
-end
-
-function has_crystalrange()
-  local bow = has("bow")
-  local claw = has("clawshot")
-
-  return (bow or claw)
-end
-
-function bottleshop()
-  local botshop = has("op_botshop")
-  local bottles = has_bottle()
-
-  return botshop or bottles
-end
-
-function faron()
-  local twil = has("op_twilight")
-  local far = has("faron")
-  
-  return twil or far
-end
-
-function eldin()
-  local twil = has("op_twilight")
-  local eld = has("eldin")
-  
-  return twil or eld
-end
-
-function lanayru()
-  local twil = has("op_twilight")
-  local lan = has("lanayru")
-  
-  return twil or lan
-end
-
-function midlak()
-  local mdh = has("op_mdh")
-  local lak = has("lakebed")
-
-  return mdh or lak
-end
-
-function skycannon()
-  local ecits = has("op_ecits")
-  local skyc = has("skycannon")
-
-  return ecits or skyc
-end
-
-function skyvis()
-  local ecits = hasnt("op_ecits")
-
-  return ecits
-end
-
-function desert()
-  local memo = has("memo")
-  local twil = lanayru()
-  local edes = has("op_edes")
-
-  return (edes or memo) and twil
-end
-
-function barrier()
-  local palace = has("palace")
-  local ehc = has("op_ehc")
-
-  return palace or ehc
-end
-
-function grove2()
-  local man = has("mansion")
-  local eg2 = has("op_eg2")
-
-  return man or eg2
-end
-
-function mines()
-  local gm = has("mines")
-  local egm = has ("op_egm")
-
-  return gm or egm
-end
-
-function palace()
-  local epot = has("op_epot")
-  local sky = has("sky")
-
-  return epot or sky
-end
-
-function howl1()
-  local dmt = has("howlDMT")
-  local uzr = has("howlUZR")
-  local sg = has("howlSG")
-  local lh = has("howlLH")
-  local sp = has("howlSP")
-  local hv = has("howlHV")
-  local count = 0
-  
-  if dmt then
-    count = count + 1
-  end
-  if uzr then
-    count = count + 1
-  end
-  if sg then
-    count = count + 1
-  end
-  if lh then
-    count = count + 1
-  end
-  if sp then
-    count = count + 1
-  end
-  if hv then
-    count = count + 1
-  end
-
-  return count >= 1
-end
-
-function howl2()
-  local dmt = has("howlDMT")
-  local uzr = has("howlUZR")
-  local sg = has("howlSG")
-  local lh = has("howlLH")
-  local sp = has("howlSP")
-  local hv = has("howlHV")
-  local count = 0
-  
-  if dmt then
-    count = count + 1
-  end
-  if uzr then
-    count = count + 1
-  end
-  if sg then
-    count = count + 1
-  end
-  if lh then
-    count = count + 1
-  end
-  if sp then
-    count = count + 1
-  end
-  if hv then
-    count = count + 1
-  end
-
-  return count >= 2
-end
-
-function howl3()
-  local dmt = has("howlDMT")
-  local uzr = has("howlUZR")
-  local sg = has("howlSG")
-  local lh = has("howlLH")
-  local sp = has("howlSP")
-  local hv = has("howlHV")
-  local count = 0
-  
-  if dmt then
-    count = count + 1
-  end
-  if uzr then
-    count = count + 1
-  end
-  if sg then
-    count = count + 1
-  end
-  if lh then
-    count = count + 1
-  end
-  if sp then
-    count = count + 1
-  end
-  if hv then
-    count = count + 1
-  end
-
-  return count >= 3
-end
-
-function howl4()
-  local dmt = has("howlDMT")
-  local uzr = has("howlUZR")
-  local sg = has("howlSG")
-  local lh = has("howlLH")
-  local sp = has("howlSP")
-  local hv = has("howlHV")
-  local count = 0
-  
-  if dmt then
-    count = count + 1
-  end
-  if uzr then
-    count = count + 1
-  end
-  if sg then
-    count = count + 1
-  end
-  if lh then
-    count = count + 1
-  end
-  if sp then
-    count = count + 1
-  end
-  if hv then
-    count = count + 1
-  end
-
-  return count >= 4
-end
-
-function howl5()
-  local dmt = has("howlDMT")
-  local uzr = has("howlUZR")
-  local sg = has("howlSG")
-  local lh = has("howlLH")
-  local sp = has("howlSP")
-  local hv = has("howlHV")
-  local count = 0
-  
-  if dmt then
-    count = count + 1
-  end
-  if uzr then
-    count = count + 1
-  end
-  if sg then
-    count = count + 1
-  end
-  if lh then
-    count = count + 1
-  end
-  if sp then
-    count = count + 1
-  end
-  if hv then
-    count = count + 1
-  end
-
-  return count >= 5
-end
-
-function howl6()
-  local dmt = has("howlDMT")
-  local uzr = has("howlUZR")
-  local sg = has("howlSG")
-  local lh = has("howlLH")
-  local sp = has("howlSP")
-  local hv = has("howlHV")
-  local count = 0
-  
-  if dmt then
-    count = count + 1
-  end
-  if uzr then
-    count = count + 1
-  end
-  if sg then
-    count = count + 1
-  end
-  if lh then
-    count = count + 1
-  end
-  if sp then
-    count = count + 1
-  end
-  if hv then
-    count = count + 1
-  end
-
-  return count >= 6
-end
-
 function sword()
-  local wood = has("ws")
-  local mas = has("ms")
+  return has("ws")
+end
 
-  return wood or mas
+function bow()
+  return has("bow")
+end
+
+function sling()
+  return has("sling")
+end
+
+function bombs()
+  return has("bombs")
+end
+
+function claw()
+  return has("cs")
+end
+
+function spin()
+  return has("spinner")
+end
+
+function bnc()
+  return has("ballandchain")
+end
+
+function sc()
+  return has("wolf")
+end
+
+function ib()
+  return has("boots")
+end
+
+function gb()
+  return has("rang")
+end
+
+function lantern()
+  return has("lantern")
 end
 
 function shield()
-  local wood = has("shield1")
-  local hyl = has("shield2")
+  return has("shield1") or has("shield2")
+end
 
-  return wood or hyl
+function skill(amt)
+  return has("skills",amt)
 end
 
 function dmg()
-  local bnc = has("ballandchain")
-  local bow = has("bow")
-  local bomb = has("bombs")
-  local spin = has("spinner")
-  local wood = has("ws")
-  local mas = has("ms")
-  local wolf = has("wolf")
-  local boot = has("ironboots")
-
-  return bnc or bow or bomb or spin or wood or mas or wolf or boot
+  return sword() or bnc() or bow() or ib() or spin() or sc()
 end
 
-function watdmg()
-  local watbom = has("waterbombs")
-  local wood = has("ws")
-  local mas = has("ms")
-
-  return watbom or wood or mas
-end
-
-function ook()
-  local dmg = dmg()
-
-  return dmg
-end
-
-function diababa()
-  local boom = has("boomerang")
-  local bow = has("bow")
-  local bomb = has("bombs")
-
-  local dmg = dmg()
-
-  return (boom or (bow and bomb)) and dmg
-end
-
-function dangoro()
-  local boot = has("ironboots")
-
-  return boot
-end
-
-function fyrus()
-  local bow = has("bow")
-  local wood = has("ws")
-  local mas = has("ms")
-  local boot = has("ironboots")
-
-  return bow and (wood or mas) and boot
-end
-
-function dekutoad()
-  local dmg = dmg()
-
-  return dmg
-end
-
-function morpheel()
-  local claw = has("clawshot")
-  local boot = has("ironboots")
-  local watbom = has("bombswater")
-  local wood = has("ws")
-  local mas = has("ms")
-
-  return claw and boot and (watbom or wood or mas)
-end
-
-function deathsword()
-  local bow = has("bow")
-  local claw = has("claw")
-  local boom = has("boomerang")
-  local wolf = has("wolf")
-  local dmg = dmg()
-
-  return dmg and (bow or claw or boom) and wolf
-end
-
-function stallord()
-  local spin = has("spinner")
-  local mas = has("ms")
-  local wood = has("ws")
-
-  return spin and (mas or wood)
-end
-
-function darkhammer()
-  local dmg = dmg()
-
-  return dmg
-end
-
-function blizzeta()
-  local bnc = has("ballandchain")
-
-  return bnc
-end
-
-function darknut()
-  local bnc = has("ballandchain")
-  local wood = has("ws")
-  local mas = has("ms")
-  local ba = bomb_arrows()
-
-  return bnc or wood or mas or ba
-end
-
-function armogohma()
-  local dom = has("dominion")
-  local bow = has("bow")
-
-  return dom and bow
+function damage()
+  return dmg() or bombs()
 end
 
 function aeralfos()
-  local claw = has("clawshot")
-  local bnc = has("ballandchain")
-  local bow = has("bow")
-  local bomb = has("bombs")
-  local wood = has("ws")
-  local mas = has("ms")
-  local wolf = has("wolf")
-  local boot = has("ironboots")
+  return claw() and (sword() or bnc() or ib() or sc())
+end
 
-  return claw and (bnc or bow or bomb or wood or mas or wolf or boot)
+function armos()
+  return dmg()
+end
+
+function baba()
+  return dmg()
+end
+
+function gohma()
+  return sword() or bnc() or bow() or ib() or spin() or sling() or claw()
+end
+
+function bari()
+  return bombs() or claw()
+end
+
+function beamos()
+  return bnc() or bow() or bombs()
+end
+
+function bigbaba()
+  return sword() or bnc() or bow() or ib() or sc()
+end
+
+function chu()
+  return dmg() or claw()
+end
+
+function bokoblin()
+  return dmg() or sling()
+end
+
+function bombfish()
+  return ib() and (sword() or shield() or claw())
+end
+
+function bombling()
+  return dmg() or claw()
+end
+
+function bomskit()
+  return dmg()
+end
+
+function bubble()
+  return dmg()
+end
+
+function bulblin()
+  return dmg()
+end
+
+function chilfos()
+  return sword() or bnc() or bow() or ib() or sc()
+end
+
+function chuworm()
+  return (dmg() and bombs()) or claw()
+end
+
+function darknut()
+  return sword()
+end
+
+function dekubaba()
+  return sword() or bnc() or bow() or ib() or spin() or skill(2) or sling() or claw()
+end
+
+function dekulike()
+  return damage()
+end
+
+function dodongo()
+  return dmg()
+end
+
+function dinalfos()
+  return sword() or bnc() or sc()
+end
+
+function firebubble()
+  return dmg()
+end
+
+function firekeese()
+  return dmg() or sling()
+end
+
+function firetoadpoli()
+  return sword() or bnc() or bow() or sc()
+end
+
+function freezard()
+  return bnc()
+end
+
+function goron()
+  return sword() or bnc() or bow() or ib() or spin() or skill(2) or sling() or lantern() or claw()
+end
+
+function ghoulrat()
+  return sc()
+end
+
+function guay()
+  return dmg()
+end
+
+function helmasaur()
+  return dmg()
+end
+
+function helmasaurus()
+  return dmg()
+end
+
+function icebubble()
+  return dmg()
+end
+
+function icekeese()
+  return dmg() or sling()
+end
+
+function poe()
+  return sc()
+end
+
+function kargarok()
+  return dmg()
+end
+
+function keese()
+  return dmg() or sling()
+end
+
+function leever()
+  return dmg()
+end
+
+function lizalfos()
+  return sword() or bnc() or bow() or ib() or sc()
+end
+
+function minifreezard()
+  return dmg()
+end
+
+function moldorm()
+  return dmg()
+end
+
+function poisonmite()
+  return dmg() or lantern()
+end
+
+function puppet()
+  return dmg()
+end
+
+function rat()
+  return dmg() or sling()
+end
+
+function redead()
+  return sword() or bnc() or bow() or ib() or sc()
+end
+
+function shadowbeast()
+  return sword() or (sc() and mdh())
+end
+
+function shadowbulblin()
+  return dmg()
+end
+
+function shadowbaba()
+  return sword() or bnc() or bow() or ib() or spin() or skill(2) or sling() or claw()
+end
+
+function shadowinsect()
+  return sc()
+end
+
+function shadowkargarok()
+  return dmg()
+end
+
+function shadowkeese()
+  return dmg() or sling()
+end
+
+function shadowvermin()
+  return dmg()
+end
+
+function shellblade()
+  return bombs() or (sword() and ib())
+end
+
+function skullfish()
+  return dmg()
+end
+
+function skulltula()
+  return dmg()
+end
+
+function stalfos()
+  return smash()
+end
+
+function stalhound()
+  return dmg()
+end
+
+function stalchild()
+  return dmg()
+end
+
+function tektite()
+  return dmg()
+end
+
+function tileworm()
+  return (sword() or bnc() or bow() or sc()) and gb()
+end
+
+function toado()
+  return sword() or bnc() or bow() or spin() or sc()
+end
+
+function watertoadpoli()
+  return sword() or bnc() or bow() or sc()
+end
+
+function torchslug()
+  return sword() or bnc() or bow() or sc()
+end
+
+function walltula()
+  return bnc() or sling() or bow() or gb() or claw()
+end
+
+function whitewolfos()
+  return dmg()
+end
+
+function younggohma()
+  return dmg()
+end
+
+function zanthead()
+  return sc() or sword()
+end
+
+function ook()
+  return sword() or bnc() or bow() or ib() or sc()
+end
+
+function dangoro()
+  return (sword() or bnc() or sc()) and ib()
+end
+
+function carrierkargarok()
+  return sc()
+end
+
+function twilitbloat()
+  return sc()
+end
+
+function dekutoad()
+  return sword() or bnc() or bow() or ib() or sc()
+end
+
+function skullkid()
+  return bow()
+end
+
+function kbbridge()
+  return bow()
+end
+
+function kbdesert()
+  return sword() or bnc() or sc()
+end
+
+function kbcastle()
+  return sword() or bnc() or sc()
+end
+
+function deathsword()
+  return (sword() or bnc() or ib()) and (gb() or bow() or claw()) and sc()
+end
+
+function darkhammer()
+  return sword() or bnc() or sc()
+end
+
+function phantomzant()
+  return sc() or sword()
+end
+
+function diababa()
+  return (gb() or (bombs() and bow())) and (sword() or bnc() or ib() or sc())
+end
+
+function fyrus()
+  return bow() and ib() and sword()
+end
+
+function morpheel()
+  return has("zarmor") and ib() and sword()
+end
+
+function stallord()
+  return spin() and sword()
+end
+
+function blizzeta()
+  return bnc()
+end
+
+function armogohma()
+  return bow() and has("drod_off")
 end
 
 function argorok()
-  local claw = has("clawshot_double")
-  local ord = has("os")
-  local mas = has("ms")
-  local boot = has("ironboots")
+  return has("dcs") and ib() and has("os")
+end
 
-  return claw and (ord or mas) and boot
+function zant()
+  return has("ms") and gb() and claw() and ib() and has("zarmor") and bnc()
+end
+
+function ganondorf()
+  return sc() and has("ms") and skill(1)
+end
+
+function smash()
+  return bnc() or bombs()
+end
+
+function webs()
+  return bnc() or lantern() or bombs()
+end
+
+function ranged()
+  return bnc() or sling() or bow() or claw() or gb()
+end
+
+function launchbombs()
+  return (gb() or bow()) and bombs()
+end
+
+function hangingweb()
+  return claw() or bow() or gb() or bnc()
+end
+
+function hcpainting()
+  return bow() or bombs()
+end
+
+function monkeycage()
+  return dmg() or claw()
+end
+
+function minesswitch()
+  return bnc() or ib()
+end
+
+function monkeys()
+  return monkeycage() and lantern() and gb() and bokoblin() and bigbaba() and has("forestsk",4)
+end
+
+function hangingbaba()
+  return bow() or claw() or gb()
+end
+
+function woodendoor()
+  return sc() or sword() or smash()
+end
+
+function mdh()
+  return has("lakebed") or has("op_mdh_skip")
+end
+
+function forest()
+  return has("forest") or has("op_fw_o") or sc()
+end
+
+function ordeals1()
+  return bokoblin() and keese() and rat() and baba() and skulltula() and bulblin() and torchslug() and firekeese() and dodongo() and tektite() and lizalfos()
+end
+
+function ordeals2()
+  return helmasaur() and rat() and spin() and chu() and chuworm() and bubble() and bulblin() and keese() and rat() and stalhound() and poe() and leever()
+end
+
+function ordeals3()
+  return bokoblin() and icekeese() and bnc() and keese() and rat() and ghoulrat() and stalchild() and redead() and bulblin() and stalfos() and skulltula() and bubble() and lizalfos() and firebubble()
+end
+
+function ordeals4()
+  return beamos() and keese() and has("dominion") and torchslug() and firekeese() and dodongo() and firebubble() and redead() and poe() and ghoulrat() and chu() and icekeese() and freezard() and chilfos() and icebubble() and leever() and darknut()
+end
+
+function palace()
+  if has("op_pot_o") then
+    return true
+  elseif has("op_pot_fs") then
+    if shadows >= 3 then
+      return true
+    end
+  elseif has("op_pot_ms") then
+    if mirrors >= 3 then
+      return true
+    end
+  elseif has("op_pot_v") then
+    return has("sky")
+  end
+  return false
+end
+
+function castle()
+  local shadows = Tracker:ProviderCountForCode("shadow")
+  local mirrors = Tracker:ProviderCountForCode("mirror")
+  if has("op_hc_o") then
+    return true
+  elseif has("op_hc_fs") then
+    if shadows >= 3 then
+      return true
+    end
+  elseif has("op_hc_ms") then
+    if mirrors >= 3 then
+      return true
+    end
+  elseif has("op_hc_ad") then
+    local forest = has("forest")
+    local mines = has("mines")
+    local lakebed = has("lakebed")
+    local grounds = has("grounds")
+    local mansion = has("mansion")
+    local time = has("time")
+    local sky = has("sky")
+    local palace = has("palace")
+    return forest and mines and lakebed and grounds and mansion and time and sky and palace
+  elseif has("op_hc_v") then
+    return has("palace")
+  end
+  return false
+end
+
+function mines()
+  return has("op_mines_skip") or ib()
+end
+
+function lakebed()
+  return has("op_lkbd_skip") or (ib() and bombs())
+end
+
+function grounds()
+  return has("op_grnds_skip") or (kbdesert() and has("desertsk"))
+end
+
+function snowpeak()
+  return has("op_ruins_skip") or has("earring")
+end
+
+function grove()
+  return has("op_grove_skip") or has("ms")
+end
+
+function skycannon()
+  return has("op_cannon_skip") or (has("skybook_full") and has("dominion"))
 end

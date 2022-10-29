@@ -2,7 +2,7 @@
   {
     "name": "Hero's Bow",
     "type": "toggle",
-    "img": "images/herosbow.png",
+    "img": "images/bow.png",
     "codes": "bow"
   },
   {
@@ -41,44 +41,6 @@
     ]
   },
   {
-    "name": "Bomb Bags",
-    "type": "progressive",
-    "allow_disabled": false,
-    "loop": true,
-    "stages": [
-      {
-        "img": "images/bombbag_gray.png",
-        "codes": "bbag"
-      },
-      {
-        "img": "images/bbag1.png",
-        "codes": "bombs"
-      },
-      {
-        "img": "images/bbag2.png"
-      },
-      {
-        "img": "images/bbag3.png"
-      },
-      {
-        "img": "images/bbag_g.png"
-      }
-    ]
-  },
-  {
-    "name": "Water Bomb",
-    "type": "toggle_badged",
-    "codes": "bbagwat,bombswater",
-    "base_item": "bbag",
-    "img": "images/bbagwat.png"
-  },
-  {
-    "name": "Water Bombs",
-    "type": "toggle",
-    "codes": "bombswater,waterbombs",
-    "img": "images/bomb_water.png"
-  },
-  {
     "name": "Gale Boomerang",
     "type": "toggle",
     "img": "images/galeboomerang.png",
@@ -111,10 +73,24 @@
   },
   {
     "name": "Coral Earring",
-    "type": "toggle_badged",
-    "base_item": "fishingrod",
+    "type": "toggle",
     "img": "images/coralearring.png",
     "codes": "coralearring,cearring,coral,earring"
+  },
+  {
+    "name": "Progressive Rod",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/fishingrod.png",
+        "codes": "prod,frod"
+      },
+      {
+        "img": "images/fishingrod.png",
+        "img_mods": "overlay|images/badge_earring.png",
+        "codes": "earring"
+      }
+    ]
   },
   {
     "name": "Spinner",
@@ -126,7 +102,7 @@
     "name": "Ball and Chain",
     "type": "toggle",
     "img": "images/ballandchain.png",
-    "codes": "ballandchain"
+    "codes": "ballandchain,bnc"
   },
   {
     "name": "Dominion Rod",
@@ -148,7 +124,7 @@
     "name": "Iron Boots",
     "type": "toggle",
     "img": "images/ironboots.png",
-    "codes": "ironboots,boots,irons"
+    "codes": "ironboots,boots,irons,ib"
   },
   {
     "name": "Lantern",
@@ -188,12 +164,52 @@
     "loop": true,
     "stages": [
       {
-        "img": "images/bug_off.png",
+        "img": "images/bug.png",
+        "img_mods": "overlay|images/badge_off.png",
         "codes": "op_bug_off"
       },
       {
-        "img": "images/bug_on.png",
+        "img": "images/bug.png",
+        "img_mods": "overlay|images/badge_on.png",
         "codes": "op_bug",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Sky Character Shuffle",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/skybook.png",
+        "img_mods": "overlay|images/badge_off.png",
+        "codes": "op_sky_off"
+      },
+      {
+        "img": "images/skybook.png",
+        "img_mods": "overlay|images/badge_on.png",
+        "codes": "op_sky",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "NPC Gift Shuffle",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/charlo.png",
+        "img_mods": "overlay|images/badge_off.png",
+        "codes": "op_npc_off"
+      },
+      {
+        "img": "images/charlo.png",
+        "img_mods": "overlay|images/badge_on.png",
+        "codes": "op_npc",
         "inherit_codes": false
       }
     ]
@@ -205,11 +221,13 @@
     "loop": true,
     "stages": [
       {
-        "img": "images/poe_off.png",
+        "img": "images/poe.png",
+        "img_mods": "overlay|images/badge_off.png",
         "codes": "op_poe_off"
       },
       {
-        "img": "images/poe_on.png",
+        "img": "images/poe.png",
+        "img_mods": "overlay|images/badge_on.png",
         "codes": "op_poe",
         "inherit_codes": false
       }
@@ -222,199 +240,14 @@
     "loop": true,
     "stages": [
       {
-        "img": "images/shop_off.png",
+        "img": "images/rupee.png",
+        "img_mods": "overlay|images/badge_off.png",
         "codes": "op_shop_off"
       },
       {
-        "img": "images/shop_on.png",
+        "img": "images/rupee.png",
+        "img_mods": "overlay|images/badge_on.png",
         "codes": "op_shop",
-        "inherit_codes": false
-      }
-    ]
-  },
-  {
-    "name": "Dungeon Items Shuffle",
-    "type": "progressive",
-    "allow_disabled": false,
-    "loop": true,
-    "stages": [
-      {
-        "img": "images/dung_off.png",
-        "codes": "op_dung_off"
-      },
-      {
-        "img": "images/dung_on.png",
-        "codes": "op_dung",
-        "inherit_codes": false
-      }
-    ]
-  },
-  {
-    "name": "Key Shuffle",
-    "type": "progressive",
-    "allow_disabled": false,
-    "loop": true,
-    "stages": [
-      {
-        "img": "images/key_off.png",
-        "codes": "op_key_off"
-      },
-      {
-        "img": "images/key_on.png",
-        "codes": "op_key",
-        "inherit_codes": false
-      }
-    ]
-  },
-  {
-    "name": "Bottles required for shop?",
-    "type": "progressive",
-    "allow_disabled": false,
-    "loop": true,
-    "stages": [
-      {
-        "img": "images/bottle_off.png",
-        "codes": "op_botshop_off"
-      },
-      {
-        "img": "images/bottle_on.png",
-        "codes": "op_botshop",
-        "inherit_codes": false
-      }
-    ]
-  },
-  {
-    "name": "MDH Skip",
-    "type": "progressive",
-    "allow_disabled": false,
-    "loop": true,
-    "stages": [
-      {
-        "img": "images/mdh_off.png",
-        "codes": "op_mdh_off"
-      },
-      {
-        "img": "images/mdh_on.png",
-        "codes": "op_mdh",
-        "inherit_codes": false
-      }
-    ]
-  },
-  {
-    "name": "Twilight Skip",
-    "type": "progressive",
-    "allow_disabled": false,
-    "loop": true,
-    "stages": [
-      {
-        "img": "images/twilight_off.png",
-        "codes": "op_twilight_off"
-      },
-      {
-        "img": "images/twilight_on.png",
-        "codes": "op_twilight",
-        "inherit_codes": false
-      }
-    ]
-  },
-  {
-    "name": "Early CitS",
-    "type": "progressive",
-    "allow_disabled": false,
-    "loop": true,
-    "stages": [
-      {
-        "img": "images/ecits_off.png",
-        "codes": "op_ecits_off"
-      },
-      {
-        "img": "images/ecits_on.png",
-        "codes": "op_ecits",
-        "inherit_codes": false
-      }
-    ]
-  },
-  {
-    "name": "Early Desert",
-    "type": "progressive",
-    "allow_disabled": false,
-    "loop": true,
-    "stages": [
-      {
-        "img": "images/edes_off.png",
-        "codes": "op_edes_off"
-      },
-      {
-        "img": "images/edes_on.png",
-        "codes": "op_edes",
-        "inherit_codes": false
-      }
-    ]
-  },
-  {
-    "name": "Early Grove",
-    "type": "progressive",
-    "allow_disabled": false,
-    "loop": true,
-    "stages": [
-      {
-        "img": "images/eg2_off.png",
-        "codes": "op_eg2_off"
-      },
-      {
-        "img": "images/eg2_on.png",
-        "codes": "op_eg2",
-        "inherit_codes": false
-      }
-    ]
-  },
-  {
-    "name": "Early Post-Mines",
-    "type": "progressive",
-    "allow_disabled": false,
-    "loop": true,
-    "stages": [
-      {
-        "img": "images/egm_off.png",
-        "codes": "op_egm_off"
-      },
-      {
-        "img": "images/egm_on.png",
-        "codes": "op_egm",
-        "inherit_codes": false
-      }
-    ]
-  },
-  {
-    "name": "Open Castle",
-    "type": "progressive",
-    "allow_disabled": false,
-    "loop": true,
-    "stages": [
-      {
-        "img": "images/ehc_off.png",
-        "codes": "op_ehc_off"
-      },
-      {
-        "img": "images/ehc_on.png",
-        "codes": "op_ehc",
-        "inherit_codes": false
-      }
-    ]
-  },
-  {
-    "name": "Early Palace",
-    "type": "progressive",
-    "allow_disabled": false,
-    "loop": true,
-    "stages": [
-      {
-        "img": "images/epot_off.png",
-        "codes": "op_epot_off"
-      },
-      {
-        "img": "images/epot_on.png",
-        "codes": "op_epot",
         "inherit_codes": false
       }
     ]
@@ -426,30 +259,221 @@
     "loop": true,
     "stages": [
       {
-        "img": "images/skill_off.png",
+        "img": "images/skill.png",
+        "img_mods": "overlay|images/badge_off.png",
         "codes": "op_skill_off"
       },
       {
-        "img": "images/skill_on.png",
+        "img": "images/skill.png",
+        "img_mods": "overlay|images/badge_on.png",
         "codes": "op_skill",
         "inherit_codes": false
       }
     ]
   },
   {
-    "name": "Scent Shuffle",
+    "name": "Goron Mines Wrestling",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop":true,
+    "stages": [
+      {
+        "img": "images/coron.png",
+        "codes": "op_gm"
+      },
+      {
+        "img": "images/coron.png",
+        "img_mods": "overlay|images/badge_skip.png",
+        "codes": "op_gm_skip"
+      }
+    ]
+  },
+  {
+    "name": "Lakebed Waterbomb Rock",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop":true,
+    "stages": [
+      {
+        "img": "images/bombwater.png",
+        "codes": "op_lkbd"
+      },
+      {
+        "img": "images/bombwater.png",
+        "img_mods": "overlay|images/badge_skip.png",
+        "codes": "op_lkbd_skip"
+      }
+    ]
+  },
+  {
+    "name": "Bulblin Camp",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop":true,
+    "stages": [
+      {
+        "img": "images/kb.png",
+        "codes": "op_grnds"
+      },
+      {
+        "img": "images/kb.png",
+        "img_mods": "overlay|images/badge_skip.png",
+        "codes": "op_grnds_skip"
+      }
+    ]
+  },
+  {
+    "name": "Reekfish Scent Skip",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop":true,
+    "stages": [
+      {
+        "img": "images/coralearring.png",
+        "codes": "op_ruins"
+      },
+      {
+        "img": "images/coralearring.png",
+        "img_mods": "overlay|images/badge_skip.png",
+        "codes": "op_ruins_skip"
+      }
+    ]
+  },
+  {
+    "name": "Sacred Grove Skip",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop":true,
+    "stages": [
+      {
+        "img": "images/grovestatue.png",
+        "codes": "op_grove"
+      },
+      {
+        "img": "images/grovestatue.png",
+        "img_mods": "overlay|images/badge_skip.png",
+        "codes": "op_grove_skip"
+      }
+    ]
+  },
+  {
+    "name": "Sky Cannon Skip",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop":true,
+    "stages": [
+      {
+        "img": "images/skycannon.png",
+        "codes": "op_cannon"
+      },
+      {
+        "img": "images/skycannon.png",
+        "img_mods": "overlay|images/badge_skip.png",
+        "codes": "op_cannon_skip"
+      }
+    ]
+  },
+  {
+    "name": "Hyrule Castle Requirement",
     "type": "progressive",
     "allow_disabled": false,
     "loop": true,
     "stages": [
       {
-        "img": "images/scent_off.png",
-        "codes": "op_scent_off"
+        "img": "images/castle.png",
+        "img_mods": "overlay|images/badge_open.png",
+        "codes": "op_hc_o,op_hc"
       },
       {
-        "img": "images/scent_on.png",
-        "codes": "op_scent",
+        "img": "images/castle.png",
+        "img_mods": "overlay|images/badge_shadow.png",
+        "codes": "op_hc_fs",
         "inherit_codes": false
+      },
+      {
+        "img": "images/castle.png",
+        "img_mods": "overlay|images/badge_mirror.png",
+        "codes": "op_hc_ms",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/castle.png",
+        "img_mods": "overlay|images/badge_ad.png",
+        "codes": "op_hc_ad",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/castle.png",
+        "img_mods": "overlay|images/badge_vanilla.png",
+        "codes": "op_hc_v",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Palace of Twilight Requirement",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/mirror.png",
+        "img_mods": "overlay|images/badge_open.png",
+        "codes": "op_pot_o,op_pot"
+      },
+      {
+        "img": "images/mirror.png",
+        "img_mods": "overlay|images/badge_shadow.png",
+        "codes": "op_pot_fs",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/mirror.png",
+        "img_mods": "overlay|images/badge_mirror.png",
+        "codes": "op_pot_ms",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/mirror.png",
+        "img_mods": "overlay|images/badge_vanilla.png",
+        "codes": "op_pot_v",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Faron Woods",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/forest.png",
+        "img_mods": "overlay|images/badge_open.png",
+        "codes": "op_fw_o,op_fw"
+      },
+      {
+        "img": "images/forest.png",
+        "img_mods": "overlay|images/badge_closed.png",
+        "codes": "op_fw_c",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Midna's Desperate Hour",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/shadow.png",
+        "codes": "op_mdh"
+      },
+      {
+        "img": "images/shadow.png",
+        "img_mods": "overlay|images/badge_skip.png",
+        "codes": "op_mdh_skip"
       }
     ]
   }

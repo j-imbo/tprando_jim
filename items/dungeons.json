@@ -31,18 +31,18 @@
     "stages": [
       {
         "img": "images/unknown.png",
-        "codes": "forest",
-        "secondary_codes": "unknown"
+        "codes": "fores",
+        "secondary_codes": "unknow"
       },
       {
         "img": "images/shadows.png",
-        "codes": "forest,shadow",
-        "secondary_codes": "shadow"
+        "codes": "fores,shado",
+        "secondary_codes": "shado"
       },
       {
         "img": "images/mirrorshard.png",
-        "codes": "forest,mirror",
-        "secondary_codes": "mirror"
+        "codes": "fores,mirro",
+        "secondary_codes": "mirro"
       }
     ]
   },
@@ -79,18 +79,18 @@
     "stages": [
       {
         "img": "images/unknown.png",
-        "codes": "mines",
-        "secondary_codes": "unknown"
+        "codes": "mine",
+        "secondary_codes": "unknow"
       },
       {
         "img": "images/shadows.png",
-        "codes": "mines,shadow",
-        "secondary_codes": "shadow"
+        "codes": "mine,shado",
+        "secondary_codes": "shado"
       },
       {
         "img": "images/mirrorshard.png",
-        "codes": "mines,mirror",
-        "secondary_codes": "mirror"
+        "codes": "mine,mirro",
+        "secondary_codes": "mirro"
       }
     ]
   },
@@ -138,18 +138,18 @@
     "stages": [
       {
         "img": "images/unknown.png",
-        "codes": "lakebed",
+        "codes": "lakebe",
         "secondary_codes": "unknown"
       },
       {
         "img": "images/shadows.png",
-        "codes": "lakebed,shadow",
-        "secondary_codes": "shadow"
+        "codes": "lakebe,shado",
+        "secondary_codes": "shado"
       },
       {
         "img": "images/mirrorshard.png",
-        "codes": "lakebed,mirror",
-        "secondary_codes": "mirror"
+        "codes": "lakebe,mirro",
+        "secondary_codes": "mirro"
       }
     ]
   },
@@ -197,18 +197,18 @@
     "stages": [
       {
         "img": "images/unknown.png",
-        "codes": "mansion",
-        "secondary_codes": "unknown"
+        "codes": "mansio",
+        "secondary_codes": "unknow"
       },
       {
         "img": "images/shadows.png",
-        "codes": "mansion,shadow",
-        "secondary_codes": "shadow"
+        "codes": "mansio,shado",
+        "secondary_codes": "shado"
       },
       {
         "img": "images/mirrorshard.png",
-        "codes": "mansion,mirror",
-        "secondary_codes": "mirror"
+        "codes": "mansio,mirro",
+        "secondary_codes": "mirro"
       }
     ]
   },
@@ -244,18 +244,18 @@
     "stages": [
       {
         "img": "images/unknown.png",
-        "codes": "time",
-        "secondary_codes": "unknown"
+        "codes": "tim",
+        "secondary_codes": "unknow"
       },
       {
         "img": "images/shadows.png",
-        "codes": "time,shadow",
-        "secondary_codes": "shadow"
+        "codes": "tim,shado",
+        "secondary_codes": "shado"
       },
       {
         "img": "images/mirrorshard.png",
-        "codes": "time,mirror",
-        "secondary_codes": "mirror"
+        "codes": "tim,mirro",
+        "secondary_codes": "mirro"
       }
     ]
   },
@@ -291,18 +291,18 @@
     "stages": [
     {
       "img": "images/unknown.png",
-      "codes": "sky",
-      "secondary_codes": "unknown"
+      "codes": "sk",
+      "secondary_codes": "unknow"
     },
     {
       "img": "images/shadows.png",
-      "codes": "sky,shadow",
-      "secondary_codes": "shadow"
+      "codes": "sk,shado",
+      "secondary_codes": "shado"
     },
     {
       "img": "images/mirrorshard.png",
-      "codes": "sky,mirror",
-      "secondary_codes": "mirror"
+      "codes": "sk,mirro",
+      "secondary_codes": "mirro"
     }
     ]
   },
@@ -359,7 +359,7 @@
     "name": "Arbiter's Grounds Prize",
     "type": "toggle",
     "img": "images/mirror.png",
-    "codes": "grounds"
+    "codes": "grou"
   },
   {
     "name": "Palace of Twilight Label",
@@ -402,7 +402,7 @@
     "name": "Palace of Twilight Prize",
     "type": "toggle",
     "img": "images/shadow.png",
-    "codes": "palace"
+    "codes": "pala"
   },
   {
     "name": "Hyrule Castle Label",
@@ -450,10 +450,21 @@
   },
   {
     "name": "Bulblin Base Small Key",
-    "type": "consumable",
+    "type": "toggle",
     "img": "images/smallkey.png",
-    "codes": "desert_key,desertsmall,desertsk",
-    "max_quantity": 1
+    "codes": "desert_key,desertsmall,desertsk"
+  },
+  {
+    "name": "Gate Keys Label",
+    "type": "static",
+    "img": "images/label_gate.png",
+    "codes": "gate_label"
+  },
+  {
+    "name": "Hyrule Field Gate Keys",
+    "type": "toggle",
+    "img": "images/smallkey.png",
+    "codes": "field_key,fieldsmall,fieldsk,gatekeys"
   },
   {
     "name": "Generic Map",

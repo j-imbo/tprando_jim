@@ -1,133 +1,112 @@
 [
   {
-    "name": "(FF) Hyrule Castle",
+    "name": "Hyrule Castle",
     "parent": "Hyrule Castle Town",
     "access_rules": [
-      "$barrier",
-      "palace,shadow:3"
+      "$castle"
     ],
     "sections": [
       {
+        "name": "West Courtyard North",
+        "access_rules": [
+          "$bokoblin,$kargarok"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "West Courtyard Central",
+        "access_rules": [
+          "$bokoblin,$kargarok"
+        ],
+        "item_count": 1
+      },
+      {
         "name": "King Bulblin",
-        "chest_unopened_img": "images/smallkey.png",
-        "chest_opened_img": "images/smallkey_gray.png",
-        "item_count": 1,
         "access_rules": [
-          "$dmg"
-        ]
-      },
-      {
-        "name": "Chest behind KB",
-        "item_count": 1,
-        "access_rules": [
-          "$dmg"
-        ]
-      },
-      {
-        "name": "Chest on Wall near KB",
-        "item_count": 1,
-        "access_rules": [
-          "$dmg"
-        ]
-      },
-      {
-        "name": "East Courtyard Gate Chest",
-        "visibility_rules": [
-          "op_dung"
-        ],
-        "access_rules": [
-          "boomerang,$dmg"
+          "$bokoblin,$kargarok,$kbcastle"
         ],
         "item_count": 1
       },
       {
-        "name": "East Courtyard Wall Chest",
+        "name": "East Courtyard Boomerang Puzzle",
         "access_rules": [
-          "boomerang,$dmg"
+          "$bokoblin,$kargarok,boomerang"
         ],
         "item_count": 1
       },
       {
-        "name": "Graveyard Lower Chests",
+        "name": "East Courtyard Balcony",
         "access_rules": [
-          "boomerang,wolf,$break_boulders,$dmg"
+          "$bokoblin,$kargarok,boomerang"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Graveyard Switch Room",
+        "access_rules": [
+          "$bokoblin,$kargarok,sc,$smash"
         ],
         "item_count": 3
       },
       {
-        "name": "Graveyard Upper Chest",
+        "name": "Graveyard Owl Statue Chest",
         "access_rules": [
-          "boomerang,wolf,$break_boulders,lantern,dominion,$dmg"
+          "$bokoblin,$kargarok,sc,$smash,lantern,drod"
         ],
         "item_count": 1
       },
       {
-        "name": "Foyer Compass Chest",
-        "visibility_rules": [
-          "op_dung"
-        ],
-        "item_count": 1,
+        "name": "Main Hall Northeast",
         "access_rules": [
-          "clawshot,castlesk:1,$dmg"
-        ]
-      },
-      {
-        "name": "Darknut Chest",
-        "access_rules": [
-          "castlesk:1,clawshot_double,boomerang,$darknut"
+          "castlesk:1,$bokoblin,$lizalfos,cs"
         ],
         "item_count": 1
       },
       {
-        "name": "West Side Lobby Chests",
+        "name": "Lantern Staircase",
         "access_rules": [
-          "castlesk:1,clawshot_double,boomerang,bow,$darknut"
+          "castlesk:1,$darknut,lantern,boomerang,$bokoblin,$lizalfos,dcs"
+        ],
+        "item_count": 1
+      },
+      {
+        "name": "Main Hall West",
+        "access_rules": [
+          "castlesk:1,$hcpainting,$lizalfos,$darknut,boomerang,lantern,dcs"
         ],
         "item_count": 2
       },
       {
-        "name": "Castle Wall Chests",
-        "access_rules":[
-          "castlesk:1,clawshot_double,boomerang,$darknut,$aeralfos"
-        ],
-        "visibility_rules": [
-          "op_dung"
-        ],
-        "item_count": 2
-      },
-      {
-        "name": "Castle Wall Chest",
-        "access_rules":[
-          "castlesk:1,clawshot_double,$darknut"
-        ],
-        "visibility_rules": [
-          "op_dung_off"
+        "name": "Southeast Castle Walls",
+        "access_rules": [
+          "castlesk:1,$bokoblin,$lizalfos,dcs,$darknut,boomerang,lantern,$hcpainting,$aeralfos",
+          "castlesk:1,$bokoblin,$lizalfos,dcs,$darknut,boomerang,lantern,$dinalfos,$aeralfos"
         ],
         "item_count": 1
       },
       {
-        "name": "Castle Wall Big Key",
-        "access_rules":[
-          "castlesk:1,clawshot_double,boomerang,$darknut"
+        "name": "Big Key Chest",
+        "access_rules": [
+          "castlesk:1,$bokoblin,$lizalfos,dcs,$darknut,boomerang,lantern,$hcpainting",
+          "castlesk:1,$bokoblin,$lizalfos,dcs,$darknut,boomerang,lantern,$dinalfos"
         ],
-        "visibility_rules": [
-          "op_dung_off"
-        ],
-        "hosted_item": "castlebk"
+        "item_count": 1
       },
       {
         "name": "Treasury",
         "access_rules": [
-          "castlesk:3,clawshot_double,spinner,wolf,$darknut"
+          "castlesk:3,$bokoblin,$lizalfos,dcs,$darknut,boomerang,lantern,$hcpainting,spinner",
+          "castlesk:3,$bokoblin,$lizalfos,dcs,$darknut,boomerang,lantern,$dinalfos,spinner"
         ],
         "item_count": 13
       },
       {
-        "name": "Throne Room",
-        "hosted_item": "triforce",
+        "name": "Ganondorf",
         "access_rules": [
-          "ms,skills:1,castlesk:2,clawshot_double,spinner,wolf,castle_boss_key,boomerang,$darknut"
-        ]
+          "castlesk:2,$bokoblin,$lizalfos,dcs,$darknut,boomerang,lantern,$hcpainting,spinner,castlebk,$ganondorf",
+          "castlesk:2,$bokoblin,$lizalfos,dcs,$darknut,boomerang,lantern,$dinalfos,spinner,castlebk,$ganondorf"
+        ],
+        "hosted_item": "triforce"
       }
     ],
     "map_locations": [
