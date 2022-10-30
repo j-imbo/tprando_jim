@@ -1167,7 +1167,7 @@
                 "name": "Bomb Kit",
                 "item_count": 1,
                 "chest_unopened_img": "images/bombbag.png",
-                "chest_opened_img": "images/bombbag.png"
+                "chest_opened_img": "images/bombbag_gray.png"
               }
             ],
             "map_locations": [
@@ -1269,7 +1269,7 @@
               {
                 "name": "Rutela's Blessing",
                 "chest_unopened_img": "images/armor_zora.png",
-                "chest_opened_img": "images/armor_zora.png",
+                "chest_opened_img": "images/armor_zora_gray.png",
                 "item_count": 1,
                 "access_rules": [
                   "gatekeys"
@@ -1277,8 +1277,8 @@
               },
               {
                 "name": "Gift from Ralis",
-                "chest_unopened_img": "images/earring.png",
-                "chest_opened_img": "images/earring.png",
+                "chest_unopened_img": "images/coralearring.png",
+                "chest_opened_img": "images/coralearring_gray.png",
                 "access_rules": [
                   "sketch,gatekeys"
                 ],
@@ -1754,7 +1754,7 @@
               {
                 "name": "Wooden Statue",
                 "chest_unopened_img": "images/woodenstatue.png",
-                "chest_opened_img": "images/woodenstatue.png",
+                "chest_opened_img": "images/woodenstatue_gray.png",
                 "access_rules": [
                   "invoice"
                 ],
@@ -1792,7 +1792,7 @@
               {
                 "name": "STAR Big Quiver",
                 "chest_unopened_img": "images/quiver_big.png",
-                "chest_opened_img": "images/quiver_big.png",
+                "chest_opened_img": "images/quiver_big_gray.png",
                 "access_rules": [
                   "cs"
                 ],
@@ -1801,7 +1801,7 @@
               {
                 "name": "STAR Giant Quiver",
                 "chest_unopened_img": "images/quiver_giant.png",
-                "chest_opened_img": "images/quiver_giant.png",
+                "chest_opened_img": "images/quiver_giant_gray.png",
                 "access_rules": [
                   "dcs"
                 ],
@@ -1870,7 +1870,7 @@
                   ""
                 ],
                 "chest_unopened_img": "images/armor_magic.png",
-                "chest_opened_img": "images/armor_magic.png",
+                "chest_opened_img": "images/armor_magic_gray.png",
                 "item_count": 1,
                 "visibility_rules": ["op_npc"]
               }
@@ -1901,7 +1901,7 @@
               {
                 "name": "20 Poes Reward",
                 "chest_unopened_img": "images/bottle.png",
-                "chest_opened_img": "images/bottle.png",
+                "chest_opened_img": "images/bottle_gray.png",
                 "item_count": 1,
                 "access_rules": [
                   "poes:20,sc,$mdh",
@@ -1953,7 +1953,7 @@
         "name": "Zora's River",
         "access_rules": [
           "$forest,$smash",
-          "$forest,gatekeys"
+          "$forest,gatekeys,sc"
         ],
         "color":"#4682b3",
         "children": [
@@ -1969,7 +1969,7 @@
               {
                 "name": "Fished Bottle",
                 "chest_unopened_img":"images/bottle.png",
-                "chest_opened_img": "images/bottle.png",
+                "chest_opened_img": "images/bottle_gray.png",
                 "item_count":1,
                 "access_rules": [
                   "frod"
@@ -1993,13 +1993,13 @@
               {
                 "name": "Clear the Rapids",
                 "chest_unopened_img": "images/bombbag.png",
-                "chest_opened_img": "images/bombbag.png",
+                "chest_opened_img": "images/bombbag_gray.png",
                 "item_count": 1
               },
               {
                 "name": "Iza's Raging Rapids",
                 "chest_unopened_img": "images/bombbag_giant.png",
-                "chest_opened_img": "images/bombbag_giant.png",
+                "chest_opened_img": "images/bombbag_giant_gray.png",
                 "item_count": 1,
                 "visibility_rules": ["op_npc"]
               }
@@ -2144,7 +2144,7 @@
                   "ironboots,zarmor,bombs"
                 ],
                 "chest_unopened_img": "images/bombbag.png",
-                "chest_opened_img": "images/bombbag.png",
+                "chest_opened_img": "images/bombbag_gray.png",
                 "item_count": 1
               }
             ],
@@ -2961,7 +2961,7 @@
         "color": "#dda0dd",
         "access_rules": [
           "$forest,$smash",
-          "$forest,gatekeys"
+          "$forest,gatekeys,sc"
         ],
         "children": [
           {
