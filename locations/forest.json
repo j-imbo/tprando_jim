@@ -3,7 +3,8 @@
     "name": "Forest Temple",
     "parent": "Faron Woods",
     "access_rules": [
-      ""
+      "lantern",
+      "wolf"
     ],
     "sections": [
       {
