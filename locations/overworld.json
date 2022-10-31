@@ -1299,7 +1299,7 @@
                   "op_skill"
                 ],
                 "access_rules": [
-                  "howlSP,sc,frod,earring,sword,shields"
+                  "howlSP,sc,sword,shields"
                 ],
                 "item_count": 1
               }
@@ -1566,7 +1566,7 @@
                 "name": "Helmasaur Grotto Chest",
                 "item_count": 1,
                 "access_rules": [
-                  "wolf,sc,$helmasaur"
+                  "wolf,cs,$helmasaur"
                 ]
               },
               {
