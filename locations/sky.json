@@ -128,13 +128,15 @@
         "name": "North Fan",
         "access_rules": [
           "dcs,$baba,kargarok,sc,ib"
-        ]
+        ],
+        "item_count": 1
       },
       {
         "name": "Argorok",
         "access_rules": [
           "dcs,$baba,kargarok,sc,ib,$aeralfos,skybk,$argorok"
-        ]
+        ],
+        "item_count": 1
       }
     ],
     "map_locations": [

@@ -16,119 +16,119 @@
       {
         "name": "Torch Room Chests",
         "access_rules": [
-          "groundsk:1,lantern"
+          "groundssk:1,lantern"
         ],
         "item_count": 2
       },
       {
         "name": "Torch Room Poe",
         "access_rules": [
-          "groundsk:1,lantern,sc"
+          "groundssk:1,lantern,sc"
         ],
         "item_count": 1
       },
       {
         "name": "West Small Behind Block",
         "access_rules": [
-          "groundsk:1,lantern"
+          "groundssk:1,lantern"
         ],
         "item_count": 1
       },
       {
         "name": "East Lower Turnable Redead",
         "access_rules": [
-          "groundsk:1,lantern,sc"
+          "groundssk:1,lantern,sc"
         ],
         "item_count": 1
       },
       {
         "name": "East Turning Poe",
         "access_rules": [
-          "groundsk:1,lantern,sc,cs"
+          "groundssk:1,lantern,sc,cs"
         ],
         "item_count": 1
       },
       {
         "name": "East Upper Turnable",
         "access_rules": [
-          "groundsk:1,lantern"
+          "groundssk:1,lantern"
         ],
         "item_count": 1
       },
       {
         "name": "East Upper Turnable Redead",
         "access_rules": [
-          "groundsk:2,lantern,$damage"
+          "groundssk:2,lantern,$damage"
         ],
         "item_count": 1
       },
       {
         "name": "Hidden Wall Poe",
         "access_rules": [
-          "groundsk:3,lantern,sc,$redead"
+          "groundssk:3,lantern,sc,$redead"
         ],
         "item_count": 1
       },
       {
         "name": "Ghoul Rat Room",
         "access_rules": [
-          "groundsk:3,lantern,$bubble,$stalchild,$redead"
+          "groundssk:3,lantern,$bubble,$stalchild,$redead"
         ],
         "item_count": 1
       },
       {
         "name": "West Chandelier",
         "access_rules": [
-          "groundsk:4,lantern,sc"
+          "groundssk:4,lantern,sc"
         ],
         "item_count": 1
       },
       {
         "name": "West Stalfos",
         "access_rules": [
-          "groundsk:4,lantern,$woodendoor,$redead,$stalchild,$bubble,$ghoulrat"
+          "groundssk:4,lantern,$woodendoor,$redead,$stalchild,$bubble,$ghoulrat"
         ],
         "item_count": 2
       },
       {
         "name": "West Poe",
         "access_rules": [
-          "groundsk:4,lantern,sc,$smash,$redead,$stalchild,$bubble,$ghoulrat"
+          "groundssk:4,lantern,sc,$smash,$redead,$stalchild,$bubble,$ghoulrat"
         ],
         "item_count": 1
       },
       {
         "name": "Big Key Chest",
         "access_rules": [
-          "groundsk:5,lantern,$poe,sc,cs,$redead,$stalchild,$bubble,$ghoulrat,$stalfos,spinner"
+          "groundssk:5,lantern,$poe,sc,cs,$redead,$stalchild,$bubble,$ghoulrat,$stalfos,spinner"
         ],
         "item_count": 1
       },
       {
         "name": "North Turning Room",
         "access_rules": [
-          "groundsk:4,lantern,$poe,sc,cs,$redead,$stalchild,$bubble,$ghoulrat,$stalfos"
+          "groundssk:4,lantern,$poe,sc,cs,$redead,$stalchild,$bubble,$ghoulrat,$stalfos"
         ],
         "item_count": 1
       },
       {
         "name": "Death Sword",
         "access_rules": [
-          "groundsk:5,lantern,$poe,sc,cs,$redead,$stalchild,$bubble,$ghoulrat,$stalfos,$deathsword"
+          "groundssk:5,lantern,$poe,sc,cs,$redead,$stalchild,$bubble,$ghoulrat,$stalfos,$deathsword"
         ],
         "item_count": 1
       },
       {
         "name": "Spinner Room",
         "access_rules": [
-          "groundsk:5,lantern,$poe,sc,cs,$redead,$stalchild,$bubble,$ghoulrat,$stalfos,spinner"
+          "groundssk:5,lantern,$poe,sc,cs,$redead,$stalchild,$bubble,$ghoulrat,$stalfos,spinner"
         ],
         "item_count": 5
       },
       {
         "name": "Stallord",
         "access_rules": [
-          "groundsk:4,lantern,$poe,sc,cs,$redead,$stalchild,$bubble,$ghoulrat,$stalfos,spinner,groundsbk,$stallord"
+          "groundssk:4,lantern,$poe,sc,cs,$redead,$stalchild,$bubble,$ghoulrat,$stalfos,spinner,groundsbk,$stallord"
         ],
         "item_count": 1
       }
