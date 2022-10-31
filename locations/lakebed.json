@@ -58,21 +58,21 @@
       {
         "name": "East Water Supply Small",
         "access_rules": [
-          "$launchbombs,lakebedsk:3"
+          "$launchbombs,[lakebedsk:3],lakebedsk:2"
         ],
         "item_count": 1
       },
       {
         "name": "East Water Supply Clawshot",
         "access_rules": [
-          "$launchbombs,lakebedsk:3,cs"
+          "$launchbombs,[lakebedsk:3],lakebedsk:2,cs"
         ],
         "item_count": 1
       },
       {
         "name": "East Waterwheel Stalactite",
         "access_rules": [
-          "$launchbombs,lakebedsk:1"
+          "$launchbombs"
         ],
         "item_count": 1
       },
