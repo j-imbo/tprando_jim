@@ -56,11 +56,11 @@
         "item_count": 1
       },
       {
-        "name": "West First",
+        "name": "West Maze Room",
         "access_rules": [
           "dcs"
         ],
-        "item_count": 1
+        "item_count": 4
       },
       {
         "name": "West Baba Tower",

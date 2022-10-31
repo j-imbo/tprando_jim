@@ -2457,7 +2457,7 @@
                 ]
               },
               {
-                "name": "Vines Chest",
+                "name": "Bridge Gate Vines Chest",
                 "access_rules": [
                   "clawshot"
                 ],
@@ -2511,7 +2511,7 @@
                 "name": "Bubble Grotto Chest",
                 "item_count": 1,
                 "access_rules": [
-                  "cs,$launchbombs,wolf,#bubble,$firebubble,$icebubble"
+                  "cs,$launchbombs,wolf,$bubble,$firebubble,$icebubble"
                 ]
               },
               {
