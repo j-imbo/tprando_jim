@@ -41,7 +41,7 @@
       {
         "name": "Lobby Poe",
         "access_rules": [
-          "bnc"
+          "sc"
         ],
         "item_count": 1,
         "visibility_rules": [
