@@ -3,7 +3,7 @@
     "name": "Temple of Time",
     "parent": "Outside Temple of Time",
     "access_rules": [
-      "sc,ms,$skullkid,$shadowbeast"
+      "sc,$grove,$skullkid,$shadowbeast"
     ],
     "sections": [
       {
@@ -139,7 +139,7 @@
         "item_count": 1
       },
       {
-        "name": "Crumbling Corridor",
+        "name": "Armogohma",
         "access_rules": [
           "drod_off,bow,spinner,$lizalfos,$dinalfos,$darknut,timesk:3,timebk,$armogohma"
         ],
