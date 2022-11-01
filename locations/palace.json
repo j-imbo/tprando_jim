@@ -3,7 +3,7 @@
     "name": "Palace of Twilight",
     "parent": "Arbiter's Grounds",
     "access_rules": [
-      "groundsk:4,lantern,$poe,sc,cs,$redead,$stalchild,$bubble,$ghoulrat,$stalfos,spinner,groundsbk,$stallord,$palace"
+      "groundssk:4,lantern,$poe,sc,cs,$redead,$stalchild,$bubble,$ghoulrat,$stalfos,spinner,groundsbk,$stallord,$palace"
     ],
     "sections": [
       {
