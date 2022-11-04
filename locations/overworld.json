@@ -350,7 +350,8 @@
                   {
                     "name": "Spinner Chest",
                     "access_rules": [
-                      "spinner,$skullkid"
+                      "spinner,$skullkid",
+                      "spinner,op_grove"
                     ],
                     "item_count": 1
                   }
@@ -368,7 +369,8 @@
           {
             "name": "Master Sword Grove",
             "access_rules": [
-              "wolf,$skullkid"
+              "wolf,$skullkid",
+              "wolf,op_grove"
             ],
             "sections": [
               {
@@ -408,7 +410,8 @@
           {
             "name": "Outside Temple of Time",
             "access_rules": [
-              "sc,$skullkid,$shadowbeast,ms"
+              "sc,$skullkid,$shadowbeast,ms",
+              "sc,op_grove"
             ],
             "sections": [
               {
