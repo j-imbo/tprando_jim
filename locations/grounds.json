@@ -51,7 +51,7 @@
       {
         "name": "East Upper Turnable",
         "access_rules": [
-          "groundssk:1,lantern"
+          "groundssk:2,lantern"
         ],
         "item_count": 1
       },
