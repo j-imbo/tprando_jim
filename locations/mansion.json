@@ -79,7 +79,8 @@
         "name": "Central Courtyard Chest",
         "access_rules": [
           "bnc",
-          "pumpkin,bombs,mansionsk:1,[mansionsk:4]"
+          "pumpkin,bombs,mansionsk:1,[mansionsk:2]",
+          "pumpkin,bombs,cheese"
         ],
         "item_count": 1
       },
@@ -135,7 +136,8 @@
         "name": "Darkhammer",
         "access_rules": [
           "bnc,$darkhammer",
-          "pumpkin,mansionsk:4,bombs,$darkhammer"
+          "pumpkin,mansionsk:1,[mansionsk:2],bombs,$darkhammer",
+          "pumpkin,cheese,bombs,$darkhammer"
         ],
         "item_count": 1
       },

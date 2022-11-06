@@ -65,7 +65,7 @@
       {
         "name": "Lantern Staircase",
         "access_rules": [
-          "castlesk:1,$darknut,lantern,boomerang,$bokoblin,$lizalfos,dcs"
+          "castlesk:1,$darknut,boomerang,$bokoblin,$lizalfos,dcs"
         ],
         "item_count": 1
       },

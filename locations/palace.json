@@ -58,7 +58,8 @@
       {
         "name": "East Wing Alcoves",
         "access_rules": [
-          "$phantomzant,cs,$zanthead,palacesk:2,ls"
+          "$phantomzant,cs,$zanthead,palacesk:2,ls",
+          "$phantomzant,cs,$zanthead,palacesk:4,$shadowbeast"
         ],
         "item_count": 2
       },

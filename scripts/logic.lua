@@ -66,24 +66,17 @@ function skill(amt)
   return has("skills",amt)
 end
 
-function dmg()
-  return sword() or bnc() or bow() or ib() or spin() or sc()
-end
-
-function damage()
-  return dmg() or bombs()
-end
-
 function aeralfos()
-  return claw() and (sword() or bnc() or ib() or sc())
+  -- return claw() and (sword() or bnc() or ib() or sc())
+  return claw() and (sword() or bnc() or sc())
 end
 
 function armos()
-  return dmg()
+  return sword() or bnc() or bow() or ib() or spin() or sc() or bombs()
 end
 
 function baba()
-  return dmg()
+  return sword() or bnc() or bow() or ib() or spin() or sc() or bombs()
 end
 
 function gohma()
@@ -99,15 +92,15 @@ function beamos()
 end
 
 function bigbaba()
-  return sword() or bnc() or bow() or ib() or sc()
+  return sword() or bnc() or bow() or ib() or sc() or cs() or bombs()
 end
 
 function chu()
-  return dmg() or claw()
+  return sword() or bnc() or bow() or ib() or spin() or sc() or claw()
 end
 
 function bokoblin()
-  return dmg() or sling()
+  return sword() or bnc() or bow() or ib() or spin() or sc() or bombs()
 end
 
 function bombfish()
@@ -115,19 +108,19 @@ function bombfish()
 end
 
 function bombling()
-  return dmg() or claw()
+  return sword() or bnc() or bow() or ib() or spin() or sc() or claw()
 end
 
 function bomskit()
-  return dmg()
+  return sword() or bnc() or bow() or ib() or spin() or sc()
 end
 
 function bubble()
-  return dmg()
+  return sword() or bnc() or bow() or ib() or spin() or sc()
 end
 
 function bulblin()
-  return dmg()
+  return sword() or bnc() or bow() or ib() or spin() or sc()
 end
 
 function chilfos()
@@ -135,7 +128,7 @@ function chilfos()
 end
 
 function chuworm()
-  return (dmg() and bombs()) or claw()
+  return (sword() or bnc() or bow() or ib() or spin() or sc() and bombs()) or claw()
 end
 
 function darknut()
@@ -147,11 +140,11 @@ function dekubaba()
 end
 
 function dekulike()
-  return damage()
+  return sword() or bnc() or bow() or ib() or spin() or sc() or bombs()
 end
 
 function dodongo()
-  return dmg()
+  return sword() or bnc() or bow() or ib() or spin() or sc()
 end
 
 function dinalfos()
@@ -159,11 +152,11 @@ function dinalfos()
 end
 
 function firebubble()
-  return dmg()
+  return sword() or bnc() or bow() or ib() or spin() or sc()
 end
 
 function firekeese()
-  return dmg() or sling()
+  return sword() or bnc() or bow() or ib() or spin() or sc() or sling()
 end
 
 function firetoadpoli()
@@ -175,7 +168,7 @@ function freezard()
 end
 
 function goron()
-  return sword() or bnc() or bow() or ib() or spin() or skill(2) or sling() or lantern() or claw()
+  return sword() or bnc() or bow() or ib() or spin() or (shield() and skill(2)) or sling() or lantern() or claw()
 end
 
 function ghoulrat()
@@ -183,23 +176,23 @@ function ghoulrat()
 end
 
 function guay()
-  return dmg()
+  return sword() or bnc() or bow() or ib() or spin() or sc()
 end
 
 function helmasaur()
-  return dmg()
+  return sword() or bnc() or bow() or ib() or spin() or sc()
 end
 
 function helmasaurus()
-  return dmg()
+  return sword() or bnc() or bow() or ib() or spin() or sc()
 end
 
 function icebubble()
-  return dmg()
+  return sword() or bnc() or bow() or ib() or spin() or sc()
 end
 
 function icekeese()
-  return dmg() or sling()
+  return sword() or bnc() or bow() or ib() or spin() or sc() or sling()
 end
 
 function poe()
@@ -207,15 +200,15 @@ function poe()
 end
 
 function kargarok()
-  return dmg()
+  return sword() or bnc() or bow() or ib() or spin() or sc()
 end
 
 function keese()
-  return dmg() or sling()
+  return sword() or bnc() or bow() or ib() or spin() or sc() or sling()
 end
 
 function leever()
-  return dmg()
+  return sword() or bnc() or bow() or ib() or spin() or sc()
 end
 
 function lizalfos()
@@ -223,23 +216,23 @@ function lizalfos()
 end
 
 function minifreezard()
-  return dmg()
+  return sword() or bnc() or bow() or ib() or spin() or sc()
 end
 
 function moldorm()
-  return dmg()
+  return sword() or bnc() or bow() or ib() or spin() or sc()
 end
 
 function poisonmite()
-  return dmg() or lantern()
+  return sword() or bnc() or bow() or ib() or spin() or sc() or lantern()
 end
 
 function puppet()
-  return dmg()
+  return sword() or bnc() or bow() or ib() or spin() or sc()
 end
 
 function rat()
-  return dmg() or sling()
+  return sword() or bnc() or bow() or ib() or spin() or sc() or sling()
 end
 
 function redead()
@@ -251,7 +244,7 @@ function shadowbeast()
 end
 
 function shadowbulblin()
-  return dmg()
+  return sword() or bnc() or bow() or ib() or spin() or sc()
 end
 
 function shadowbaba()
@@ -263,15 +256,15 @@ function shadowinsect()
 end
 
 function shadowkargarok()
-  return dmg()
+  return sword() or bnc() or bow() or ib() or spin() or sc()
 end
 
 function shadowkeese()
-  return dmg() or sling()
+  return sword() or bnc() or bow() or ib() or spin() or sc() or sling()
 end
 
 function shadowvermin()
-  return dmg()
+  return sword() or bnc() or bow() or ib() or spin() or sc()
 end
 
 function shellblade()
@@ -279,11 +272,11 @@ function shellblade()
 end
 
 function skullfish()
-  return dmg()
+  return sword() or bnc() or bow() or ib() or spin() or sc()
 end
 
 function skulltula()
-  return dmg()
+  return sword() or bnc() or bow() or ib() or spin() or sc()
 end
 
 function stalfos()
@@ -291,15 +284,15 @@ function stalfos()
 end
 
 function stalhound()
-  return dmg()
+  return sword() or bnc() or bow() or ib() or spin() or sc()
 end
 
 function stalchild()
-  return dmg()
+  return sword() or bnc() or bow() or ib() or spin() or sc()
 end
 
 function tektite()
-  return dmg()
+  return sword() or bnc() or bow() or ib() or spin() or sc()
 end
 
 function tileworm()
@@ -311,7 +304,7 @@ function toado()
 end
 
 function watertoadpoli()
-  return sword() or bnc() or bow() or sc()
+  return sword() or bnc() or bow() --or sc()
 end
 
 function torchslug()
@@ -323,11 +316,11 @@ function walltula()
 end
 
 function whitewolfos()
-  return dmg()
+  return sword() or bnc() or bow() or ib() or spin() or sc()
 end
 
 function younggohma()
-  return dmg()
+  return sword() or bnc() or bow() or ib() or spin() or sc()
 end
 
 function zanthead()
@@ -423,7 +416,7 @@ function smash()
 end
 
 function webs()
-  return bnc() or lantern() or bombs()
+  return lantern() or bombs()
 end
 
 function ranged()
@@ -443,15 +436,15 @@ function hcpainting()
 end
 
 function monkeycage()
-  return dmg() or claw()
+  return sword() or bnc() or bow() or ib() or spin() or sc() or claw()
 end
 
 function minesswitch()
-  return bnc() or ib()
+  return ib()
 end
 
 function monkeys()
-  return monkeycage() and lantern() and gb() and bokoblin() and bigbaba() and has("forestsk",4)
+  return monkeycage() and lantern() and gb() and bokoblin() and has("forestsk",4)
 end
 
 function hangingbaba()
@@ -487,6 +480,8 @@ function ordeals4()
 end
 
 function palace()
+  local shadows = Tracker:ProviderCountForCode("shadow")
+  local mirrors = Tracker:ProviderCountForCode("mirror")
   if has("op_pot_o") then
     return true
   elseif has("op_pot_fs") then

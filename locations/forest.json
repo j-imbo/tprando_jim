@@ -59,9 +59,9 @@
       {
         "name": "West Deku Like",
         "access_rules": [
-          "$walltula,$bokoblin,$monkeycage,$webs,forestsk:2,$bokoblin,$bombling",
-          "$walltula,$bokoblin,$monkeycage,$webs,cs,$bombling",
-          "$walltula,$bokoblin,$monkeycage,lantern,$bombling,$bigbaba,forestsk:2,[forestsk:4],$ook,boomerang"
+          "$walltula,$bokoblin,$monkeycage,$webs,forestsk:2,$bokoblin",
+          "$walltula,$bokoblin,$monkeycage,$webs,cs",
+          "$walltula,$bokoblin,$monkeycage,lantern,$bigbaba,forestsk:2,[forestsk:4],$ook,boomerang"
         ],
         "item_count": 1
       },
@@ -77,18 +77,18 @@
       {
         "name": "West Tile Worm Vines",
         "access_rules": [
-          "$walltula,$bokoblin,$monkeycage,$webs,forestsk:2,$bokoblin,$bombling",
-          "$walltula,$bokoblin,$monkeycage,$webs,cs,$bombling",
-          "$walltula,$bokoblin,$monkeycage,lantern,$bombling,$bigbaba,forestsk:2,[forestsk:4],$ook,boomerang"
+          "$walltula,$bokoblin,$monkeycage,$webs,forestsk:2,$bokoblin",
+          "$walltula,$bokoblin,$monkeycage,$webs,cs",
+          "$walltula,$bokoblin,$monkeycage,lantern,$bigbaba,forestsk:2,[forestsk:4],$ook,boomerang"
         ],
         "item_count": 1
       },
       {
         "name": "West Tile Worm Behind Stairs",
         "access_rules": [
-          "$walltula,$bokoblin,$monkeycage,$webs,forestsk:2,$bokoblin,$bombling,boomerang",
-          "$walltula,$bokoblin,$monkeycage,$webs,cs,$bombling,boomerang",
-          "$walltula,$bokoblin,$monkeycage,lantern,$bombling,$bigbaba,forestsk:2,[forestsk:4],$ook,boomerang"
+          "$walltula,$bokoblin,$monkeycage,$webs,forestsk:2,$bokoblin,boomerang",
+          "$walltula,$bokoblin,$monkeycage,$webs,cs,boomerang",
+          "$walltula,$bokoblin,$monkeycage,lantern,$bigbaba,forestsk:2,[forestsk:4],$ook,boomerang"
         ],
         "item_count": 1
       },
@@ -104,7 +104,7 @@
       {
         "name": "Ook",
         "access_rules": [
-          "$walltula,$bokoblin,$monkeycage,lantern,$bombling,$bigbaba,forestsk:2,[forestsk:4],$ook",
+          "$walltula,$bokoblin,$monkeycage,lantern,forestsk:2,[forestsk:4],$ook",
           "$walltula,$bokoblin,$monkeycage,$webs,forestsk:2,$bokoblin,boomerang,$ook",
           "$walltula,$bokoblin,$monkeycage,$webs,cs,boomerang,$ook"
         ],
