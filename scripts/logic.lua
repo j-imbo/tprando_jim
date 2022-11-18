@@ -66,6 +66,14 @@ function skill(amt)
   return has("skills",amt)
 end
 
+function dmg()
+  return sword() or bnc() or bow() or ib() or spin() or sc()
+end
+
+function damage()
+  return dmg() or bombs()
+end
+
 function aeralfos()
   -- return claw() and (sword() or bnc() or ib() or sc())
   return claw() and (sword() or bnc() or sc())
