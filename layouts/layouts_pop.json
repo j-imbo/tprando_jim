@@ -74,12 +74,12 @@
       "content": [
         {
           "type": "dock",
-          "dock": "bottom",
+          "dock": "left",
           "content": [
             {
               "type": "group",
               "header": "Items",
-              "dock": "left",
+              "dock": "top",
               "header_content": {
                 "type": "button_popup",
                 "style": "settings",
@@ -90,7 +90,13 @@
                 "type": "layout",
                 "key": "item_grid_wide"
               }
-            },
+            }
+          ]
+        },
+        {
+          "type": "dock",
+          "dock": "bottom",
+          "content": [
             {
               "type": "group",
               "header": "Pinned Locations",
