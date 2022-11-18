@@ -17,7 +17,7 @@
       {
         "name": "Lobby Chandelier",
         "access_rules": [
-          "mansionsk:1,[mansionsk:3],bnc"
+          "mansionsk:1,[mansionsk:3],cheese,bnc"
         ],
         "item_count": 1
       },
