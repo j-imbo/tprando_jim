@@ -3,7 +3,8 @@
     "name": "Temple of Time",
     "parent": "Outside Temple of Time",
     "access_rules": [
-      "sc,$grove,$skullkid,$shadowbeast"
+      "sc,$grove,$skullkid,$shadowbeast",
+      "sc,$grove,op_grove_skip,$shadowbeast"
     ],
     "sections": [
       {
