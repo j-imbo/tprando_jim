@@ -599,18 +599,21 @@
           },
           {
             "name": "Eldin Field Bugs",
-            "visibility_rules": [
-              "op_bug"
-            ],
             "sections": [
               {
                 "name": "Grasshopper Male",
+                "visibility_rules": [
+                  "op_bug"
+                ],
                 "item_count": 1,
                 "chest_unopened_img": "images/bug.png",
                 "chest_opened_img": "images/bug_gray.png"
               },
               {
                 "name": "Grasshopper Female",
+                "visibility_rules": [
+                  "op_bug"
+                ],
                 "item_count": 1,
                 "chest_unopened_img": "images/bug.png",
                 "chest_opened_img": "images/bug_gray.png"
