@@ -146,6 +146,9 @@
             "sections": [
               {
                 "name": "Woods Character",
+                "visibility_rules": [
+                  "op_sky"
+                ],
                 "chest_unopened_img": "images/skybook.png",
                 "chest_opened_img": "images/skybook_gray.png",
                 "item_count": 1
@@ -786,6 +789,9 @@
             "sections": [
               {
                 "name": "Sky Character",
+                "visibility_rules": [
+                  "op_sky"
+                ],
                 "chest_unopened_img": "images/skybook.png",
                 "chest_opened_img": "images/skybook_gray.png",
                 "item_count": 1
@@ -941,6 +947,9 @@
             "sections": [
               {
                 "name": "Sky Character",
+                "visibility_rules": [
+                  "op_sky"
+                ],
                 "chest_unopened_img":"images/skybook.png",
                 "chest_opened_img": "images/skybook_gray.png",
                 "item_count": 1,
@@ -1539,6 +1548,9 @@
               },
               {
                 "name": "Sky Character",
+                "visibility_rules": [
+                  "op_sky"
+                ],
                 "chest_unopened_img":"images/skybook.png",
                 "chest_opened_img": "images/skybook_gray.png",
                 "access_rules": [
@@ -2445,6 +2457,9 @@
             "sections": [
               {
                 "name": "Sky Character",
+                "visibility_rules": [
+                  "op_sky"
+                ],
                 "chest_unopened_img":"images/skybook.png",
                 "chest_opened_img": "images/skybook_gray.png",
                 "item_count": 1,
@@ -2592,6 +2607,9 @@
             "sections": [
               {
                 "name": "Sky Character",
+                "visibility_rules": [
+                  "op_sky"
+                ],
                 "chest_unopened_img":"images/skybook.png",
                 "chest_opened_img": "images/skybook_gray.png",
                 "item_count": 1,
